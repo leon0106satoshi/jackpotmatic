@@ -1,0 +1,16 @@
+{
+	"tap_to_start_text":"Tap to start",
+	"player_name_1":"John",
+	"player_name_2":"Becky",
+	"player_name_3":"Trevor",
+	"player_name_4":"Vlad",
+	"player_name_5":"Clara",
+	"win_lose_label":"Win/Loss:",
+	"big_gin":"BIG GIN",
+	"gin":"GIN",
+	"undercut":"UNDERCUT",
+	"stat_win_quick_label":"Wins\n/\nQuick",
+	"stat_win_countdown_label":"Wins\n/\nCountd.",
+	"stat_scores_quick_label":"Score\n/\nQuick",
+	"stat_scores_countdown_label":"Score\n/\nCountd."
+}

@@ -1,0 +1,212 @@
+{"frames": [
+
+{
+	"filename": "Image/Eyes Happy Open.png",
+	"frame": {"x":350,"y":49,"w":26,"h":13},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":13},
+	"sourceSize": {"w":26,"h":13}
+},
+{
+	"filename": "Image/Eyes Normal Closed.png",
+	"frame": {"x":263,"y":56,"w":27,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":6},
+	"sourceSize": {"w":27,"h":6}
+},
+{
+	"filename": "Image/Eyes Normal Open.png",
+	"frame": {"x":378,"y":50,"w":25,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":12},
+	"sourceSize": {"w":25,"h":12}
+},
+{
+	"filename": "Image/Face Happy Closed.png",
+	"frame": {"x":263,"y":56,"w":27,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":6},
+	"sourceSize": {"w":27,"h":6}
+},
+{
+	"filename": "Image/Face Happy.png",
+	"frame": {"x":488,"y":2,"w":25,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":31},
+	"sourceSize": {"w":25,"h":31}
+},
+{
+	"filename": "Image/Face Normal.png",
+	"frame": {"x":515,"y":2,"w":24,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":26},
+	"sourceSize": {"w":24,"h":26}
+},
+{
+	"filename": "Image/Hair.png",
+	"frame": {"x":416,"y":2,"w":40,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":24},
+	"sourceSize": {"w":40,"h":24}
+},
+{
+	"filename": "Image/Head Normal 2.png",
+	"frame": {"x":104,"y":2,"w":51,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":55},
+	"sourceSize": {"w":51,"h":55}
+},
+{
+	"filename": "Image/Head Sad.png",
+	"frame": {"x":157,"y":2,"w":51,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":55},
+	"sourceSize": {"w":51,"h":55}
+},
+{
+	"filename": "Image/Head.png",
+	"frame": {"x":210,"y":2,"w":51,"h":55},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":55},
+	"sourceSize": {"w":51,"h":55}
+},
+{
+	"filename": "Image/Left Arm.png",
+	"frame": {"x":440,"y":28,"w":12,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":2,"w":12,"h":29},
+	"sourceSize": {"w":13,"h":31}
+},
+{
+	"filename": "Image/Left Foot.png",
+	"frame": {"x":384,"y":28,"w":19,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":20},
+	"sourceSize": {"w":19,"h":20}
+},
+{
+	"filename": "Image/Left Hand Happy.png",
+	"frame": {"x":507,"y":35,"w":12,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":20},
+	"sourceSize": {"w":12,"h":20}
+},
+{
+	"filename": "Image/Left Hand.png",
+	"frame": {"x":538,"y":30,"w":13,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":19},
+	"sourceSize": {"w":13,"h":19}
+},
+{
+	"filename": "Image/Right Arm.png",
+	"frame": {"x":405,"y":28,"w":14,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":31},
+	"sourceSize": {"w":14,"h":31}
+},
+{
+	"filename": "Image/Right Foot.png",
+	"frame": {"x":421,"y":28,"w":17,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":25},
+	"sourceSize": {"w":17,"h":25}
+},
+{
+	"filename": "Image/Right Hand Sad.png",
+	"frame": {"x":541,"y":2,"w":21,"h":19},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":21,"h":19},
+	"sourceSize": {"w":22,"h":20}
+},
+{
+	"filename": "Image/Right Hand.png",
+	"frame": {"x":488,"y":35,"w":17,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":19},
+	"sourceSize": {"w":17,"h":19}
+},
+{
+	"filename": "Image/Right Leg.png",
+	"frame": {"x":263,"y":2,"w":40,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":52},
+	"sourceSize": {"w":40,"h":52}
+},
+{
+	"filename": "Image/Tail.png",
+	"frame": {"x":350,"y":28,"w":32,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":19},
+	"sourceSize": {"w":32,"h":19}
+},
+{
+	"filename": "Image/Waist Scarf.png",
+	"frame": {"x":458,"y":2,"w":28,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":43},
+	"sourceSize": {"w":28,"h":43}
+},
+{
+	"filename": "Image/Waist.png",
+	"frame": {"x":350,"y":2,"w":64,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":24},
+	"sourceSize": {"w":64,"h":24}
+},
+{
+	"filename": "Image/body.png",
+	"frame": {"x":2,"y":2,"w":100,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":60},
+	"sourceSize": {"w":100,"h":60}
+},
+{
+	"filename": "Image/left Leg.png",
+	"frame": {"x":305,"y":2,"w":43,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":43,"h":48},
+	"sourceSize": {"w":43,"h":48}
+},
+{
+	"filename": "Image/right Hand Happy.png",
+	"frame": {"x":521,"y":30,"w":15,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":22},
+	"sourceSize": {"w":15,"h":22}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boy_pirate.png",
+	"format": "RGBA8888",
+	"size": {"w":564,"h":64},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c56c07d57ce5cde4d8c6f041c0ed4f00:d9cf94234932d223846946a6f3397cdb:9939ccc1d00a5b764e37f2690551072c$"
+}
+}

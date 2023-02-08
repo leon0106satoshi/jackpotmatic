@@ -1,0 +1,168 @@
+#zg_background {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#zg_game {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#zg_landscape_message {
+    width: 100%;
+    height: 100%;
+    /* background-image: url('../media/img/rotate.png'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    visibility: hidden;
+}
+
+/*html, body{
+
+	overflow: hidden;
+	height: 100%;
+	background-color: #000;
+
+}*/
+
+/*canvas{
+
+	position: absolute;
+	left: 50%;
+	margin-left: -384px;
+	top: 100%;
+	margin-top: -1024px;
+	z-index: 1;
+
+}*/
+
+/*.zg_html{
+
+	overflow: hidden;
+	height: 100%;
+	background-color: #000;
+
+}*/
+
+/*.zg_body{
+
+	overflow: hidden;
+	height: 100%;
+	background-color: #000;
+
+}*/
+
+.zg_game_logo {
+    position: absolute;
+    visibility: hidden;
+}
+
+#zg_adv_top {
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+#zg_adv_bottom {
+    font-weight: 800;
+    line-height: 1.4;
+    padding-top: 10%;
+}
+
+/* PRELOADING ANIMATIONS */
+
+#zg_preloading {
+    font-family: 'Sigmar One', cursive;
+    height: 200px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.2, 1.2, 1.2);
+        transform: scale3d(1.2, 1.2, 1.2);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.zg_pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+
+@-webkit-keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.zg_animated {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.zg_animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}

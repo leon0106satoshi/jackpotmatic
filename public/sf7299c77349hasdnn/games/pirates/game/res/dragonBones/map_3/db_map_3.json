@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "2-Calaveracolgando.png.png",
+	"frame": {"x":2,"y":143,"w":9,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":19},
+	"sourceSize": {"w":9,"h":19}
+},
+{
+	"filename": "2-Lampara.png.png",
+	"frame": {"x":13,"y":143,"w":11,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":18},
+	"sourceSize": {"w":11,"h":18}
+},
+{
+	"filename": "3-cartelpescado.png.png",
+	"frame": {"x":2,"y":82,"w":28,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":20},
+	"sourceSize": {"w":28,"h":20}
+},
+{
+	"filename": "4-Cartel.png.png",
+	"frame": {"x":2,"y":104,"w":21,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":37},
+	"sourceSize": {"w":21,"h":37}
+},
+{
+	"filename": "4-Fuego1.png.png",
+	"frame": {"x":2,"y":2,"w":28,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":38},
+	"sourceSize": {"w":28,"h":38}
+},
+{
+	"filename": "4-Fuego2.png.png",
+	"frame": {"x":2,"y":42,"w":28,"h":38},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":38},
+	"sourceSize": {"w":30,"h":40}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "db_map_3.png",
+	"format": "RGBA8888",
+	"size": {"w":32,"h":164},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c3d88f4c648847fdcfc7b995714f21a9:2509f8782852a45833d734a05a790854:86d31a937cbeb4d787c50eb21e906eed$"
+}
+}

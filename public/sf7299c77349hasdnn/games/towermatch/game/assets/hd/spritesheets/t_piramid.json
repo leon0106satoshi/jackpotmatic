@@ -1,0 +1,274 @@
+{
+    "frames": {
+        "Piramid_110_1": {
+            "frame": {
+                "x": 500,
+                "y": 428,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Piramid_110_1_L": {
+            "frame": {
+                "x": 380,
+                "y": 428,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Piramid_180_1": {
+            "frame": {
+                "x": 190,
+                "y": 428,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Piramid_180_1_L": {
+            "frame": {
+                "x": 0,
+                "y": 428,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Piramid_20_1": {
+            "frame": {
+                "x": 100,
+                "y": 538,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Piramid_20_1_L": {
+            "frame": {
+                "x": 70,
+                "y": 538,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Piramid_260_1": {
+            "frame": {
+                "x": 441,
+                "y": 220,
+                "w": 259,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 259,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 259,
+                "h": 100
+            }
+        },
+        "Piramid_260_1_L": {
+            "frame": {
+                "x": 441,
+                "y": 110,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Piramid_260_2": {
+            "frame": {
+                "x": 441,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Piramid_60_1": {
+            "frame": {
+                "x": 620,
+                "y": 428,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Piramid_60_1_L": {
+            "frame": {
+                "x": 0,
+                "y": 538,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Piramid_Build": {
+            "frame": {
+                "x": 0,
+                "y": 214,
+                "w": 431,
+                "h": 204
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 431,
+                "h": 204
+            },
+            "sourceSize": {
+                "w": 431,
+                "h": 204
+            }
+        },
+        "Piramid_Build_L": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 431,
+                "h": 204
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 431,
+                "h": 204
+            },
+            "sourceSize": {
+                "w": 431,
+                "h": 204
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "t_piramid.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 701,
+            "h": 638
+        },
+        "scale": 1
+    }
+}

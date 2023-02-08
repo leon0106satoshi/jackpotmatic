@@ -1,0 +1,215 @@
+{
+  "stringresources": {
+    "strings": {
+      "string": [
+        {
+          "-id": "instructions",
+          "en": "INSTRUCTIONS",
+          "de": "ANWEISUNGEN",
+          "es": "INSTRUCCIONES",
+          "fr": "INSTRUCTIONS",
+          "it": "ISTRUZIONI",
+          "pt": "INSTRUÇÕES"
+        },
+        {
+          "-id": "about",
+          "en": "ABOUT",
+          "de": "INFO",
+          "es": "INFORMACIÓN",
+          "fr": "À PROPOS",
+          "it": "INFO",
+          "pt": "SOBRE"
+        },
+        {
+          "-id": "instructions_text",
+          "en": "GET YOUR TOKENS FROM START TO FINISH WITH ROLLS OF A DIE. FIRST, RELEASE THEM ON THE ROLL OF 6. ROLL A DIE AND DECIDE WHICH TOKEN YOU MOVE. GET ALL OF THEM INTO A SAFEHOUSE FIRST AND YOU WIN! BUT WATCH OUT, YOUR OPPONENTS CAN KICK YOUR TOKEN BACK TO THEIR STARTING POSITION WHEN THEY LAND ON THE SPOT WITH ONE OF YOUR TOKENS!",
+          "de": "BRINGE DEINE SPIELSTEINE DURCH WÜRFELN INS ZIEL. WERFE EINE 6, UM LOSZIEHEN ZU KÖNNEN. WÜRFLE UND ENTSCHEIDE, WELCHEN SPIELSTEIN DU BEWEGEN WILLST. BRING ALLE INS HAUS, UM ZU GEWINNEN. DEINE GEGNER KÖNNEN DICH RAUSWERFEN, WENN SIE AUF DEMSELBEN FELD LANDEN. DANN MUSST DU VON VORNE ANFANGEN.",
+          "es": "LLEVA TUS FICHAS DEL PRINCIPIO AL FINAL A BASE DE LANZAR EL DADO. PARA EMPEZAR, TENDRÁS QUE SACAR UN 6 PARA PODER SACAR LAS FICHAS. LANZA EL DADO Y DECIDE QUÉ FICHA MOVER. ¡CONSIGUE LLEVARLAS TODAS A CASA Y GANARÁS! PERO CUIDADO, TUS RIVALES PUEDEN HACER QUE TU FICHA TENGA QUE VOLVER A EMPEZAR SI CAEN EN LA MISMA CASILLA QUE TÚ.",
+          "fr": "AMENEZ VOS JETONS DU DÉBUT À LA FIN EN LANÇANT UN DÉ. LIBÉREZ-LES D'ABORD AVEC UN 6. LANCEZ UN DÉ ET DÉCIDEZ DU JETON À DÉPLACER. METTEZ-LES À L'ABRI POUR GAGNER ! MAIS ATTENTION, VOS ADVERSAIRES PEUVENT RENVOYER VOTRE JETON À SA POSITION DE DÉPART EN ATTERRISSANT SUR LA CASE OÙ IL SE TROUVE !",
+          "it": "TIRA IL DADO E COMPLETA IL PERCORSO DALL'INIZIO ALLA FINE CON LE TUE PEDINE. PER PRIMA COSA, LIBERALE OTTENENDO UN 6 CON IL DADO. TIRA IL DADO E DECIDI QUALE PEDINA MUOVERE. PORTALE TUTTE IN UNA CASELLA DI ARRIVO PRIMA DEGLI ALTRI E VINCERAI! MA FAI ATTENZIONE: I TUOI AVVERSARI POSSONO RISPEDIRE LA TUA PEDINA ALLA POSIZIONE DI PARTENZA QUANDO FINISCONO SULLA CASELLA OCCUPATA DA UNA DELLE TUE PEDINE!",
+          "pt": "PEGUE SUAS FICHAS DO COMEÇO AO FIM ROLANDO O DADO. PRIMEIRO, SOLTE PARA CONSEGUIR 6. ROLE UM DADO E DECIDA QUAL FICHA MOVER. LEVE TODOS PARA UM ESCONDERIJO PARA VENCER. MAS, CUIDADO, SEUS ADVERSÁRIOS PODE MANDAR SUA FICHA DE VOLTA PARA A PRIMEIRA CASA QUANDO CHEGAREM ONDE ESTIVER UMA DE SUAS FICHAS."
+        },
+        {
+          "-id": "controls",
+          "en": "TAP ON A DIE TO ROLL IT. THEN PICK A TOKEN WHICH YOU WANT TO MOVE BY TAPPING ON IT.",
+          "de": "TIPPE EINEN WÜRFEL AN, UM IHN ZU WERFEN. TIPPE DANN DEN SPIELSTEIN AN, DEN DU BEWEGEN WILLST.",
+          "es": "TOCA UN DADO PARA LANZARLO. A CONTINUACIÓN, ELIGE LA FICHA QUE DESEAS MOVER TOCÁNDOLA.",
+          "fr": "TOUCHEZ UN DÉ POUR LE JETER. CHOISISSEZ ENSUITE UN JETON QUE VOUS SOUHAITEZ DÉPLACER EN LE TOUCHANT.",
+          "it": "TOCCA IL DADO PER LANCIARLO. POI TOCCA LA PEDINA CHE VUOI SPOSTARE.",
+          "pt": "TOQUE EM UM DADO PARA ROLAR. TOQUE NA FICHA QUE QUISER MOVER."
+        },
+        {
+          "-id": "tutorial_type",
+          "en": "YOU CAN CHANGE EACH PLAYER TO A PERSON, COMPUTER OR TURN THEM OFF.",
+          "de": "DU KANNST JEDEN SPIELER ALS PERSON ODER COMPUTER FESTLEGEN. ODER DEAKTIVIEREN.",
+          "es": "PUEDES CAMBIAR TODOS LOS JUGADORES A PERSONAS, ORDENADORES O DESACTIVARLOS.",
+          "fr": "VOUS POUVEZ ATTRIBUER CHAQUE JOUEUR À UNE PERSONNE, UN ORDINATEUR, OU LES DÉSACTIVER.",
+          "it": "PUOI CAMBIARE CIASCUN GIOCATORE IN UNA PERSONA, COMPUTER O DISATTIVARLI.",
+          "pt": "VOCÊ PODE MUDAR CADA JOGADOR PARA UMA PESSOA, COMPUTADOR OU DESATIVAR."
+        },
+        {
+          "-id": "tutorial_name",
+          "en": "YOU CAN ALSO CHANGE THE NAME OF EACH PLAYER.",
+          "de": "DU KANNST DEN NAMEN EINES SPIELERS ÄNDERN.",
+          "es": "TAMBIÉN PUEDES CAMBIAR EL NOMBRE DE TODOS LOS JUGADORES.",
+          "fr": "VOUS POUVEZ AUSSI CHANGER LE NOM DE CHAQUE JOUEUR.",
+          "it": "PUOI ANCHE CAMBIARE IL NOME DEI GIOCATORI.",
+          "pt": "VOCÊ TAMBÉM PODE MUDAR O NOME DE CADA JOGADOR."
+        },
+        {
+          "-id": "yes",
+          "en": "YES",
+          "de": "JA",
+          "es": "SÍ",
+          "fr": "OUI",
+          "it": "SÌ",
+          "pt": "SIM"
+        },
+        {
+          "-id": "no",
+          "en": "NO",
+          "de": "NEIN",
+          "es": "NO",
+          "fr": "NON",
+          "it": "NO",
+          "pt": "NÃO"
+        },
+        {
+          "-id": "back",
+          "en": "Back",
+          "de": "Zurück",
+          "es": "Atrás",
+          "fr": "Retour",
+          "it": "Indietro",
+          "pt": "Voltar"
+        },
+        {
+          "-id": "player",
+          "en": "PLAYER",
+          "de": "SPIELER",
+          "es": "JUGADOR",
+          "fr": "JOUEUR",
+          "it": "GIOCAT.",
+          "pt": "JOGADOR"
+        },
+        {
+          "-id": "enter_name",
+          "en": "Enter name for x:",
+          "de": "Gib einen Namen für x ein:",
+          "es": "Introduce el nombre del x:",
+          "fr": "Entrer le nom du x:",
+          "it": "Inserisci il nome per il x:",
+          "pt": "Digite o nome para o x:"
+        },
+        {
+          "-id": "congratulations",
+          "en": "CONGRATULATIONS",
+          "de": "GLÜCKWUNSCH",
+          "es": "ENHORABUENA",
+          "fr": "FÉLICITATIONS",
+          "it": "COMPLIMENTI",
+          "pt": "PARABÉNS"
+        },
+        {
+          "-id": "sounds",
+          "en": "SOUNDS",
+          "de": "TON",
+          "es": "SONIDOS",
+          "fr": "SONS",
+          "it": "SONORO",
+          "pt": "SONS"
+        },
+        {
+          "-id": "music",
+          "en": "MUSIC",
+          "de": "MUSIK",
+          "es": "MÚSICA",
+          "fr": "MUSIQUE",
+          "it": "MUSICA",
+          "pt": "MÚSICA"
+        },
+        {
+          "-id": "start",
+          "en": "START",
+          "de": "START",
+          "es": "INICIO",
+          "fr": "COMMENCER",
+          "it": "INIZIA",
+          "pt": "INICIAR"
+        },
+        {
+          "-id": "background",
+          "en": "BACKGROUND",
+          "de": "HINTERGRUND",
+          "es": "FONDO",
+          "fr": "FOND",
+          "it": "SOTTOFONDO",
+          "pt": "FUNDO"
+        },
+        {
+          "-id": "music_text",
+          "en": "ENABLE MUSIC?",
+          "de": "MUSIK EINSCHALTEN?",
+          "es": "¿ACTIVAR MÚSICA?",
+          "fr": "ACTIVER LA MUSIQUE ?",
+          "it": "ABILITARE LA MUSICA?",
+          "pt": "ATIVAR MÚSICA?"
+        },
+        {
+          "-id": "quit_to_menu_text",
+          "en": "DO YOU REALLY WANT TO QUIT?\nGAME SAVES AUTOMATICALLY.",
+          "de": "WILLST DU DAS SPIEL WIRKLICH BEENDEN?\nSPIEL WIRD AUTOMATISCH GESPEICHERT.",
+          "es": "¿SEGURO QUE QUIERES SALIR?\nEL JUEGO SE GUARDA AUTOMÁTICAMENTE.",
+          "fr": "VOULEZ-VOUS VRAIMENT QUITTER ?\nLA PARTIE EST SAUVEGARDÉE AUTOMATIQUEMENT.",
+          "it": "VUOI DAVVERO USCIRE?\nIL GIOCO SALVA AUTOMATICAMENTE.",
+          "pt": "QUER REALMENTE SAIR?\nO JOGO É SALVO AUTOMATICAMENTE."
+        },
+		{
+          "-id": "quit_text",
+          "en": "DO YOU REALLY WANT TO QUIT?",
+          "de": "WILLST DU DAS SPIEL WIRKLICH BEENDEN?",
+          "es": "¿SEGURO QUE QUIERES SALIR?",
+          "fr": "VOULEZ-VOUS VRAIMENT QUITTER ?",
+          "it": "VUOI DAVVERO USCIRE?",
+          "pt": "QUER REALMENTE SAIR?"
+        },
+        {
+          "-id": "continue_saved_text",
+          "en": "NEW GAME?\nYOUR CURRENT GAME PROGRESS WILL BE LOST.",
+          "de": "NEUES SPIEL?\nDEIN FORTSCHRITT WIRD GELÖSCHT.",
+          "es": "¿NUEVA PARTIDA?\nSE PERDERÁ EL PROGRESO ACTUAL.",
+          "fr": "NOUVELLE PARTIE ?\nVOTRE PROGRESSION ACTUELLE DANS LE JEU SERA PERDUE.",
+          "it": "NUOVA PARTITA?\nI TUOI PROGRESSI DI GIOCO ATTUALI ANDRANNO PERDUTI.",
+          "pt": "NOVO JOGO?\nA TUA ACTUAL EVOLUÇÃO DO JOGO SERÁ PERDIDA!"
+        },
+        {
+          "-id": "continue_text",
+          "en": "CONTINUE PLAYING?",
+          "de": "WEITERSPIELEN?",
+          "es": "¿SEGUIR JUGANDO?",
+          "fr": "CONTINUER DE JOUER ?",
+          "it": "CONTINUARE A GIOCARE?",
+          "pt": "CONTINUAR JOGANDO?"
+        },
+        {
+          "-id": "menu",
+          "en": "MENU",
+          "de": "MENÜ",
+          "es": "MENÚ",
+          "fr": "MENU",
+          "it": "MENU",
+          "pt": "MENU"
+        },
+        {
+          "-id": "restart",
+          "en": "RESTART",
+          "de": "NEUSTARTEN",
+          "es": "REINICIAR",
+          "fr": "RECOMMENCER",
+          "it": "RIAVVIA",
+          "pt": "REINICIAR"
+        }
+      ]
+    }
+  }
+}

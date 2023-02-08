@@ -1,0 +1,106 @@
+{
+  "achievement_1":{
+    "id": 1, "name": "achievement_1.name", "desc": "achievement_1.desc", "type": "single", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Complete the first level", "signal": "first_level", "number": 1, "completed": false}
+    ]
+  },
+
+  "achievement_2":{
+    "id": 2, "name": "achievement_2.name", "desc": "achievement_2.desc", "type": "single", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Clear level 10", "signal": "level10_clear", "number": 1, "completed": false}
+    ]
+  },
+
+  "achievement_3":{
+    "id": 3, "name": "achievement_3.name", "desc": "achievement_3.desc", "type": "single", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Clear level 20", "signal": "level20_clear", "number": 1, "completed": false}
+    ]
+  },
+
+  "achievement_4":{
+    "id": 4, "name": "achievement_4.name", "desc": "achievement_4.desc", "type": "single", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Clear level 30", "signal": "level30_clear", "number": 1, "completed": false}
+    ]
+  },
+
+  "achievement_5":{
+    "id": 5, "name": "achievement_5.name", "desc": "achievement_5.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Pop bubbles", "signal": "bubble_pop", "number": 1000, "completed": false}
+    ]
+  },
+
+  "achievement_6":{
+    "id": 6, "name": "achievement_6.name", "desc": "achievement_6.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Drop bubbles", "signal": "bubble_drop", "number": 100, "completed": false}
+    ]
+  },
+
+  "achievement_7":{
+    "id": 7, "name": "achievement_7.name", "desc": "achievement_7.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Clean bubbles", "signal": "bubble_clean", "number": 50, "completed": false}
+    ]
+  },
+
+  "achievement_8":{
+    "id": 8, "name": "achievement_8.name", "desc": "achievement_8.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Destroy skulls", "signal": "skull_destroy", "number": 50, "completed": false}
+    ]
+  },
+
+  "achievement_9":{
+    "id": 9, "name": "achievement_9.name", "desc": "achievement_9.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Drop skulls", "signal": "skull_drop", "number": 20, "completed": false}
+    ]
+  },
+
+  "achievement_10":{
+    "id": 10, "name": "achievement_10.name", "desc": "achievement_10.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Shoot bombs", "signal": "bomb_shoot", "number": 100, "completed": false}
+    ]
+  },
+
+  "achievement_11":{
+    "id": 11, "name": "achievement_11.name", "desc": "achievement_11.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Explode bombs", "signal": "level_bomb_explode", "number": 30, "completed": false}
+    ]
+  },
+
+  "achievement_12":{
+    "id": 12, "name": "achievement_12.name", "desc": "achievement_12.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Cannon blocked", "signal": "cannon_blocked", "number": 30, "completed": false}
+    ]
+  },
+
+  "achievement_13":{
+    "id": 13, "name": "achievement_13.name", "desc": "achievement_13.desc", "type": "multi", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Activate orbs", "signal": "activate_orb", "number": 30, "completed": false}
+    ]
+  },
+
+  "achievement_14":{
+    "id": 14, "name": "achievement_14.name", "desc": "achievement_14.desc", "type": "single", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Get 3-star rating", "signal": "three_star", "number": 1, "completed": false}
+    ]
+  },
+
+  "achievement_15":{
+    "id": 15, "name": "achievement_15.name", "desc": "achievement_15.desc", "type": "single", "completed": false, "objectives":
+    [
+      {"id": 0, "desc": "Get 3-star rating on all levels", "signal": "three_star_all", "number": 1, "completed": false}
+    ]
+  }
+}

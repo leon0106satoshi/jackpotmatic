@@ -1,0 +1,16 @@
+{
+
+"port":12048,
+
+"host":"jackpotmatic.net",
+  "prefix":"https://",
+
+  "host_ws":"jackpotmatic.net",
+  "prefix_ws":"wss://",
+
+  "ssl":true,
+
+  "privateKey":"jackpotmatic.net_le2.key",
+  "certificate":"jackpotmatic.net_le2.crtca",
+"timezone":"Europe/Berlin"
+}

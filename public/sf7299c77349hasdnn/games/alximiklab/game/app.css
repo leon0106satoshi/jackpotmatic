@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Hobo Std';
+    src: url('fonts/hobo.eot');
+    /* IE9 Compat Modes */
+    src: url('fonts/hobo.eot?#iefixx') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/hobo.woff') format('woff'), /* Modern Browsers */
+    url('fonts/hobo.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('fonts/hobo.svg#svgFontNamee') format('svg');
+    /* Legacy iOS */
+}
+
+body,
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Hobo Std';
+    font-size: 12px;
+    font-weight: normal;
+    color: #ccc;
+    background-image: url('assets/art/tile.png');
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}

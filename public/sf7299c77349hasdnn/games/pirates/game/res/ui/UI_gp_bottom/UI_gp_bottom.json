@@ -1,0 +1,116 @@
+{"frames": [
+
+{
+	"filename": "bar_vertical.png",
+	"frame": {"x":769,"y":103,"w":5,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":5,"h":50},
+	"sourceSize": {"w":5,"h":50}
+},
+{
+	"filename": "base_ship_bg.png",
+	"frame": {"x":2,"y":2,"w":640,"h":215},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":640,"h":215},
+	"sourceSize": {"w":640,"h":215}
+},
+{
+	"filename": "bg_ship_detail_1.png",
+	"frame": {"x":770,"y":70,"w":23,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":15},
+	"sourceSize": {"w":23,"h":15}
+},
+{
+	"filename": "bg_ship_detail_2.png",
+	"frame": {"x":738,"y":135,"w":17,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":15},
+	"sourceSize": {"w":17,"h":15}
+},
+{
+	"filename": "bg_ship_detail_3.png",
+	"frame": {"x":612,"y":219,"w":8,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":8,"h":8},
+	"sourceSize": {"w":8,"h":8}
+},
+{
+	"filename": "bg_ship_detail_4.png",
+	"frame": {"x":586,"y":219,"w":24,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":22},
+	"sourceSize": {"w":24,"h":22}
+},
+{
+	"filename": "gp_cannon1.png",
+	"frame": {"x":644,"y":2,"w":76,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":171},
+	"sourceSize": {"w":76,"h":172}
+},
+{
+	"filename": "gp_cannon2.png",
+	"frame": {"x":738,"y":2,"w":76,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":105,"w":76,"h":66},
+	"sourceSize": {"w":76,"h":172}
+},
+{
+	"filename": "gp_cannon_base.png",
+	"frame": {"x":644,"y":175,"w":146,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":60},
+	"sourceSize": {"w":146,"h":60}
+},
+{
+	"filename": "gp_cannon_line.png",
+	"frame": {"x":722,"y":2,"w":14,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":166},
+	"sourceSize": {"w":14,"h":166}
+},
+{
+	"filename": "gp_deadline1.png",
+	"frame": {"x":2,"y":219,"w":582,"h":22},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":582,"h":22},
+	"sourceSize": {"w":582,"h":23}
+},
+{
+	"filename": "gp_octopus.png",
+	"frame": {"x":738,"y":103,"w":29,"h":30},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":29,"h":30},
+	"sourceSize": {"w":30,"h":31}
+},
+{
+	"filename": "gp_octopus_base.png",
+	"frame": {"x":738,"y":70,"w":30,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":31},
+	"sourceSize": {"w":30,"h":31}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "UI_gp_bottom.png",
+	"format": "RGBA8888",
+	"size": {"w":816,"h":244},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:02a6825e02d442795755b4fa442050ed:4b4dfaeb44206a798d1616d0bdfce587:eeb3c88b46e31fe033b320e6290393c0$"
+}
+}

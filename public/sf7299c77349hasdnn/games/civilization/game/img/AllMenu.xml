@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e6b87c2ace2a17e526a91ba35949046f:ec7eaadca9bf6331237e4ab26acfbd0e:1955bc4ee0130ca2634767eba860b131$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="AllMenu.png">
+    <SubTexture name="LoadContur" x="95" y="194" width="222" height="17"/>
+    <SubTexture name="LoadFill" x="49" y="237" width="218" height="13"/>
+    <SubTexture name="OurLogo" x="246" y="882" width="248" height="135" frameX="-3" frameY="-2" frameWidth="258" frameHeight="155"/>
+    <SubTexture name="TutorArrow" x="936" y="179" width="51" height="71"/>
+    <SubTexture name="btn_Uni" x="711" y="574" width="120" height="57"/>
+    <SubTexture name="btn_Uni_q" x="2" y="194" width="45" height="46"/>
+    <SubTexture name="btn_Uni_sl_1" x="711" y="633" width="120" height="57"/>
+    <SubTexture name="btn_vert" x="2" y="692" width="137" height="197" frameX="0" frameY="-2" frameWidth="137" frameHeight="199"/>
+    <SubTexture name="btns_0" x="2" y="962" width="120" height="58"/>
+    <SubTexture name="btns_0bl" x="124" y="962" width="120" height="58"/>
+    <SubTexture name="btns_Hard" x="839" y="385" width="120" height="58"/>
+    <SubTexture name="btns_Normal" x="589" y="574" width="120" height="58"/>
+    <SubTexture name="btns_rend_0000__" x="936" y="2" width="53" height="57"/>
+    <SubTexture name="btns_rend_0000__0" x="936" y="61" width="53" height="57"/>
+    <SubTexture name="btns_rend_0001_play" x="2" y="891" width="146" height="69"/>
+    <SubTexture name="btns_rend_0002_next" x="839" y="445" width="120" height="57"/>
+    <SubTexture name="btns_rend_0003_reload" x="839" y="504" width="120" height="57"/>
+    <SubTexture name="btns_rend_0004_map" x="839" y="563" width="120" height="57"/>
+    <SubTexture name="btns_rend_0005_back" x="839" y="622" width="120" height="57"/>
+    <SubTexture name="btns_rend_0006_unmute" x="839" y="681" width="120" height="57"/>
+    <SubTexture name="btns_rend_0007_mute" x="839" y="740" width="120" height="57"/>
+    <SubTexture name="btns_rend_0008_load" x="732" y="799" width="120" height="57"/>
+    <SubTexture name="btns_rend_0009_states" x="593" y="2" width="341" height="62"/>
+    <SubTexture name="btns_rend_0010_save_1" x="854" y="799" width="120" height="57"/>
+    <SubTexture name="btns_rend_0011_save" x="593" y="66" width="341" height="62"/>
+    <SubTexture name="btns_rend_0012_runes" x="593" y="130" width="341" height="62"/>
+    <SubTexture name="btns_rend_0013_skills_magic" x="496" y="882" width="341" height="62"/>
+    <SubTexture name="btns_rend_0014_info1" x="839" y="858" width="120" height="57"/>
+    <SubTexture name="btns_rend_0015_info2" x="936" y="120" width="53" height="57"/>
+    <SubTexture name="btns_rend_0016_info" x="496" y="946" width="341" height="62"/>
+    <SubTexture name="btns_rend_0017_home" x="246" y="574" width="341" height="62"/>
+    <SubTexture name="button_1" x="711" y="574" width="120" height="57"/>
+    <SubTexture name="button_2_sl" x="711" y="633" width="120" height="57"/>
+    <SubTexture name="logo_1" x="2" y="2" width="589" height="190" frameX="-7" frameY="-2" frameWidth="598" frameHeight="198"/>
+    <SubTexture name="logo_2" x="319" y="194" width="589" height="189" frameX="-7" frameY="-2" frameWidth="598" frameHeight="198"/>
+    <SubTexture name="logo_3" x="141" y="692" width="589" height="188" frameX="-7" frameY="-2" frameWidth="598" frameHeight="198"/>
+    <SubTexture name="logo_ice" x="246" y="385" width="589" height="187" frameX="-7" frameY="-2" frameWidth="598" frameHeight="198"/>
+    <SubTexture name="options_button" x="49" y="194" width="44" height="41"/>
+    <SubTexture name="pause_plashka" x="2" y="252" width="242" height="438" frameX="-4" frameY="-19" frameWidth="250" frameHeight="490"/>
+</TextureAtlas>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.01, user-scalable=no">
+
+    <title>Ludo Legend</title>
+
+    <link rel="icon" type="image/png" href="assets/graphics/icons/icon.png" sizes="512x512">
+
+
+    <script src="js/game.js"></script>
+
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #3F3F3F;
+        }
+
+        #turn {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: black;
+            background-image: url("assets/graphics/rotate_screen.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: none;
+        }
+
+        @font-face {
+            font-family: "cloudy";
+            font-style: normal;
+            font-weight: 400;
+            src: url("assets/CloudyWithAChanceOfLove.ttf");
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="turn"></div>
+    <div class="font_preload" style="opacity: 0">
+        <span style="font-family: 'cloudy', Arial, sans-serif;"></span>
+    </div>
+</body>
+
+</html>

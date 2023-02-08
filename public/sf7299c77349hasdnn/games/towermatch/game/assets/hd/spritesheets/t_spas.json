@@ -1,0 +1,374 @@
+{
+    "frames": {
+        "Spas_110_1": {
+            "frame": {
+                "x": 0,
+                "y": 489,
+                "w": 112,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 112,
+                "h": 100
+            }
+        },
+        "Spas_110_1_L": {
+            "frame": {
+                "x": 122,
+                "y": 489,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Spas_110_2": {
+            "frame": {
+                "x": 242,
+                "y": 489,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Spas_180_1": {
+            "frame": {
+                "x": 270,
+                "y": 379,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Spas_180_1_L": {
+            "frame": {
+                "x": 460,
+                "y": 379,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Spas_180_2": {
+            "frame": {
+                "x": 650,
+                "y": 379,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Spas_20_1": {
+            "frame": {
+                "x": 602,
+                "y": 489,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Spas_20_1_L": {
+            "frame": {
+                "x": 572,
+                "y": 489,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Spas_20_2": {
+            "frame": {
+                "x": 810,
+                "y": 269,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Spas_260_1": {
+            "frame": {
+                "x": 0,
+                "y": 269,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Spas_260_1_L": {
+            "frame": {
+                "x": 0,
+                "y": 379,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Spas_260_2": {
+            "frame": {
+                "x": 540,
+                "y": 269,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Spas_260_3": {
+            "frame": {
+                "x": 270,
+                "y": 269,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Spas_60_1": {
+            "frame": {
+                "x": 362,
+                "y": 489,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Spas_60_1_L": {
+            "frame": {
+                "x": 432,
+                "y": 489,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Spas_60_2": {
+            "frame": {
+                "x": 502,
+                "y": 489,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Spas_Build": {
+            "frame": {
+                "x": 429,
+                "y": 0,
+                "w": 419,
+                "h": 259
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 419,
+                "h": 259
+            },
+            "sourceSize": {
+                "w": 419,
+                "h": 259
+            }
+        },
+        "Spas_Build_L": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 419,
+                "h": 259
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 419,
+                "h": 259
+            },
+            "sourceSize": {
+                "w": 419,
+                "h": 259
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "t_spas.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 848,
+            "h": 589
+        },
+        "scale": 1
+    }
+}

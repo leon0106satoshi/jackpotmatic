@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #001a43;
+  background-position: center;
+
+}
+
+body:not(.lock) {
+  background-image: url(/frontend/Default/img/menu.jpg);
+}
+
+#masterWrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+#panelWrap {
+  height: calc(100% - 280px);
+  margin-top:130px;
+}
+
+#panelWrap section {
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-weight: 700;
+  position: relative;
+  float: left;
+  flex-direction: initial;
+  flex-wrap: wrap;
+  padding: 140px;
+  padding-top:0px;
+  padding-bottom:0px;
+  cursor:default !important;
+}
+
+.dot {
+  width: 33px;
+  height: 33px;
+  z-index: 3;
+  border-radius: 100%;
+  position: relative;
+  border: #fff 3px solid;
+  margin: 12px 31px;/* horizontal spread*/
+  cursor: pointer;
+  float: left;
+  background-color: #1996e1;
+}
+
+.dots {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  bottom:15% !important;
+  transform: translate(-50%, 50%) !important;
+}
+.balancewrap {
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  transform:translate(-50%, 0px);
+  bottom: 7px;
+  height: 8.5%;
+  flex: 1;
+  align-items: center;
+  cursor: pointer;
+  background-color:black;
+  width: 750px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #00272b;
+  padding: 5px;
+}
+
+#leftArrow {
+  /* left: 50px; */
+  transform: translate(-50%, 50%) !important;
+  left: calc(50% - 280px) !important;
+  bottom:15% !important;
+}
+
+#rightArrow {
+  /* right: 50px; */
+  transform: translate(-50%, 50%) !important;
+  left: calc(50% + 280px) !important;
+  bottom:15% !important;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 100;
+  bottom: 9%;
+  cursor: pointer;
+  opacity: 0.75;
+  width: 767px; /* original 40px*/
+  height: 77px; /* original 40px*/
+  stroke-width: 5px;
+  stroke: white;
+  fill: transparent;
+}
+
+h1 {
+  position: absolute;
+  z-index: 100;
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+span {
+  display: block;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.flagWrap {
+  height: 100px;
+  position: absolute;
+  z-index: 20;
+  bottom: 2.5%;
+  left: 5%;
+  overflow-y: hidden;
+}
+
+.flagWrap img{
+  background-color: transparent !important;
+}
+
+.title {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+p {
+  max-width: 400px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.twitterFollow {
+  padding: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  border-radius: 500px;
+  text-decoration: none;
+  border: solid 2px white;
+  color: white;
+}
+
+.twitterFollow:hover {
+  background: white;
+  color: #000;
+}
+
+.hideMe {
+  opacity: 0;
+  text-align: center;
+}
+.iconWrap {
+  width: 300px;
+  margin-top: 30px;
+}
+
+@media (min-width: 700px) {
+  .iconWrap {
+    width: 600px;
+  }
+}
+.icon {
+  text-align: center;
+  width: 150px;
+  float: left;
+}
+
+.icon svg {
+  width: 50px;
+  height: 50px;
+  margin: 6px 0;
+  overflow: visible;
+}
+
+@media (max-width: 480px) {
+  section img {
+    /* max-width: 200px; */
+  }
+  p {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #panelWrap section {
+    padding: 80px;
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+
+  /* #leftArrow {
+    /* left: 50px; */
+    /* transform: translate(-50%, 50%) !important; */
+    
+  /* } */
+  
+  /* #rightArrow { */
+    /* right: 50px; */
+    /* transform: translate(-50%, 50%) !important; */
+    
+  /* }  */
+}
+
+@media (max-width: 760px) {
+  #panelWrap section {
+    padding: unset;
+  }
+
+  #leftArrow {
+    left: calc(50% - 140px) !important;
+  }
+  
+  #rightArrow {
+    left: calc(50% + 140px) !important;
+  }
+
+  .dot{
+    margin:6px !important;
+  }
+  
+}
+
+
+@media (max-width: 380px) {
+  #panelWrap section .grid-item{
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #panelWrap section .grid-item{
+    margin-bottom:0;
+    height:25% !important;
+  }
+}
+
+@media (max-width: 540px) {
+  #panelWrap section .grid-item{
+    height:16.66% !important;
+  }
+}

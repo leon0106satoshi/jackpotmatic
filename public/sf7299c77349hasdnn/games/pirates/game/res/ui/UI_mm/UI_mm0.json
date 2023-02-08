@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "brazilian.png",
+	"frame": {"x":892,"y":186,"w":82,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":82,"h":82},
+	"sourceSize": {"w":85,"h":85}
+},
+{
+	"filename": "mm_2.png",
+	"frame": {"x":562,"y":2,"w":169,"h":248},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":248},
+	"sourceSize": {"w":169,"h":248}
+},
+{
+	"filename": "mm_button_config.png",
+	"frame": {"x":892,"y":270,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_config_press.png",
+	"frame": {"x":562,"y":252,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_info.png",
+	"frame": {"x":639,"y":252,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_info_press.png",
+	"frame": {"x":544,"y":329,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_lenguages.png",
+	"frame": {"x":333,"y":276,"w":209,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":77},
+	"sourceSize": {"w":209,"h":77}
+},
+{
+	"filename": "mm_button_lenguages_press.png",
+	"frame": {"x":333,"y":355,"w":209,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":209,"h":77},
+	"sourceSize": {"w":209,"h":77}
+},
+{
+	"filename": "mm_button_moregames.png",
+	"frame": {"x":892,"y":2,"w":123,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":90},
+	"sourceSize": {"w":123,"h":90}
+},
+{
+	"filename": "mm_button_moregames_press.png",
+	"frame": {"x":892,"y":94,"w":123,"h":90},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":123,"h":90},
+	"sourceSize": {"w":123,"h":90}
+},
+{
+	"filename": "mm_button_play.png",
+	"frame": {"x":733,"y":2,"w":157,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":163},
+	"sourceSize": {"w":157,"h":163}
+},
+{
+	"filename": "mm_button_play_press.png",
+	"frame": {"x":733,"y":167,"w":157,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":157,"h":163},
+	"sourceSize": {"w":157,"h":163}
+},
+{
+	"filename": "mm_button_trophies.png",
+	"frame": {"x":621,"y":329,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_trophies_press.png",
+	"frame": {"x":698,"y":332,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_tutorial.png",
+	"frame": {"x":775,"y":332,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_button_tutorial_press.png",
+	"frame": {"x":852,"y":347,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "mm_characters.png",
+	"frame": {"x":2,"y":276,"w":329,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":329,"h":160},
+	"sourceSize": {"w":338,"h":163}
+},
+{
+	"filename": "mm_logo.png",
+	"frame": {"x":2,"y":2,"w":558,"h":272},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":558,"h":272},
+	"sourceSize": {"w":558,"h":272}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "UI_mm.png",
+	"format": "RGBA8888",
+	"size": {"w":1017,"h":438},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:08f207c5a21ee54522288b9e96780da6:34e9ba7f7d5da720ee176affac27a795:8f7cb080f17e7e8be49bb8f8b6b7907c$"
+}
+}

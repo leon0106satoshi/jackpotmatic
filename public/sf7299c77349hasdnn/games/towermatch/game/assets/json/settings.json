@@ -1,0 +1,914 @@
+{
+
+	"moneyForAd": 1000,
+
+	"initFreeCrates": 1,
+	"initMoney" : 3000,
+	"cratePrice": 3000,
+	"boosterShufflePrice": 100,
+	"boosterShufflePriceDelta": 50,
+	"boosterAutoActivationTime": 2000,
+
+	"missionCrateChance": 0.25,
+
+	"cityOverviewParalax": {
+		"mountains": 0.4,
+		"clouds": 0.15
+	},
+
+	"dailyPrizes":{
+		"money": {
+			"min": 2000,
+			"max": 3000,
+			"roundInterval": 25
+		},
+		"cratePercentage": 50
+	},
+
+	"bgBackgroundHeight": 10000,
+
+	"bgBackgroundObjects": [
+		{
+			"name": "cloud",
+			"minAp": 0,
+			"maxAp": 0.6,
+			"index": 1,
+			"perField": 7,
+			"skipChance": 0
+		},
+		{
+			"name": "zeppelin",
+			"minAp": 0.1,
+			"maxAp": 0.5,
+			"dontOverlap": true,
+			"index": 2,
+			"perField": 1,
+			"skipChance": 0.2
+		},
+		{
+			"name": "cloudFx",
+			"minAp": 0.1,
+			"maxAp": 0.6,
+			"index": 0,
+			"perField": 1,
+			"skipChance": 0.2
+		},
+		{
+			"name": "planet",
+			"minAp": 0.8,
+			"maxAp": "Infinity",
+			"index": 1,
+			"perField": 1,
+			"skipChance": 0.5
+		},
+		{
+			"name": "meteor",
+			"minAp": 0.75,
+			"maxAp": "Infinity",
+			"index": 2,
+			"perField": 1,
+			"skipChance": 0.2
+		},
+		{
+			"name": "satelite",
+			"minAp": 0.8,
+			"maxAp": "Infinity",
+			"index": 3,
+			"perField": 1,
+			"skipChance": 0.7
+		},
+		{
+			"name": "star",
+			"minAp": 0.8,
+			"maxAp": "Infinity",
+			"index": 0,
+			"perField": 3,
+			"skipChance": 0.2
+		}
+	],
+
+	"coinsForPerfect": 10,
+	"coinsForGood": 0,
+	"coinsForNormal": 0,
+	"coinsForPerfectCombo": 3,
+	"undoStartCost" : 200,
+	"maxBoostOnStart" : 20,
+	"boostStartCost": 750,
+	"doubleCoinCost": 1500,
+	"increaseSizeCost": 1000,
+	"standardCorrection": 4.5,
+	"frenzyCorrection": 10,
+	"frenzyDelta": 0.25,
+	"frenzyActivationPerfectCombo": 2,
+	"frenzyDuration": 5000,
+	"frenzyCoinMulti": 1.5,
+
+	"giftReq": [25, 50, 100, 150],
+	"giftReqExtra": 50,
+	"giftTiers": [100, 150, 200, 250, 300, 350, 400, 500, 800, 1000],
+	"giftTiersExtra": 250,
+	"giftEvery": 10,
+
+	"startIncreaseSize": 40,
+	"questionMarkMaxIncreaseSize": 50,
+	"questionMarkSpeedDecrease": 1.5,
+
+	"questionMarkPreLeaderChance": 0.05,
+	"questionMarkPostLeaderChance": 0.02,
+
+	"startSpeed": 1.5,
+	"speedIncrease" : 0.3,
+	"speedMax": 5, 
+
+	"backgrounds": [
+		{
+			"ground": "Ground_Autumn",
+			"minRocksY": -100,
+			"rocks": "Rocks_Autumn",
+			"skyColors": [
+				["#000000",0],
+		        ["#0a3496",0.31],
+		        ["#9fd4f7",0.5],
+		        ["#b0ecfc",0.65],
+		        ["#14b2ef",0.95],
+		        ["#f2cdbc",1]
+			]			
+		},
+		{
+			"ground": "Ground_Night",
+			"minRocksY": -100,
+			"rocks": "Rocks_Night",
+			"skyColors": [
+				["#000000",0],
+		        ["#0a3496",0.31],
+		        ["#9fd4f7",0.5],
+		        ["#b0ecfc",0.65],
+		        ["#14b2ef",0.95],
+		        ["#b91f98",1]
+			]
+		},
+		{
+			"ground": "Ground_Summer",
+			"minRocksY": -100,
+			"rocks": "Rocks_Summer",
+			"skyColors": [
+				["#000000",0],
+		        ["#0a3496",0.31],
+		        ["#9fd4f7",0.5],
+		        ["#b0ecfc",0.65],
+		        ["#14b2ef",0.95],
+		        ["#b7fff8",1]
+			]
+		},
+		{
+			"ground": "Ground_Winter",
+			"minRocksY": -100,
+			"rocks": "Rocks_Winter",
+			"skyColors": [
+				["#000000",0],
+		        ["#0a3496",0.31],
+		        ["#9fd4f7",0.5],
+		        ["#b0ecfc",0.65],
+		        ["#14b2ef",0.95],
+		        ["#ceeee7",1]
+			]
+		}
+	],
+
+
+"towers": [
+		{
+			"name": "Big Ben",
+			"nameTxt": 27,
+			"mapScale": 0.4,
+			"chancesToGet": 1,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "BigBen_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 184,
+					"blocks": [
+						{
+							"sprite": "BigBen_260_3",
+							"spriteLocked": "BigBen_260_1_L"
+						},
+						{
+							"sprite": "BigBen_260_1"
+						},
+						{
+							"sprite": "BigBen_260_2",
+							"spriteLocked": "BigBen_260_1_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "BigBen_180_1"
+						},
+						{
+							"sprite": "BigBen_180_2",
+							"spriteLocked": "BigBen_180_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "BigBen_110_1"
+						},
+						{
+							"sprite": "BigBen_110_2",
+							"spriteLocked": "BigBen_110_1_L"
+						}
+						
+					] 
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "BigBen_60_1"
+						},
+						{
+							"sprite": "BigBen_60_2",
+							"spriteLocked": "BigBen_60_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "BigBen_20_2",
+							"spriteLocked": "BigBen_20_1_L"
+
+						},
+						{
+							"sprite": "BigBen_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Eiffel",
+			"nameTxt": 28,
+			"mapScale": 0.6,
+			"chancesToGet": 1, 
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Eiffel_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Eiffel_260_1"
+						},
+						{
+							"sprite": "Eiffel_260_2",
+							"spriteLocked": "Eiffel_260_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Eiffel_180_1"
+						}
+					]
+				},
+
+
+				{	
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Eiffel_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Eiffel_60_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Eiffel_20_1"
+						}
+					]
+				}
+
+
+			]
+		},
+
+
+		{
+			"name": "Kremlin",
+			"nameTxt": 29,
+			"mapScale": 0.4,
+			"chancesToGet": 0.5,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Spas_Build",
+				"firstBlockOffsetY": 62  
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Spas_260_1"
+						},
+						{
+							"sprite": "Spas_260_2",
+							"spriteLocked": "Spas_260_1_L"
+						},
+						{
+							"sprite": "Spas_260_3",
+							"spriteLocked": "Spas_260_1_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Spas_180_1"
+						},
+						{
+							"sprite": "Spas_180_2",
+							"spriteLocked": "Spas_180_1_L"
+						}
+					]	
+				},
+
+				{	
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Spas_110_1"
+						},
+						{
+							"sprite": "Spas_110_2",
+							"spriteLocked": "Spas_110_1_L"
+						}
+					]	
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Spas_60_1"
+						},
+						{
+							"sprite": "Spas_60_2",
+							"spriteLocked": "Spas_60_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Spas_20_2",
+							"spriteLocked": "Spas_20_1_L"
+						},
+						{
+							"sprite": "Spas_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Lighthouse",
+			"nameTxt": 30,
+			"mapScale": 0.4,
+			"chancesToGet": 0.2,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Lighthouse_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Lighthouse_260_3",
+							"spriteLocked": "Lighthouse_260_1_L"
+						},
+						{
+							"sprite": "Lighthouse_260_1"
+						},
+						{
+							"sprite": "Lighthouse_260_2",
+							"spriteLocked": "Lighthouse_260_1_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Lighthouse_180_1"
+						},
+						{
+							"sprite": "Lighthouse_180_2",
+							"spriteLocked": "Lighthouse_180_1_L"
+						},
+						{
+							"sprite": "Lighthouse_180_3",
+							"spriteLocked": "Lighthouse_180_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Lighthouse_110_1"
+						},
+						{
+							"sprite": "Lighthouse_110_2",
+							"spriteLocked": "Lighthouse_110_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Lighthouse_60_1"
+						},
+						{
+							"sprite": "Lighthouse_60_2",
+							"spriteLocked": "Lighthouse_60_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Lighthouse_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Taipei",
+			"nameTxt": 31,
+			"mapScale": 0.6,
+			"chancesToGet": 0.8,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Taipei_Build",
+				"firstBlockOffsetY": 18 
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Taipei_260_2"
+						},
+						{
+							"sprite": "Taipei_260_1",
+							"spriteLocked": "Taipei_260_2_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Taipei_180_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Taipei_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Taipei_60_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Taipei_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Pagoda",
+			"nameTxt": 32,
+			"mapScale": 0.6,
+			"chancesToGet": 1,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Pagoda_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Pagoda_260_1"
+						},
+						{
+							"sprite": "Pagoda_260_2",
+							"spriteLocked": "Pagoda_260_1_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Pagoda_180_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Pagoda_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Pagoda_60_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Pagoda_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Empire",
+			"nameTxt": 33,
+			"mapScale": 0.45,
+			"chancesToGet": 0.9,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Empire_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Empire_260_3",
+							"spriteLocked": "Empire_260_1_L"
+						},
+						{
+							"sprite": "Empire_260_1"
+						},
+						{
+							"sprite": "Empire_260_2",
+							"spriteLocked": "Empire_260_1_L"
+						}						
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Empire_180_1"
+						},
+						{
+							"sprite": "Empire_180_2",
+							"spriteLocked": "Empire_180_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Empire_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Empire_60_1"
+						},
+						{
+							"sprite": "Empire_60_2",
+							"spriteLocked": "Empire_60_1_L"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Empire_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Guangzhou",
+			"nameTxt": 34,
+			"mapScale": 0.6,
+			"chancesToGet": 0.2,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Guangzhou_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Guangzhou_260_2",
+							"spriteLocked": "Guangzhou_260_1_L"
+						},
+						{
+							"sprite": "Guangzhou_260_1"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Guangzhou_180_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Guangzhou_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Guangzhou_60_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Guangzhou_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Piramid",
+			"nameTxt": 35,
+			"mapScale": 0.6,
+			"chancesToGet": 1,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Piramid_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Piramid_260_1"
+						},
+						{
+							"sprite": "Piramid_260_2",
+							"spriteLocked": "Piramid_260_1_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Piramid_180_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Piramid_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Piramid_60_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Piramid_20_1"
+						}
+					]
+				}
+
+			]
+		},
+
+
+		{
+			"name": "Piza",
+			"nameTxt": 36,
+			"mapScale": 0.6,
+			"chancesToGet": 1,
+			"blockHeight": 100,
+			"blockWidth": 260,
+			"base": {
+				"sprite": "Piza_Build"
+			},
+			"stages": [
+
+				{
+					"minWidth": 180,
+					"blocks": [
+						{
+							"sprite": "Piza_260_1"
+						},
+						{
+							"sprite": "Piza_260_2",
+							"spriteLocked": "Piza_260_1_L"
+						}
+					]
+				},
+
+				{	
+					"minWidth": 110,
+					"blocks": [
+						{
+							"sprite": "Piza_180_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 60,
+					"blocks": [
+						{
+							"sprite": "Piza_110_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 20,
+					"blocks": [
+						{
+							"sprite": "Piza_60_1"
+						}
+					]
+				},
+
+				{
+					"minWidth": 0,
+					"blocks": [
+						{
+							"sprite": "Piza_20_1"
+						}
+					]
+				}
+
+			]
+		}
+
+
+	],
+
+
+	"cityObjectsPos": {"towers3D":[[12.578171620443843,0,70.75816410195485],[17.059853593537536,0,95.50868678253252],[22.85802074017232,0,120.20718275569891],[18.88570754612288,0,144.95754130057696],[15.172883257880958,0,171.37975631683685],[11.293921183064061,0,195.85269967817098],[6.7723903651541315,0,222.62318337059855],[2.612762626734252,0,246.06852932490523],[-1.7379632338590816,0,272.0400628906616]],"trees3D":[[10.403958972998682,0,100.08865812239404],[20.12112865150784,0,82.81181302831997],[6.65802631124981,0,140.581502179438],[3.5896376567900514,0,211.6459178973135],[28.33789396287755,0,130.65837504159063],[11.24774289980407,0,67.19024253859814],[12.386702361595209,0,165.72202336110112],[23.866036907749677,0,156.89475906142528],[22.119319807894264,0,237.9540153783291],[-6.055351598702155,0,249.52831095459374],[12.143079441443415,0,332.04735571227286],[24.507007091999558,0,93.53439058685962],[10.140805854960398,0,245.429128064681],[32.679229522659966,0,303.4083337153609],[30.181556836322944,0,185.7466166812384],[20.94853234975703,0,242.10917664869368],[37.14850305095139,0,207.49752267983146],[17.87131098195666,0,271.01015326919094],[-12.09356197967552,0,377.58048893088693],[12.008968815449958,0,116.724389470565],[5.697473663350181,0,90.62384040806378],[25.372122684853963,0,202.7611838509991],[2.582590212416002,0,318.40291442656155],[13.842130198114459,0,139.05568506172116],[2.4038023262859802,0,129.86905678419168]]}
+
+
+}

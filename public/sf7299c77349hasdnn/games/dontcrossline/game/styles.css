@@ -1,0 +1,11 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    /*text-align: center;*/
+    background: #EBE7DA;
+}
+
+#gameArea {
+    position: absolute;
+}

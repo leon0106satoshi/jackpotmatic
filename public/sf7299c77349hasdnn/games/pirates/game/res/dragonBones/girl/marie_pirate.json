@@ -1,0 +1,268 @@
+{"frames": [
+
+{
+	"filename": "Images/Belt.png",
+	"frame": {"x":457,"y":51,"w":52,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":23},
+	"sourceSize": {"w":52,"h":23}
+},
+{
+	"filename": "Images/Blade.png",
+	"frame": {"x":128,"y":80,"w":22,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":20},
+	"sourceSize": {"w":22,"h":20}
+},
+{
+	"filename": "Images/Chest.png",
+	"frame": {"x":345,"y":2,"w":46,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":46,"h":54},
+	"sourceSize": {"w":46,"h":54}
+},
+{
+	"filename": "Images/Eyes Normal Closed.png",
+	"frame": {"x":24,"y":93,"w":30,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":6},
+	"sourceSize": {"w":30,"h":6}
+},
+{
+	"filename": "Images/Eyes Normal Open.png",
+	"frame": {"x":390,"y":89,"w":30,"h":12},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":12},
+	"sourceSize": {"w":30,"h":12}
+},
+{
+	"filename": "Images/Eyes Sad Closed.png",
+	"frame": {"x":24,"y":93,"w":30,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":30,"h":6},
+	"sourceSize": {"w":30,"h":6}
+},
+{
+	"filename": "Images/Eyes Sad Open.png",
+	"frame": {"x":422,"y":88,"w":33,"h":10},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":10},
+	"sourceSize": {"w":33,"h":10}
+},
+{
+	"filename": "Images/Face Normal.png",
+	"frame": {"x":390,"y":58,"w":27,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":29},
+	"sourceSize": {"w":27,"h":29}
+},
+{
+	"filename": "Images/Face Sad.png",
+	"frame": {"x":335,"y":63,"w":27,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":31},
+	"sourceSize": {"w":27,"h":31}
+},
+{
+	"filename": "Images/Head Happy.png",
+	"frame": {"x":128,"y":2,"w":87,"h":76},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":76},
+	"sourceSize": {"w":87,"h":76}
+},
+{
+	"filename": "Images/Head.png",
+	"frame": {"x":217,"y":2,"w":87,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":87,"h":75},
+	"sourceSize": {"w":87,"h":75}
+},
+{
+	"filename": "Images/Left Arm.png",
+	"frame": {"x":471,"y":76,"w":16,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":24},
+	"sourceSize": {"w":16,"h":24}
+},
+{
+	"filename": "Images/Left Foot.png",
+	"frame": {"x":202,"y":80,"w":14,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":19},
+	"sourceSize": {"w":14,"h":19}
+},
+{
+	"filename": "Images/Left Hair 1.png",
+	"frame": {"x":489,"y":76,"w":18,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":14},
+	"sourceSize": {"w":18,"h":14}
+},
+{
+	"filename": "Images/Left Hair 2.png",
+	"frame": {"x":218,"y":79,"w":16,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":22},
+	"sourceSize": {"w":16,"h":22}
+},
+{
+	"filename": "Images/Left Hair 3.png",
+	"frame": {"x":295,"y":79,"w":9,"h":15},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":15},
+	"sourceSize": {"w":9,"h":15}
+},
+{
+	"filename": "Images/Left Hand.png",
+	"frame": {"x":281,"y":79,"w":12,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":16},
+	"sourceSize": {"w":12,"h":16}
+},
+{
+	"filename": "Images/Left Leg.png",
+	"frame": {"x":457,"y":76,"w":12,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":25},
+	"sourceSize": {"w":12,"h":25}
+},
+{
+	"filename": "Images/Left Shoulder.png",
+	"frame": {"x":306,"y":63,"w":27,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":38},
+	"sourceSize": {"w":27,"h":38}
+},
+{
+	"filename": "Images/Left Thigh.png",
+	"frame": {"x":306,"y":2,"w":37,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":37,"h":59},
+	"sourceSize": {"w":37,"h":59}
+},
+{
+	"filename": "Images/Right Arm.png",
+	"frame": {"x":152,"y":80,"w":16,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":20},
+	"sourceSize": {"w":16,"h":20}
+},
+{
+	"filename": "Images/Right Foot.png",
+	"frame": {"x":251,"y":79,"w":13,"h":18},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":18},
+	"sourceSize": {"w":13,"h":18}
+},
+{
+	"filename": "Images/Right Hair 1.png",
+	"frame": {"x":2,"y":93,"w":20,"h":8},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":8},
+	"sourceSize": {"w":20,"h":8}
+},
+{
+	"filename": "Images/Right Hair 2.png",
+	"frame": {"x":183,"y":80,"w":17,"h":19},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":19},
+	"sourceSize": {"w":17,"h":19}
+},
+{
+	"filename": "Images/Right Hair 3.png",
+	"frame": {"x":170,"y":80,"w":11,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":11,"h":20},
+	"sourceSize": {"w":11,"h":20}
+},
+{
+	"filename": "Images/Right Leg.png",
+	"frame": {"x":419,"y":58,"w":14,"h":28},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":28},
+	"sourceSize": {"w":14,"h":28}
+},
+{
+	"filename": "Images/Right Shoulder.png",
+	"frame": {"x":364,"y":58,"w":24,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":40},
+	"sourceSize": {"w":24,"h":40}
+},
+{
+	"filename": "Images/Right Thigh.png",
+	"frame": {"x":393,"y":2,"w":38,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":54},
+	"sourceSize": {"w":38,"h":54}
+},
+{
+	"filename": "Images/Rigth Hand.png",
+	"frame": {"x":266,"y":79,"w":13,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":16},
+	"sourceSize": {"w":13,"h":16}
+},
+{
+	"filename": "Images/Shoulder.png",
+	"frame": {"x":433,"y":2,"w":76,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":47},
+	"sourceSize": {"w":76,"h":47}
+},
+{
+	"filename": "Images/_Hand.png",
+	"frame": {"x":236,"y":79,"w":13,"h":22},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":22},
+	"sourceSize": {"w":13,"h":22}
+},
+{
+	"filename": "Images/coat.png",
+	"frame": {"x":2,"y":2,"w":124,"h":89},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":89},
+	"sourceSize": {"w":124,"h":89}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "marie_pirate.png",
+	"format": "RGBA8888",
+	"size": {"w":511,"h":103},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c18fd12716cc90269971000c4232caea:acf75b18d14808523ea8b2c6a93a370f:14e4120202b025a618258f58e542866a$"
+}
+}

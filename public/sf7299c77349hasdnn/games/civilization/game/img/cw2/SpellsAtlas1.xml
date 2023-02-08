@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:592ba5d2cea214a660da6686e8a3a5c5:06589bcd20b95f36d2f9790c2e3c2b3f:2f793eaa085888ce9a91b23dc5a76e56$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="SpellsAtlas1.png">
+    <SubTexture name="FlyHouseSign" x="229" y="902" width="37" height="22" frameX="0" frameY="0" frameWidth="38" frameHeight="22"/>
+    <SubTexture name="fareDragon/1" x="631" y="2" width="191" height="160" frameX="-20" frameY="-4" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/10" x="345" y="2" width="145" height="59" frameX="-24" frameY="-71" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/11" x="364" y="554" width="131" height="51" frameX="-28" frameY="-70" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/12" x="345" y="63" width="134" height="54" frameX="-25" frameY="-68" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/2" x="824" y="2" width="197" height="159" frameX="-20" frameY="-3" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/3" x="621" y="870" width="201" height="147" frameX="-20" frameY="-12" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/4" x="558" y="181" width="222" height="137" frameX="-2" frameY="-22" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/5" x="396" y="924" width="223" height="92" frameX="-4" frameY="-64" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/6" x="172" y="927" width="222" height="93" frameX="-5" frameY="-63" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/7" x="497" y="100" width="129" height="79" frameX="-26" frameY="-71" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/8" x="824" y="299" width="127" height="77" frameX="-27" frameY="-72" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/9" x="824" y="226" width="128" height="71" frameX="-27" frameY="-71" frameWidth="236" frameHeight="164"/>
+    <SubTexture name="fareDragon/lighting/f_1" x="577" y="870" width="30" height="24" frameX="-110" frameY="0" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_10" x="459" y="607" width="97" height="177" frameX="-58" frameY="-121" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_11" x="330" y="554" width="32" height="52" frameX="-114" frameY="-156" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_2" x="558" y="702" width="76" height="80" frameX="-82" frameY="0" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_3" x="207" y="308" width="121" height="298" frameX="-58" frameY="0" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_4" x="207" y="2" width="136" height="304" frameX="-42" frameY="-3" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_5" x="2" y="620" width="119" height="311" frameX="-29" frameY="-4" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_6" x="229" y="608" width="98" height="292" frameX="-43" frameY="-15" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_7" x="123" y="618" width="104" height="307" frameX="-43" frameY="0" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_8" x="329" y="608" width="128" height="279" frameX="-29" frameY="-36" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="fareDragon/lighting/f_9" x="330" y="308" width="113" height="244" frameX="-43" frameY="-63" frameWidth="185" frameHeight="330"/>
+    <SubTexture name="hypno_eye" x="954" y="226" width="64" height="37"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/1" x="459" y="786" width="84" height="82" frameX="-56" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/2" x="345" y="191" width="82" height="82" frameX="-58" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/3" x="429" y="191" width="82" height="82" frameX="-58" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/4" x="2" y="933" width="83" height="83" frameX="-57" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/5" x="87" y="933" width="83" height="83" frameX="-57" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/6" x="545" y="786" width="84" height="82" frameX="-56" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/7" x="445" y="433" width="82" height="82" frameX="-58" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/8" x="497" y="517" width="82" height="82" frameX="-58" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteArwFly/9" x="529" y="433" width="82" height="82" frameX="-58" frameY="-1" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteBoom/1" x="445" y="308" width="111" height="75" frameX="-18" frameY="-12" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteBoom/2" x="824" y="427" width="113" height="74" frameX="-15" frameY="-11" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteBoom/3" x="497" y="2" width="131" height="69" frameX="0" frameY="-14" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="meteoriteArrow/meteoriteBoom/4" x="940" y="378" width="80" height="70" frameX="-49" frameY="-12" frameWidth="143" frameHeight="93"/>
+    <SubTexture name="roots" x="496" y="870" width="57" height="50" frameX="-1" frameY="-2" frameWidth="59" frameHeight="53"/>
+    <SubTexture name="shark/1" x="434" y="889" width="60" height="32" frameX="0" frameY="-10" frameWidth="60" frameHeight="48"/>
+    <SubTexture name="shark/2" x="402" y="275" width="54" height="31" frameX="0" frameY="-10" frameWidth="60" frameHeight="48"/>
+    <SubTexture name="shark/3" x="345" y="275" width="55" height="31" frameX="0" frameY="-10" frameWidth="60" frameHeight="48"/>
+    <SubTexture name="speedUp" x="268" y="902" width="35" height="22" frameX="-3" frameY="0" frameWidth="39" frameHeight="22"/>
+    <SubTexture name="waterDrop/1" x="555" y="870" width="20" height="49"/>
+    <SubTexture name="waterDrop/10" x="497" y="73" width="131" height="25" frameX="-12" frameY="-37" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/11" x="329" y="889" width="103" height="33" frameX="-33" frameY="-33" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/2" x="445" y="119" width="30" height="70" frameX="-64" frameY="0" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/3" x="954" y="265" width="51" height="57" frameX="-55" frameY="-18" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/4" x="458" y="275" width="65" height="30" frameX="-45" frameY="-49" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/5" x="824" y="163" width="154" height="61" frameX="-2" frameY="-35" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/6" x="824" y="503" width="113" height="58" frameX="-21" frameY="-35" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/7" x="631" y="363" width="126" height="45" frameX="-5" frameY="-38" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/8" x="497" y="385" width="116" height="46" frameX="-17" frameY="-38" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterDrop/9" x="631" y="320" width="127" height="41" frameX="-12" frameY="-41" frameWidth="158" frameHeight="101"/>
+    <SubTexture name="waterFall/1" x="824" y="378" width="114" height="47"/>
+    <SubTexture name="waterFall/2" x="140" y="2" width="65" height="613" frameX="-23" frameY="-2" frameWidth="114" frameHeight="620"/>
+    <SubTexture name="waterFall/3" x="66" y="2" width="72" height="614" frameX="-19" frameY="-1" frameWidth="114" frameHeight="620"/>
+    <SubTexture name="waterFall/4" x="2" y="2" width="62" height="616" frameX="-24" frameY="0" frameWidth="114" frameHeight="620"/>
+    <SubTexture name="wave/wave_0001" x="345" y="119" width="90" height="70" frameX="0" frameY="0" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0002" x="345" y="119" width="90" height="70" frameX="0" frameY="0" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0003" x="631" y="784" width="84" height="69" frameX="-1" frameY="-2" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0004" x="631" y="784" width="84" height="69" frameX="-1" frameY="-2" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0005" x="913" y="589" width="87" height="64" frameX="-5" frameY="-4" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0006" x="913" y="589" width="87" height="64" frameX="-5" frameY="-4" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0007" x="824" y="632" width="85" height="68" frameX="-6" frameY="0" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0008" x="824" y="632" width="85" height="68" frameX="-6" frameY="0" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0009" x="939" y="450" width="77" height="69" frameX="-7" frameY="0" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0010" x="939" y="450" width="77" height="69" frameX="-7" frameY="0" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0011" x="636" y="702" width="85" height="65" frameX="-4" frameY="-3" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0012" x="636" y="702" width="85" height="65" frameX="-4" frameY="-3" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0013" x="939" y="521" width="77" height="66" frameX="-3" frameY="-2" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0014" x="939" y="521" width="77" height="66" frameX="-3" frameY="-2" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0015" x="824" y="563" width="87" height="67" frameX="0" frameY="-1" frameWidth="92" frameHeight="72"/>
+    <SubTexture name="wave/wave_0016" x="824" y="563" width="87" height="67" frameX="0" frameY="-1" frameWidth="92" frameHeight="72"/>
+</TextureAtlas>

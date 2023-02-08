@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "gp_cannon1.png",
+	"frame": {"x":60,"y":61,"w":76,"h":171},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":171},
+	"sourceSize": {"w":76,"h":172}
+},
+{
+	"filename": "gp_cannon_line.png",
+	"frame": {"x":138,"y":61,"w":14,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":14,"h":166},
+	"sourceSize": {"w":14,"h":166}
+},
+{
+	"filename": "tutorial_finger.png",
+	"frame": {"x":2,"y":61,"w":56,"h":172},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":56,"h":172},
+	"sourceSize": {"w":56,"h":172}
+},
+{
+	"filename": "tutorial_line.png",
+	"frame": {"x":2,"y":2,"w":253,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":253,"h":57},
+	"sourceSize": {"w":253,"h":57}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "UI_tutorial_ingame2.png",
+	"format": "RGBA8888",
+	"size": {"w":257,"h":235},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6cd52ada5dbb2b1b60280d769ba8482c:89e2bbc6f7d5baedfdbc50a924e48fd4:e835bd226b4d9a894a1868a4e3374db4$"
+}
+}

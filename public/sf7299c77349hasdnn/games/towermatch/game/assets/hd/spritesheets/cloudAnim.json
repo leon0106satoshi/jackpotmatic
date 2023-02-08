@@ -1,0 +1,234 @@
+{
+    "frames": {
+        "cookie_match_0": {
+            "frame": {
+                "x": 94,
+                "y": 202,
+                "w": 32,
+                "h": 30
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 30
+            }
+        },
+        "cookie_match_1": {
+            "frame": {
+                "x": 296,
+                "y": 188,
+                "w": 62,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 60
+            }
+        },
+        "cookie_match_10": {
+            "frame": {
+                "x": 0,
+                "y": 202,
+                "w": 84,
+                "h": 84
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            }
+        },
+        "cookie_match_2": {
+            "frame": {
+                "x": 296,
+                "y": 96,
+                "w": 80,
+                "h": 82
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 82
+            }
+        },
+        "cookie_match_3": {
+            "frame": {
+                "x": 192,
+                "y": 102,
+                "w": 84,
+                "h": 86
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 86
+            }
+        },
+        "cookie_match_4": {
+            "frame": {
+                "x": 0,
+                "y": 102,
+                "w": 88,
+                "h": 90
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 90
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 90
+            }
+        },
+        "cookie_match_5": {
+            "frame": {
+                "x": 100,
+                "y": 0,
+                "w": 88,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 92
+            }
+        },
+        "cookie_match_6": {
+            "frame": {
+                "x": 198,
+                "y": 0,
+                "w": 88,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 92
+            }
+        },
+        "cookie_match_7": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 92
+            }
+        },
+        "cookie_match_8": {
+            "frame": {
+                "x": 98,
+                "y": 102,
+                "w": 84,
+                "h": 88
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 88
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 88
+            }
+        },
+        "cookie_match_9": {
+            "frame": {
+                "x": 296,
+                "y": 0,
+                "w": 82,
+                "h": 86
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 82,
+                "h": 86
+            },
+            "sourceSize": {
+                "w": 82,
+                "h": 86
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "cloudAnim.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 378,
+            "h": 286
+        },
+        "scale": 1
+    }
+}

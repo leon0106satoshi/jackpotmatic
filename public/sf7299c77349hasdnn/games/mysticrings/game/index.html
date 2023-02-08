@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- text/html from header (HC) -->
+
+    <title>Mystic Rings</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="maximum-scale=1,minimum-scale=1,user-scalable=no,initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="assets/style/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/style/rotate-screen-1.0.css" />
+    <script type="text/javascript" src="game.js"></script>
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="rotateLock" style="visibility: hidden;"></div>
+    <!-- Anna -->
+    <div id="gameContainer">
+        <div id="ARK_gameLoader">
+            <div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <div id="gameBackground" style="display: none;"></div>
+        <div style="width: 100%;height: 100%;bottom:0; position: absolute; left: 50%;margin: -513px 0px 0px -513px;">
+            <div id="ARK_textFUE" style="visibility:hidden;">
+                <!--<span></span>-->
+                <div id="ARK_textFUE_style"></div>
+                <div id="ARK_skipTutorial"></div>
+                <div id="ARK_IKnow"></div>
+                <div id="ARK_buttonOK"></div>
+            </div>
+        </div>
+        <div class="ARK_interface">
+            <div class="ARK_timer">
+                <div>Time: <b>&#8734;</b></div>
+            </div>
+            <div class="ARK_timerBonus">
+                <div class="ARK_bonusActive"></div><b id="ARK_timeBonusValue"></b></div>
+            <div class="ARK_scoreBonus">
+                <div></div><span class="ARK_bonusActive"></span><b id="ARK_scoreBonusValue"></b></div>
+            <!--<div id="ARK_replace" style="display: none" ></div>-->
+            <div class="ARK_test"></div>
+            <div style="color: #ffffff; font: courier; visibility: hidden;  bottom: -20px">
+                <p></p>
+                <p></p>
+                <p style="font-size: 25px;">
+                    <input type="checkbox" id="AvtoEndLevelGlobCheckbox" size="100" /> Avto End Level after first match 2 tiles</p>
+            </div>
+            <!-- Anna -->
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="ARK_score">
+                <div>Score: <b>00</b></div>
+            </div>
+            <div class="ARK_button" id="ARK_button_help"></div>
+            <div class="ARK_button" id="ARK_button_options"></div>
+            <!--<div id="ARK_button_sound"></div>-->
+            <div class="ARK_button" id="ARK_button_sound"></div>
+            <div class="ARK_button" id="ARK_button_pause"></div>
+            <div class="ARK_button" id="ARK_button_exit"></div>
+        </div>
+        <div id="cr-stage">
+            <div id="ARK_forceRender" style="position: absolute; z-index: 1000000; width: 1px; height: 1px; top: 1px; left: 1px; opacity: 0.001"></div>
+        </div>
+        <div class="ARK_intro">
+            <div id="ARK_intro_play" style="display: none">
+            </div>
+        </div>
+        <div id="ARK_popUp" class="" style="visibility:hidden;">
+            <div>
+                <span></span>
+                <div id="ARK_popUp_options">
+                    <div class="ARK_popUp_title">Options</div>
+                    <div class="ARK_popUp_options_volume" id="ARK_popUp_options_sound">
+                        <span>Sound</span>
+                        <input type="range" min="0" max="1" step="0.005" value="1" />
+                        <div></div>
+                    </div>
+                    <div class="ARK_popUp_options_volume" id="ARK_popUp_options_music">
+                        <span>Music</span>
+                        <input id="ARK_popUp_options_music_input" type="range" min="0" max="1" step="0.005" value="1" />
+                        <div class="ARK_active"></div>
+                    </div>
+                    <div class="ARK_popUp_options_fue">
+                        <span>Show tutorial at start</span>
+                        <div></div>
+                    </div>
+
+                    <!--<div>-->
+                    <!--</div>-->
+                    <div class="ARK_button_ok_purple"></div>
+                    <div class="ARK_button_cancel_green"></div>
+                </div>
+                <div id="ARK_popUp_levelDone">
+                    <table class="ARK_Score_Level_Done">
+                        <tr>
+                            <td style="text-align: right">S<span>CORE</span>: </td>
+                            <td style="text-align: left"><b>00</b></td>
+                        </tr>
+                    </table>
+                    <table class="ARK_Time_Level_Done">
+                        <tr>
+                            <td style="text-align: right">T<span>IME</span>: </td>
+                            <td style="text-align: left"><b>00</b></td>
+                        </tr>
+                    </table>
+                    <div class="ARK_Max_Combo">max match chain: <b>0</b></div>
+                    <div class="ARK_Max_Speed_Chain">max speed chain: <b>0</b></div>
+                    <div class="ARK_print">
+                        <div>LEVEL</div><b>1 / 9</b></div>
+                    <div class="ARK_button_next_purple"></div>
+                </div>
+                <div id="ARK_popUp_NoMoreMatches">
+                    <!-- Anna -->
+                    <div id="ARK_NoMoreMatchLoading">
+                    </div>
+                </div>
+                <div id="ARK_popUp_Pause">
+                    <div class="ARK_popUp_title">Pause</div>
+                    <div class="ARK_button_resume_purple"></div>
+                </div>
+                <div id="ARK_popUp_Quit">
+                    <div class="ARK_popUp_title">Quit</div>
+                    <div>
+                        Are you sure you want to quit?
+                    </div>
+                    <div class="ARK_button_yes"></div>
+                    <div class="ARK_button_no"></div>
+                </div>
+                <div id="ARK_popUp_Help">
+                    <div class="ARK_popUp_title">Help</div>
+                    <div id="ARK_picture"></div>
+                    <div id="ARK_text">
+                        <span>
+                        </span>
+                    </div>
+                    <div id="ARK_currentPage">1</div>
+                    <div id="ARK_countPages">/0</div>
+                    <div class="ARK_button_previous"></div>
+                    <div class="ARK_button_next"></div>
+                    <div class="ARK_popUp_options_fue">
+                        <span>Show tutorial at start</span>
+                        <div></div>
+                    </div>
+                    <!--<div class="ARK_button_ok_purple"></div>-->
+                    <div id="ARK_loader" style="display:none;">
+                        <div id="ARK_load"></div>
+                    </div>
+                </div>
+                <div id="ARK_popUp_YouWin">
+                    <div class="ARK_Total_Score">S<span>CORE</span>: <b>0</b></div>
+                    <div class="ARK_Time_Bonus">B<span>IME BONUS</span>: <b>0</b></div>
+                    <!--<div class="ARK_Max_Combo">M<span class="combos">AX</span> M<span class="combos">ATCH</span> C<span class="combos">HAIN</span>: <b>0</b></div>-->
+                    <!--<div class="ARK_Max_Speed_Chain">M<span class="combos">AX</span> S<span class="combos">PEED</span> C<span class="combos">HAIN</span>: <b>0</b></div>-->
+                    <div class="ARK_Max_Combo">max match chain: <b>0</b></div>
+                    <div class="ARK_Max_Speed_Chain">max speed chain: <b>0</b></div>
+                    <div class="ARK_button_ok_purple"></div>
+                </div>
+                <div id="ARK_popUp_TimesUp">
+                    <div class="ARK_Total_Score">S<span>CORE</span>: <b>0</b></div>
+                    <!--<div class="ARK_Max_Combo">M<span>AX MATCH CHAIN</span>: <b>0</b></div>-->
+                    <!--<div class="ARK_Max_Speed_Chain">M<span>AX SPEED CHAIN</span>: <b>0</b></div>-->
+                    <div class="ARK_Max_Combo">max match chain: <b>0</b></div>
+                    <div class="ARK_Max_Speed_Chain">max speed chain: <b>0</b></div>
+                    <div class="ARK_button_ok_purple"></div>
+                </div>
+            </div>
+        </div>
+        <!--<div id="reshuffleScreen" style="visibility: hidden; opacity: 0;">-->
+        <!--<img src="assets/images/HD_Reshuffling.png"/>-->
+        <!--</div>-->
+        <div id="swiffycontainer" class="visible"></div>
+        <table class="ARK_gameEnd" style="visibility: hidden; z-index: 100500;">
+            <tr>
+                <td>
+                    <h2>Good Job!</h2>
+                    <p>You Scored:</p>
+                    <h3 id="ARK_score">2501</h3><br />
+                    <div id="ARK_playAgain">Play<br />Again</div>
+                </td>
+            </tr>
+        </table>
+        <div id="arena_gamend_stub" style='position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; background-color: black; z-index: 100501; display:none;'>
+            <!--			<img style='position: absolute; top: 0px; left: 0px;' src='assets/images/animation/NoMoreMatchLoading.gif'/>-->
+        </div>
+        <div id="gameVersion" style="position: absolute; bottom: 10px; left: 5px; z-index: 100500; font-weight: bold; background: #FFFFFF; visibility: hidden; text-align: left">
+            <div><span>Commit version: </span><span>174961:191585
+</span></div>
+            <div><span>Commit time: </span><span>2013-10-23T14:15:25.969065Z</span></div>
+            <div><span>Build time: </span><span>09:14 13-Nov-2013</span></div>
+            <div><span>Branch: </span><span>v2.5</span></div>
+        </div>
+        <div id="gameVersionTouchHandler" style="position: absolute; bottom: 0px; left: 0px; z-index: 100501; width: 40px; height:20px;"></div>
+    </div>
+    <table id="ARK_lockIE" style="visibility: hidden;">
+        <tr>
+            <td>
+                <style>
+                    body {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    #ARK_lockIE {
+                        position: fixed;
+                        top: 0px;
+                        left: 0px;
+                        width: 100%;
+                        height: 100%;
+                        border-collapse: collapse;
+                        table-layout: fixed;
+                        z-index: 100000;
+                    }
+
+                    #ARK_lockIE td {
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        vertical-align: middle;
+                        font-family: arial;
+                        font-size: 25px;
+                        font-weight: bold;
+                        color: #333;
+                        background-color: #fff;
+                    }
+
+                    #swiffycontainer {
+                        display: none;
+                    }
+                </style>
+                Something went wrong!<br /> This content is not available in your browser.<br />
+                <br /> Please upgrade to the latest browser version to play this game.<br />
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        $(window).on('mousewheel', function(e) {
+            e.preventDefault();
+        });
+        var browserName = getBrowserName();
+        var browserVersion = getBrowserVersion();
+        if (browserName === 'msie' && browserVersion != 10 || browserName === 'firefox' && browserVersion < 16) {
+            $('#ARK_lockIE').css('visibility', 'visible');
+            $('#gameContainer').remove();
+        } else {
+            var _gaq = _gaq || [];
+            //			_gaq.push(['_setDomainName', 'none']);
+            $(document).ready(
+                function() {
+                    $('#ARK_lockIE').remove();
+                    initScreen(function(w, h, topOffset) {
+                        var options = getGameOptions();
+                        if (window.innerWidth === 790 && window.innerHeight === 518) {
+                            options.bigScreen.centerTwoWheels[0].y = 380;
+                            options.bigScreen.centerTwoWheels[1].y = 380;
+                            options.bigScreen.centerAlongWheel.y = 380;
+                        }
+                        var magicWheels = new game(options);
+                        magicWheels.init(w, h, topOffset);
+                    });
+                    if (browserName === 'msie') {
+                        $(document.body).addClass('ie10');
+                    }
+                }
+            );
+        }
+    </script>
+</body>
+
+</html>

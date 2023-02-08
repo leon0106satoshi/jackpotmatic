@@ -1,0 +1,130 @@
+html,body {overscroll-behavior: none;
+  background-color: black;
+  touch-action: none;
+  -ms-user-select: None;
+   -moz-user-select: None;
+   -webkit-user-select: None;
+   user-select: None;
+   color:white;
+  }
+  form {
+    width: 390px;
+    margin: 50px auto;
+    background: black;
+    padding: 35px 25px;
+    text-align: center;
+  
+    border-radius: 40px;
+  
+  }
+  
+  #password {
+    padding: 0 40px;
+    border-radius: 31px;
+    width: 350px;
+    margin: auto;
+    border: 1px solid rgb(228, 220, 220);
+    outline: none;
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 0 rgb(71, 71, 71);
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  
+  #password:focus {
+    outline: none;
+  }
+  
+  .pinButton {
+    border: none;
+    background: cornflowerblue;
+    box-shadow: -2px 3px 25px 5px #03a9f4;
+    font-size: 1.5em;
+    border-radius: 50%;
+    height: 60px;
+    font-weight: 550;
+    width: 60px;
+    color: white;
+    text-shadow: 0 0 0 rgb(102, 101, 101);
+    margin: 7px 20px;
+  }
+  .modal-header{
+    background-color: darkgrey;
+    border-radius: 20px !important;
+    border-bottom-left-radius:0 !important;
+    border-bottom-right-radius:0 !important;
+    border-bottom: 1px solid darkgrey !important;
+}
+
+.modal-content{
+   background-color: #464646; 
+   border-radius: 20px;
+   
+    
+}
+.modal{
+  color: white;
+}
+  .clear,
+  .enter {
+    font-size: 1em !important;
+  }
+  
+  .pinButton:hover {
+    box-shadow: -2px 3px 25px 5px #a7049c;
+  }
+  .pinButton:active {
+    background: #506ce8;
+    color: #fff;
+  }
+  .clear:hover {
+    box-shadow: #ff3c41 0 0 1px 1px;
+  }
+  .clear:active {
+    background: #ff3c41;
+    color: #fff;
+  }
+  .enter:hover {
+    box-shadow: #47cf73 0 0 1px 1px;
+  }
+  .enter:active {
+    background: #47cf73;
+    color: #fff;
+  }
+  
+
+  .vertical-center {
+    width: 100%;
+    position: absolute !important;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  
+  .rowdesing{
+      background: gray;
+      border-radius: 20px;
+  }
+  @font-face {
+      font-family: IntroScrip;
+      src: url("../media/IntroScriptDemo-Medium.otf") format("opentype");
+  }
+  
+  
+  .einstellungstitel{
+      font-size: 60px;
+      text-align: center;
+      font-family:IntroScrip;
+      color: #ffffff;
+      text-shadow: 0 0 7px #2196f3,
+      0 0 10px #2196f3,
+      0 0 21px #2196f3,
+      0 0 42px #2196f3,
+      0 0 9px #2196f3,
+      0 0 3px #2196f3,
+      0 0 0px #2196f3,
+      0 0 0px #2196f3;
+  }

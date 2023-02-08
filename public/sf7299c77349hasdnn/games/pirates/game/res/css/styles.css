@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c69c5;
+    background-image: url("pattern.png");
+    background-repeat: repeat;
+    overflow: hidden;
+}
+
+#rotate-device-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    background-size: auto
+}
+
+.rotate-device-image {
+    background: #26252e url('../img/rotate_device.png') no-repeat center center
+}

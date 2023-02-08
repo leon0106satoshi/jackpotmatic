@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <title>Einstellungen</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="./src/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/gif" href="./src/media/favicon.png">
+        <link rel="stylesheet" href="./src/css/option-style1.css">
+<meta name="google" value="notranslate">
+
+</head>
+<body>
+
+    <div class="jumbotron vertical-center positionrelativ">
+        <div class="container content">
+            <div class="row p-2 m-2 rowdesing rowdesingtitel">
+                <div class="col-4  d-flex justify-content-start">
+
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <h3 class="einstellungstitel">Einstellungen</h3>
+                </div>
+                <div class="col-4 d-flex justify-content-end">
+
+                </div>
+
+            </div>
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="fungame-time">Fun-Games zugelassene Spielzeit:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                     <select id="gametimelist" name="fungame-time">
+                        <option value="unbegrenzt">Unbegrenzt</option>
+                        <option value="2" selected>2 Min</option>
+                        <option value="4">4 Min</option>
+                        <option value="5">5 Min</option>
+                        <option value="10">10 Min</option>
+                        <option value="20">20 Min</option>
+                        <option value="30">30 Min</option>
+                      </select>
+                </div>
+
+            </div>
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="sprachen-option">Sprachen unten recht anzeigen?:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                     <select id="sprachenlist" name="sprachen-option">
+                        <option value="ja" selected>Ja</option>
+                        <option value="nein">Nein</option>
+                      </select>
+                </div>
+
+            </div>
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="pinton-option">Tasten Ton beim PIN eingabe?:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                     <select id="pintonlist" name="pinton-option">
+                        <option value="ja">Ja</option>
+                        <option value="nein" selected>Nein</option>
+                      </select>
+                </div>
+
+            </div>
+
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="style-option">Welcher Style möchten Sie haben?:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                     <select id="stylelist" name="style-option">
+                        <option value="style1" selected>Style 1</option>
+                        <option value="style2">Style 2</option>
+                      </select>
+                </div>
+
+            </div>
+
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="option-pin">Einstellungen Pin:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                  <input id="option-pin" value="333" size="5" maxlength="5">
+
+                  <button id="pin-tastatur" class="btn btn-primary option-pin-button">Pin Tastatur</button>
+                </div>
+            </div>
+
+            
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="leitung-pin">Leitung Pin:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                  <input id="leitung-pin" value="153" size="5" maxlength="5">
+              
+                  <button id="pin-tastatur" class="btn btn-primary leitung-pin-button">Pin Tastatur</button>
+                </div>
+            </div>
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label for="uberschrift">Überschrift:</label>
+                </div>
+                <div class="col-6 d-flex justify-content-start">
+                  <input id="uberschrift" value="Internet und fun Games: 60 Minuten - 2 Euro" size="40" maxlength="45">
+
+
+                </div>
+            </div>
+
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label>Auf Werkseinstellungen zurücksetzen?:</label>
+                  </div>
+                  <div class="col-6 d-flex justify-content-start">
+                    <input class="btn btn-primary" id="werkseinstellung" type="button" value="Werkseinstellung">
+                  </div>
+            </div>
+
+
+
+            <div class="row p-2 m-2 rowdesing">
+                <div class="col-6  d-flex justify-content-start">
+                    <label>Zum speichern bitte auf Speichern klicken:</label>
+                  </div>
+                  <div class="col-6 d-flex justify-content-start">
+                    <input class="btn btn-primary" id="saveoption" type="button" value="Speichern">
+                  </div>
+            </div>
+        </div>
+
+    
+    
+    
+    
+    </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" data-keyboard="false" data-backdrop="static"  role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Warnung</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p>Die neue Einstellungen wurden Erfolgreich gespeichert!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="pinModalCenter" tabindex="-1" data-keyboard="false" data-backdrop="static"  role="dialog" aria-labelledby="pinModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="leitung-pinModalLongTitle">Pin Tastatur</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        <div id="pinpad" class="GradientBorder">
+            <form >
+              <input type="text" id="password" size="5" maxlength="5" autocomplete = "none"  disabled/><br>
+              <input type="button" value="1" id="1" class="pinButton calc"/>
+              <input type="button" value="2" id="2" class="pinButton calc"/>
+              <input type="button" value="3" id="3" class="pinButton calc"/><br>
+              <input type="button" value="4" id="4" class="pinButton calc"/>
+              <input type="button" value="5" id="5" class="pinButton calc"/>
+              <input type="button" value="6" id="6" class="pinButton calc"/><br>
+              <input type="button" value="7" id="7" class="pinButton calc"/>
+              <input type="button" value="8" id="8" class="pinButton calc"/>
+              <input type="button" value="9" id="9" class="pinButton calc"/><br>
+              <input type="button" value="clear" id="clear" class="pinButton clear"/>
+              <input type="button" value="0" id="0 " class="pinButton calc"/>
+              <input type="button" value="enter" id="enter" class="pinButton enter"/>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script>
+
+(function($) {
+  $.fn.inputFilter = function(inputFilter) {
+    return this.on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
+      if (inputFilter(this.value)) {
+        this.oldValue = this.value;
+        this.oldSelectionStart = this.selectionStart;
+        this.oldSelectionEnd = this.selectionEnd;
+      } else if (this.hasOwnProperty("oldValue")) {
+        this.value = this.oldValue;
+        this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
+      } else {
+        this.value = "";
+      }
+    });
+  };
+}(jQuery));
+
+$("#option-pin").inputFilter(function(value) {
+  return /^-?\d*$/.test(value); });
+  $("#leitung-pin").inputFilter(function(value) {
+  return /^-?\d*$/.test(value); });
+
+    $("#saveoption").click(function (){
+      saveoption();
+       });
+
+
+function saveoption(){
+        
+        var gametime=$( "#gametimelist" ).val();
+        var sprachwert=$( "#sprachenlist" ).val();
+        var pintonwert=$( "#pintonlist" ).val();
+        var stylewert=$( "#stylelist" ).val();
+        var optionpin=$( "#option-pin" ).val();
+        var leitungpin=$( "#leitung-pin" ).val();
+        var uberschrift=$( "#uberschrift" ).val();
+
+        $.removeCookie('fungametime'); 
+        $.cookie('fungametime', gametime, { expires: 2000 });
+        //////////////
+        $.removeCookie('sprachenoption'); 
+        $.cookie('sprachenoption', sprachwert, { expires: 2000 });
+
+        //////////////
+        $.removeCookie('pinoption'); 
+        $.cookie('pinoption', pintonwert, { expires: 2000 });
+        //////////////
+        $.removeCookie('styleoption'); 
+        $.cookie('styleoption', stylewert, { expires: 2000 });
+
+        //////////////
+        $.removeCookie('option-pin'); 
+        $.cookie('option-pin', optionpin, { expires: 2000 });
+                //////////////
+        $.removeCookie('leitung-pin'); 
+        $.cookie('leitung-pin', leitungpin, { expires: 2000 });
+
+        $.removeCookie('uberschrift'); 
+        $.cookie('uberschrift', uberschrift, { expires: 2000 });
+
+
+
+        $('#exampleModalCenter').modal('show');
+        myvar = setTimeout(weiterleitungen, 2000);
+}
+
+function weiterleitungen(){
+  location.href = 'index.php';
+}
+
+// have cookie
+if (!!$.cookie('fungametime')){ 
+      $( "#gametimelist" ).val( $.cookie('fungametime'));
+}
+// have cookie
+if (!!$.cookie('sprachenoption')){ 
+      $( "#sprachenlist" ).val( $.cookie('sprachenoption'));
+}
+
+// have cookie
+if (!!$.cookie('pinoption')){ 
+      $( "#pintonlist" ).val( $.cookie('pinoption'));
+}
+if (!!$.cookie('styleoption')){ 
+      $( "#stylelist" ).val( $.cookie('styleoption'));
+}
+if (!!$.cookie('option-pin')){ 
+      $( "#option-pin" ).val( $.cookie('option-pin'));
+}
+if (!!$.cookie('leitung-pin')){ 
+      $( "#leitung-pin" ).val( $.cookie('leitung-pin'));
+}
+
+if (!!$.cookie('uberschrift')){ 
+      $( "#uberschrift" ).val( $.cookie('uberschrift'));
+}
+
+
+
+
+var gewahltefeld="";
+$('.option-pin-button').click( function () {
+  gewahltefeld="#option-pin";
+$('#pinModalCenter').modal('show');
+});
+
+$('.leitung-pin-button').click( function () {
+  gewahltefeld="#leitung-pin";
+$('#pinModalCenter').modal('show');
+});
+
+
+var zeichenzahler=0;
+const input_value = $("#password");
+  
+  //disable input from typing
+
+  $("#password").keypress(function () {
+    return false;
+  });
+
+  //add password
+  $(".calc").click(function () {
+    if(zeichenzahler!=5){
+    zeichenzahler=zeichenzahler+1;
+    let value = $(this).val();
+    field(value);
+    }
+  });
+  function field(value) {
+    input_value.val(input_value.val() + value);
+  }
+  $("#clear").click(function () {
+    zeichenzahler=0;
+    input_value.val("");
+  });
+
+
+  $("#enter").click(function () {
+   // alert("Your password " + input_value.val() + " added");
+
+   if(input_value.val()!=""){
+
+   $( gewahltefeld ).val(input_value.val());
+   }
+   input_value.val("");
+   zeichenzahler=0;
+   $('#pinModalCenter').modal('hide');
+
+ });
+
+
+
+ $('.close').click( function () {
+  input_value.val("");
+  zeichenzahler=0;
+});
+
+$('#werkseinstellung').click( function () {
+
+        $( "#gametimelist" ).val(2);
+        $( "#sprachenlist" ).val("ja");
+        $( "#pintonlist" ).val("nein");
+        $( "#stylelist" ).val("style1");
+        $( "#option-pin" ).val("333");
+        $( "#leitung-pin" ).val("153");
+        $( "#uberschrift" ).val("Internet und fun Games: 60 Minuten - 2 Euro");
+        saveoption();
+        location.reload();
+
+
+});
+
+</script>
+</html>

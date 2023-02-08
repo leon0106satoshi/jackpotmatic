@@ -1,0 +1,274 @@
+{
+    "frames": {
+        "Pagoda_110_1": {
+            "frame": {
+                "x": 0,
+                "y": 438,
+                "w": 158,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 158,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 158,
+                "h": 100
+            }
+        },
+        "Pagoda_110_1_L": {
+            "frame": {
+                "x": 168,
+                "y": 438,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Pagoda_180_1": {
+            "frame": {
+                "x": 270,
+                "y": 328,
+                "w": 258,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 258,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 258,
+                "h": 100
+            }
+        },
+        "Pagoda_180_1_L": {
+            "frame": {
+                "x": 538,
+                "y": 328,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Pagoda_20_1": {
+            "frame": {
+                "x": 728,
+                "y": 328,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Pagoda_20_1_L": {
+            "frame": {
+                "x": 718,
+                "y": 218,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Pagoda_260_1": {
+            "frame": {
+                "x": 378,
+                "y": 218,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Pagoda_260_1_L": {
+            "frame": {
+                "x": 0,
+                "y": 328,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Pagoda_260_2": {
+            "frame": {
+                "x": 0,
+                "y": 218,
+                "w": 368,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 368,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 368,
+                "h": 100
+            }
+        },
+        "Pagoda_60_1": {
+            "frame": {
+                "x": 288,
+                "y": 438,
+                "w": 106,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 106,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 106,
+                "h": 100
+            }
+        },
+        "Pagoda_60_1_L": {
+            "frame": {
+                "x": 648,
+                "y": 218,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Pagoda_Build": {
+            "frame": {
+                "x": 381,
+                "y": 0,
+                "w": 371,
+                "h": 208
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 371,
+                "h": 208
+            },
+            "sourceSize": {
+                "w": 371,
+                "h": 208
+            }
+        },
+        "Pagoda_Build_L": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 371,
+                "h": 208
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 371,
+                "h": 208
+            },
+            "sourceSize": {
+                "w": 371,
+                "h": 208
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "t_pagoda.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 752,
+            "h": 538
+        },
+        "scale": 1
+    }
+}

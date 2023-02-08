@@ -1,0 +1,30 @@
+{"frames": [
+
+{
+	"filename": "logo",
+	"frame": {"x":2,"y":2,"w":549,"h":267},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":549,"h":267},
+	"sourceSize": {"w":549,"h":267},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "spark",
+	"frame": {"x":2,"y":271,"w":33,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":33,"h":34},
+	"sourceSize": {"w":33,"h":34},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "MenuAtlas.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:12547ebdae055b61e1a62c3790f2b1e5:664f379eaa2d961a797d1fd5683101c0:262a33ad51ede7de06da37e3ff3667b2$"
+}
+}

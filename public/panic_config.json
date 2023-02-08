@@ -1,0 +1,16 @@
+{
+
+  "port":"6788",
+
+ "host":"vladimir.com",
+  "prefix":"https://",
+
+  "host_ws":"vladimir.com",
+  "prefix_ws":"wss://",
+
+  "ssl":true,
+
+  "privateKey":"server.key",
+  "certificate":"server.crt"
+
+}

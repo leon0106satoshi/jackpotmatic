@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "1-Mononieve.png.png",
+	"frame": {"x":2,"y":2,"w":41,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":38},
+	"sourceSize": {"w":41,"h":38}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "db_map_1.png",
+	"format": "RGBA8888",
+	"size": {"w":45,"h":42},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:eff5fad538b536b60853b4340b9b3f3f:aea14ad8d0370414568dbe5c13b8f293:7b5d0975ae4ef74fae49861e3289da9c$"
+}
+}

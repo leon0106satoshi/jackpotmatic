@@ -1,0 +1,534 @@
+{
+    "frames": {
+        "ballon": {
+            "frame": {
+                "x": 1104,
+                "y": 728,
+                "w": 92,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 108
+            }
+        },
+        "cloud_01": {
+            "frame": {
+                "x": 1104,
+                "y": 612,
+                "w": 204,
+                "h": 106
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 204,
+                "h": 106
+            },
+            "sourceSize": {
+                "w": 204,
+                "h": 106
+            }
+        },
+        "cloud_02": {
+            "frame": {
+                "x": 2026,
+                "y": 962,
+                "w": 172,
+                "h": 74
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 172,
+                "h": 74
+            },
+            "sourceSize": {
+                "w": 172,
+                "h": 74
+            }
+        },
+        "cloud_03": {
+            "frame": {
+                "x": 1328,
+                "y": 1046,
+                "w": 90,
+                "h": 42
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 42
+            }
+        },
+        "cloud_04": {
+            "frame": {
+                "x": 1818,
+                "y": 1436,
+                "w": 260,
+                "h": 84
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 84
+            }
+        },
+        "cloud_05": {
+            "frame": {
+                "x": 632,
+                "y": 0,
+                "w": 686,
+                "h": 456
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 686,
+                "h": 456
+            },
+            "sourceSize": {
+                "w": 686,
+                "h": 456
+            }
+        },
+        "cloud_effect_01": {
+            "frame": {
+                "x": 414,
+                "y": 1126,
+                "w": 480,
+                "h": 330
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 330
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 330
+            }
+        },
+        "cloud_effect_02": {
+            "frame": {
+                "x": 0,
+                "y": 612,
+                "w": 600,
+                "h": 504
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 600,
+                "h": 504
+            },
+            "sourceSize": {
+                "w": 600,
+                "h": 504
+            }
+        },
+        "meteor_01": {
+            "frame": {
+                "x": 2056,
+                "y": 842,
+                "w": 120,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 120,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 120,
+                "h": 108
+            }
+        },
+        "meteor_02": {
+            "frame": {
+                "x": 2026,
+                "y": 1046,
+                "w": 120,
+                "h": 92
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 120,
+                "h": 92
+            },
+            "sourceSize": {
+                "w": 120,
+                "h": 92
+            }
+        },
+        "plane": {
+            "frame": {
+                "x": 632,
+                "y": 466,
+                "w": 450,
+                "h": 84
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 450,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 450,
+                "h": 84
+            }
+        },
+        "planet_01": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 622,
+                "h": 602
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 622,
+                "h": 602
+            },
+            "sourceSize": {
+                "w": 622,
+                "h": 602
+            }
+        },
+        "planet_02": {
+            "frame": {
+                "x": 1818,
+                "y": 394,
+                "w": 328,
+                "h": 320
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 328,
+                "h": 320
+            },
+            "sourceSize": {
+                "w": 328,
+                "h": 320
+            }
+        },
+        "planet_03": {
+            "frame": {
+                "x": 1818,
+                "y": 724,
+                "w": 228,
+                "h": 228
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 228,
+                "h": 228
+            },
+            "sourceSize": {
+                "w": 228,
+                "h": 228
+            }
+        },
+        "planet_04": {
+            "frame": {
+                "x": 610,
+                "y": 612,
+                "w": 484,
+                "h": 468
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 484,
+                "h": 468
+            },
+            "sourceSize": {
+                "w": 484,
+                "h": 468
+            }
+        },
+        "planet_05": {
+            "frame": {
+                "x": 2032,
+                "y": 1170,
+                "w": 100,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 100,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 100,
+                "h": 100
+            }
+        },
+        "planet_06": {
+            "frame": {
+                "x": 1818,
+                "y": 0,
+                "w": 384,
+                "h": 384
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 384,
+                "h": 384
+            },
+            "sourceSize": {
+                "w": 384,
+                "h": 384
+            }
+        },
+        "planet_07": {
+            "frame": {
+                "x": 0,
+                "y": 1126,
+                "w": 404,
+                "h": 422
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 404,
+                "h": 422
+            },
+            "sourceSize": {
+                "w": 404,
+                "h": 422
+            }
+        },
+        "planet_08": {
+            "frame": {
+                "x": 1818,
+                "y": 962,
+                "w": 198,
+                "h": 198
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 198,
+                "h": 198
+            },
+            "sourceSize": {
+                "w": 198,
+                "h": 198
+            }
+        },
+        "rainbow_cut": {
+            "frame": {
+                "x": 1328,
+                "y": 0,
+                "w": 480,
+                "h": 546
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 546
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 546
+            }
+        },
+        "satellite": {
+            "frame": {
+                "x": 1818,
+                "y": 1170,
+                "w": 204,
+                "h": 142
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 204,
+                "h": 142
+            },
+            "sourceSize": {
+                "w": 204,
+                "h": 142
+            }
+        },
+        "star_01": {
+            "frame": {
+                "x": 2088,
+                "y": 1436,
+                "w": 78,
+                "h": 54
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 78,
+                "h": 54
+            },
+            "sourceSize": {
+                "w": 78,
+                "h": 54
+            }
+        },
+        "star_shine": {
+            "frame": {
+                "x": 2056,
+                "y": 724,
+                "w": 132,
+                "h": 108
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 132,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 132,
+                "h": 108
+            }
+        },
+        "stars": {
+            "frame": {
+                "x": 1328,
+                "y": 556,
+                "w": 480,
+                "h": 480
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 480
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 480
+            }
+        },
+        "zeppelin_01": {
+            "frame": {
+                "x": 2046,
+                "y": 1322,
+                "w": 112,
+                "h": 58
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 112,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 112,
+                "h": 58
+            }
+        },
+        "zeppelin_02": {
+            "frame": {
+                "x": 1818,
+                "y": 1322,
+                "w": 218,
+                "h": 104
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 218,
+                "h": 104
+            },
+            "sourceSize": {
+                "w": 218,
+                "h": 104
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "bgPart.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 2202,
+            "h": 1548
+        },
+        "scale": 1
+    }
+}

@@ -1,0 +1,274 @@
+{
+    "frames": {
+        "Piza_110_1": {
+            "frame": {
+                "x": 190,
+                "y": 434,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Piza_110_1_L": {
+            "frame": {
+                "x": 460,
+                "y": 324,
+                "w": 110,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 100
+            }
+        },
+        "Piza_180_1": {
+            "frame": {
+                "x": 0,
+                "y": 434,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Piza_180_1_L": {
+            "frame": {
+                "x": 270,
+                "y": 324,
+                "w": 180,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 180,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 180,
+                "h": 100
+            }
+        },
+        "Piza_20_1": {
+            "frame": {
+                "x": 380,
+                "y": 434,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Piza_20_1_L": {
+            "frame": {
+                "x": 580,
+                "y": 324,
+                "w": 20,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 100
+            }
+        },
+        "Piza_260_1": {
+            "frame": {
+                "x": 0,
+                "y": 214,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Piza_260_1_L": {
+            "frame": {
+                "x": 0,
+                "y": 324,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Piza_260_2": {
+            "frame": {
+                "x": 270,
+                "y": 214,
+                "w": 260,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 260,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 260,
+                "h": 100
+            }
+        },
+        "Piza_60_1": {
+            "frame": {
+                "x": 540,
+                "y": 214,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Piza_60_1_L": {
+            "frame": {
+                "x": 310,
+                "y": 434,
+                "w": 60,
+                "h": 100
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 100
+            }
+        },
+        "Piza_Build": {
+            "frame": {
+                "x": 315,
+                "y": 0,
+                "w": 305,
+                "h": 204
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 305,
+                "h": 204
+            },
+            "sourceSize": {
+                "w": 305,
+                "h": 204
+            }
+        },
+        "Piza_Build_L": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 305,
+                "h": 204
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 305,
+                "h": 204
+            },
+            "sourceSize": {
+                "w": 305,
+                "h": 204
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "t_piza.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 620,
+            "h": 534
+        },
+        "scale": 1
+    }
+}

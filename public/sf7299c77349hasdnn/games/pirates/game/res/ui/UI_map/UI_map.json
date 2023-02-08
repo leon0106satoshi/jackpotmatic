@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "ls_button_home.png",
+	"frame": {"x":162,"y":2,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "ls_button_home_press.png",
+	"frame": {"x":239,"y":2,"w":75,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":75},
+	"sourceSize": {"w":75,"h":75}
+},
+{
+	"filename": "ls_star.png",
+	"frame": {"x":316,"y":2,"w":55,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":54},
+	"sourceSize": {"w":55,"h":54}
+},
+{
+	"filename": "ls_star_counter.png",
+	"frame": {"x":2,"y":2,"w":158,"h":85},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":158,"h":85},
+	"sourceSize": {"w":158,"h":85}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "UI_map.png",
+	"format": "RGBA8888",
+	"size": {"w":373,"h":89},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c9f58fceab7c716c889392b35cebd8fc:562b4919f8a1c42b61c8c8202e946d8c:206b2df156d4e1c50f2d73b2db33155c$"
+}
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:5a26267a715841cbc477673eda76ef59:43b9b37116c87360c92f21f11f87c93a:dd56bfc491ea776cdadcd40047c9bbe2$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="MainAtlas2.png">
+    <SubTexture name="CoLine" x="788" y="497" width="22" height="466" frameX="0" frameY="-5" frameWidth="23" frameHeight="473"/>
+    <SubTexture name="grassScandy_4" x="812" y="957" width="98" height="26" frameX="0" frameY="-1" frameWidth="99" frameHeight="28"/>
+    <SubTexture name="island_hindu" x="716" y="136" width="235" height="130" frameX="-10" frameY="-15" frameWidth="262" frameHeight="157"/>
+    <SubTexture name="island_sakura" x="716" y="268" width="236" height="129" frameX="-10" frameY="-15" frameWidth="266" frameHeight="160"/>
+    <SubTexture name="lake_dr" x="393" y="830" width="393" height="169" frameX="-86" frameY="-34" frameWidth="537" frameHeight="220"/>
+    <SubTexture name="lake_hindu" x="2" y="416" width="710" height="412" frameX="-20" frameY="-52" frameWidth="748" frameHeight="524"/>
+    <SubTexture name="lake_sakura" x="2" y="2" width="712" height="412" frameX="-19" frameY="-52" frameWidth="751" frameHeight="527"/>
+    <SubTexture name="tart_L1_shade" x="2" y="830" width="389" height="192" frameX="0" frameY="0" frameWidth="394" frameHeight="195"/>
+    <SubTexture name="tart_L2_won_shade" x="716" y="2" width="304" height="132" frameX="0" frameY="0" frameWidth="306" frameHeight="133"/>
+    <SubTexture name="tart_head_won" x="716" y="399" width="222" height="96" frameX="0" frameY="0" frameWidth="224" frameHeight="97"/>
+    <SubTexture name="tree_skr_09" x="788" y="985" width="98" height="26" frameX="0" frameY="-1" frameWidth="99" frameHeight="28"/>
+    <SubTexture name="wrefl_0001" x="812" y="773" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0005" x="812" y="497" width="87" height="44"/>
+    <SubTexture name="wrefl_0009" x="812" y="543" width="87" height="44"/>
+    <SubTexture name="wrefl_0013" x="812" y="589" width="86" height="44" frameX="0" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0017" x="812" y="635" width="86" height="44" frameX="0" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0021" x="812" y="681" width="86" height="44" frameX="0" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0025" x="812" y="727" width="86" height="44" frameX="0" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0029" x="812" y="819" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0033" x="812" y="865" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0037" x="812" y="911" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0041" x="901" y="497" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0045" x="901" y="543" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+    <SubTexture name="wrefl_0049" x="900" y="589" width="85" height="44" frameX="-1" frameY="0" frameWidth="87" frameHeight="44"/>
+</TextureAtlas>

@@ -1,0 +1,3120 @@
+@-ms-viewport {
+    width: device-width;
+    initial-scale: 1.0;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 2565px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-color: #ffffff;
+    font-family: Papyrus;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*-webkit-backface-visibility:hidden;*/
+    -ms-touch-action: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.ARK_intro {
+    background-image: url('../images/SD_start_screen.jpg');
+    background-image: -webkit-image-set(url('../images/SD_start_screen.jpg') 1x, url('../images/HD_start_screen.jpg') 2x);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1010;
+    text-align: center;
+}
+
+.ARK_intro>div#ARK_intro_play {
+    background-image: url('../images/SD_button_start.png');
+    background-image: -webkit-image-set(url('../images/SD_button_start.png') 1x, url('../images/HD_button_start.png') 2x);
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    margin-left: -125px;
+    width: 266px;
+    height: 158px;
+    cursor: pointer;
+}
+
+.ARK_intro>div#ARK_intro_play:hover {
+    background-position: 0px -158px;
+}
+
+#gameContainer {
+    text-align: center;
+}
+
+#gameBackground {
+    background-image: url('../images/HD_BG.jpg');
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/************************** Reshuffle screen ****************************/
+
+@-webkit-keyframes ARK_hide_reshuffle {
+    0% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_hide_reshuffle {
+    0% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes ARK_show_reshuffle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+@keyframes ARK_show_reshuffle {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+.hideReshuffleScreen {
+    -webkit-animation: ARK_hide_reshuffle 0.2s ease-in 0s forwards;
+    animation: ARK_hide_reshuffle 0.2s ease-in 0s forwards;
+}
+
+.showReshuffleScreen {
+    -webkit-animation: ARK_show_reshuffle 0.1s ease-out 0s forwards;
+    animation: ARK_show_reshuffle 0.1s ease-out 0s forwards;
+}
+
+#reshuffleScreen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000000;
+    z-index: 100600;
+}
+
+#reshuffleScreen>img {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: -10%;
+}
+
+/************************** Reshuffle screen END ****************************/
+
+.ARK_logo {
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+}
+
+/* Game Loader */
+
+#ARK_gameLoader {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#ARK_gameLoader {
+    z-index: 100400;
+    background: url('../images/SD_LoadingBar.png');
+    top: 95%;
+    left: 50%;
+    margin: -67px 0px 0px -224px;
+    width: 448px;
+    height: 71px;
+}
+
+#ARK_gameLoader>div {
+    position: absolute;
+    width: 360px;
+}
+
+#ARK_gameLoader>div>div {
+    background: url('../images/SD_LoadingBarStrip.png');
+    height: 20px;
+    top: 80%;
+    left: 50%;
+    margin: 25px 0px 0px 44px;
+    float: left;
+}
+
+/* Anna + */
+
+#swiffycontainer {
+    background: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100500;
+    opacity: 1;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#swiffycontainer.visible {
+    opacity: 1;
+}
+
+/* Anna - */
+
+/* Game End */
+
+.ARK_gameEnd {
+    text-align: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background-color: #1f2e65;
+}
+
+.ARK_gameEnd>tbody>tr>td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.ARK_gameEnd>tbody>tr>td>h2 {
+    font-family: arial;
+    font-weight: bold;
+    color: #97cef9;
+    display: block;
+    margin: 0px;
+    padding: 0;
+    font-size: 60px;
+    text-shadow: 0px -1px 0px #3c3e42;
+}
+
+.ARK_gameEnd>tbody>tr>td>p {
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.ARK_gameEnd>tbody>tr>td>h3 {
+    display: inline-block;
+    margin: 10px 0px;
+    padding: 0px 50px;
+    background-color: #262626;
+    box-shadow: 0px 2px 10px -2px #000 inset, 0px 0px 2px 0px #70737b;
+    border-radius: 3px;
+    color: #fff;
+    font-family: arial;
+    font-size: 35px;
+    line-height: 42px;
+    height: 40px;
+}
+
+.ARK_gameEnd>tbody>tr>td>div {
+    display: inline-block;
+    margin: 5px;
+    padding: 2px 30px;
+    box-shadow: 0px 4px 10px -2px #1b1c20;
+    background-color: #3178ce;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#48b3fd', EndColorStr='#214eac')";
+    background: -ms-linear-gradient(top, #48b3fd, #214eac);
+    background: -moz-linear-gradient(top, #48b3fd, #214eac);
+    background: -webkit-linear-gradient(top, #48b3fd, #214eac);
+    background: linear-gradient(top, #48b3fd, #214eac);
+    border-radius: 4px;
+    font-family: arial;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ARK_selectTile {
+    background-color: #F3F3F3;
+    border-radius: 50px;
+    opacity: 0.4;
+}
+
+/*----------------------------------------------------------------------------------------------- Interface ----------*/
+
+.ARK_interface {
+    visibility: hidden;
+}
+
+.ARK_interface>div {
+    position: absolute;
+    z-index: 1001;
+}
+
+.ARK_interface #ARK_replace {
+    width: 134px;
+    height: 131px;
+    background: url('../images/SD_replace_btn.png');
+    background-image: -webkit-image-set(url('../images/SD_replace_btn.png') 1x, url('../images/HD_replace_btn.png') 2x);
+    top: 20%;
+    left: 50%;
+    margin: -72px 0 0 -72px;
+    cursor: pointer;
+}
+
+.ARK_interface #ARK_replace:hover {
+    background-position: 0px -131px;
+}
+
+.ARK_interface .ARK_button {
+    top: 53px;
+    width: 90px;
+    height: 64px;
+    z-index: 1002;
+    cursor: pointer;
+}
+
+.ARK_interface #ARK_button_help {
+    left: 0px;
+    background: url('../images/SD_Help.png');
+    background-image: -webkit-image-set(url('../images/SD_Help.png') 1x, url('../images/HD_Help.png') 2x);
+}
+
+.ARK_interface #ARK_button_sound {
+    z-index: 1002;
+    top: 53px;
+    width: 90px;
+    height: 64px;
+    left: 73px;
+    background: url('../images/SD_Sound.png');
+    background-image: -webkit-image-set(url('../images/SD_Sound.png') 1x, url('../images/HD_Sound.png') 2x);
+    cursor: pointer;
+}
+
+.ARK_interface #ARK_button_sound.ARK_sound_Off {
+    background-position: 0px -128px;
+}
+
+.ARK_interface #ARK_button_sound.ARK_sound_Off:hover {
+    background-position: 0px -192px;
+}
+
+.ARK_interface #ARK_button_options {
+    left: 73px;
+    background: url('../images/SD_Options.png');
+    background-image: -webkit-image-set(url('../images/SD_Options.png') 1x, url('../images/HD_Options.png') 2x);
+}
+
+.ARK_interface #ARK_button_pause {
+    right: 73px;
+    background: url('../images/SD_Pause.png');
+    background-image: -webkit-image-set(url('../images/SD_Pause.png') 1x, url('../images/HD_Pause.png') 2x);
+}
+
+.ARK_interface #ARK_button_exit {
+    right: 0px;
+    background: url('../images/SD_Exit.png');
+    background-image: -webkit-image-set(url('../images/SD_Exit.png') 1x, url('../images/HD_Exit.png') 2x);
+}
+
+.ARK_interface #ARK_button_help:hover {
+    background-position: 0px -64px;
+}
+
+.ARK_interface #ARK_button_options:hover {
+    background-position: 0px -64px;
+}
+
+.ARK_interface #ARK_button_sound:hover {
+    background-position: 0px -64px;
+}
+
+.ARK_interface #ARK_button_pause:hover {
+    background-position: 0px -64px;
+}
+
+.ARK_interface #ARK_button_exit:hover {
+    background-position: 0px -64px;
+}
+
+.ARK_interface .ARK_timer {
+    background: url('../images/SD_timer.png');
+    background-image: -webkit-image-set(url('../images/SD_timer.png') 1x, url('../images/HD_timer.png') 2x);
+    top: 0px;
+    width: 480px;
+    height: 86px;
+    position: absolute;
+}
+
+.ARK_interface .ARK_timer>div {
+    color: #ffea31;
+    font-size: 26px;
+    /*font-size: 30px;*/
+    font-weight: bold;
+    top: 22px;
+    /*top: 18px;*/
+    left: 32px;
+    /*left: 66px;*/
+    position: absolute;
+}
+
+.ARK_interface .ARK_timerBonus {
+    background: url('../images/SD_timerX.png');
+    background-image: -webkit-image-set(url('../images/SD_timerX.png') 1x, url('../images/HD_timerX.png') 2x);
+    top: 14px;
+    width: 91px;
+    height: 63px;
+    position: absolute;
+    color: #ffea31;
+    font-size: 30px;
+    font-weight: bold;
+    left: 250px
+}
+
+.ARK_interface .ARK_timerBonus>b {
+    color: #ffea31;
+    font-size: 24px;
+    font-weight: bold;
+    top: 14px;
+    left: 40px;
+    position: absolute;
+}
+
+.ARK_interface .ARK_timerBonus>div.ARK_bonusActive {
+    background: url('../images/SD_timerX.png');
+    background-image: -webkit-image-set(url('../images/SD_timerX.png') 1x, url('../images/HD_timerX.png') 2x);
+    background-position: 0px -63px;
+    width: 91px;
+    height: 63px;
+    position: absolute;
+    opacity: 0;
+}
+
+.ARK_bonusActive.ARK_bonusShow {
+    -webkit-animation: ARK_bonusShow 0.4s linear forwards;
+    animation: ARK_bonusShow 0.4s linear forwards;
+}
+
+@-webkit-keyframes ARK_bonusShow {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_bonusShow {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.ARK_bonusValueShow {
+    -webkit-animation: ARK_bonusValueShow 0.2s linear forwards;
+    animation: ARK_bonusValueShow 0.2s linear forwards;
+}
+
+@-webkit-keyframes ARK_bonusValueShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ARK_bonusValueShow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.ARK_interface .ARK_scoreBonus {
+    background: url('../images/SD_ScoreX.png');
+    background-image: -webkit-image-set(url('../images/SD_ScoreX.png') 1x, url('../images/HD_ScoreX.png') 2x);
+    top: 14px;
+    right: 242px;
+    width: 91px;
+    height: 63px;
+    color: #ffea31;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.ARK_interface .ARK_scoreBonus>b {
+    color: #ffea31;
+    font-size: 24px;
+    font-weight: bold;
+    top: 14px;
+    left: 43px;
+    position: absolute;
+}
+
+.ARK_interface .ARK_scoreBonus>div {
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 6px;
+    position: absolute;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.ARK_interface .ARK_scoreBonus>span.ARK_bonusActive {
+    background: url('../images/SD_ScoreX.png');
+    background-image: -webkit-image-set(url('../images/SD_ScoreX.png') 1x, url('../images/HD_ScoreX.png') 2x);
+    background-position: 0px -63px;
+    width: 91px;
+    height: 63px;
+    position: absolute;
+    opacity: 0;
+    left: 0px;
+}
+
+.ARK_interface .ARK_score {
+    background: url('../images/SD_Score.png');
+    background-image: -webkit-image-set(url('../images/SD_Score.png') 1x, url('../images/HD_Score.png') 2x);
+    top: 0px;
+    right: 0px;
+    width: 480px;
+    height: 86px;
+}
+
+.ARK_interface .ARK_score>div {
+    color: #ffea31;
+    font-size: 26px;
+    /*font-size: 30px;*/
+    font-weight: bold;
+    top: 22px;
+    /*top: 18px;*/
+    left: 249px;
+    /*left: 258px;*/
+    position: absolute;
+}
+
+.ARK_interface .ARK_test {
+    top: 0px;
+    width: 480px;
+    height: 86px;
+    color: #ffea31;
+    font-size: 30px;
+    font-weight: bold;
+    left: 258px;
+    position: absolute;
+    display: none;
+}
+
+.ARK_textShadow {
+    text-shadow: 0 0 10px #ffea31;
+    z-index: 1003;
+}
+
+.ARK_tile_match {
+    background: none !important;
+}
+
+.ARK_tile_match:before,
+.ARK_tile_match:after {
+    display: none !important;
+}
+
+.ARK_tile_match_animation {
+    position: absolute;
+    width: 98px;
+    height: 128px;
+    background: url('../images/animation/matchAnimation.png') no-repeat;
+    -webkit-animation: ARK_tile_match 1s steps(19);
+    animation: ARK_tile_match 1s steps(19);
+    top: -45px;
+    left: -17px;
+    -webkit-transforn: translateZ(0);
+}
+
+@-webkit-keyframes ARK_tile_match {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1862px;
+    }
+}
+
+@keyframes ARK_tile_match {
+    from {
+        background-position: 0px;
+    }
+    to {
+        background-position: -1862px;
+    }
+}
+
+.ARK_closeScreen {
+    position: absolute;
+    width: 8000%;
+    height: 8000%;
+    margin: -4000%;
+    background-color: #000000;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+#ARK_textFUE {
+    position: absolute;
+    bottom: 10px;
+    height: 260px;
+    z-index: 1003;
+    width: 1022px;
+    font-size: 25px;
+    text-align: center;
+    color: #8b4318;
+    background-image: url('../images/SD_Popup_fue.png');
+    background-image: -webkit-image-set(url('../images/SD_Popup_fue.png') 1x, url('../images/HD_Popup_fue.png') 2x);
+    cursor: default;
+}
+
+#ARK_textFUE>div#ARK_checkBoxOn>div {
+    cursor: pointer;
+    position: absolute;
+    background-image: url('../images/SD_check_box.png');
+    background-image: -webkit-image-set(url('../images/SD_check_box.png') 1x, url('../images/HD_check_box.png') 2x);
+    width: 40px;
+    height: 40px;
+}
+
+/*Anna*/
+
+#ARK_textFUE>div#ARK_textFUE_style {
+    top: 91px;
+}
+
+/*#ARK_textFUE > span{*/
+
+/*position: absolute;*/
+
+/*top: 27px;*/
+
+/*right: 68px;*/
+
+/*background: url(../images/SD_Button_Close.png);*/
+
+/*background: -webkit-image-set(url(../images/SD_Button_Close.png) 1x,*/
+
+/*url(../images/HD_Button_Close.png) 2x);*/
+
+/*width: 50px;*/
+
+/*height: 78px;*/
+
+/*z-index: 1;*/
+
+/*cursor: pointer;*/
+
+/*display: block;*/
+
+/*}*/
+
+/*#ARK_textFUE > span:hover{*/
+
+/*background-position: -50px 0px;*/
+
+/*}*/
+
+#ARK_textFUE>div#ARK_checkBoxOn>div.ARK_fue_on {
+    background-position: 0px 0px;
+}
+
+#ARK_textFUE>div#ARK_checkBoxOn>div.ARK_fue_off {
+    background-position: -40px 0px;
+}
+
+#ARK_textFUE>div#ARK_checkBoxOn {
+    z-index: 2;
+    top: 160px;
+    position: absolute;
+    left: 410px;
+    right: 333px;
+    text-align: center;
+}
+
+#ARK_skipTutorial {
+    position: absolute;
+    cursor: pointer;
+    background-image: url('../images/SD_Button_Skip_tutorial.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Skip_tutorial.png') 1x, url('../images/HD_Button_Skip_tutorial.png') 2x);
+    left: 160px;
+    height: 35px;
+    display: none;
+    width: 170px;
+    bottom: 53px;
+}
+
+#ARK_skipTutorial:hover {
+    background-position: 0px -35px;
+}
+
+#ARK_textFUE.ARK_skipTutorial>div#ARK_skipTutorial {
+    display: block;
+}
+
+#ARK_IKnow {
+    position: absolute;
+    cursor: pointer;
+    background-image: url('../images/SD_Button_Ok_Now_I_know_it.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Ok_Now_I_know_it.png') 1x, url('../images/HD_Button_Ok_Now_I_know_it.png') 2x);
+    left: 366px;
+    height: 100px;
+    display: none;
+    width: 294px;
+    bottom: -4px;
+}
+
+#ARK_IKnow:hover {
+    background-position: 0px -100px;
+}
+
+#ARK_textFUE.ARK_IKnow>div#ARK_IKnow {
+    display: block;
+}
+
+#ARK_textFUE.ARK_IKnow>span,
+#ARK_textFUE.ARK_buttonOK>span {
+    display: none;
+}
+
+#ARK_buttonOK {
+    position: absolute;
+    cursor: pointer;
+    display: none;
+    background-image: url('../images/SD_Button_Options_OK.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Options_OK.png') 1x, url('../images/HD_Button_Options_OK.png') 2x);
+    left: 412px;
+    height: 100px;
+    width: 200px;
+    bottom: -5px;
+}
+
+#ARK_buttonOK:hover {
+    background-position: 0px -100px;
+}
+
+#ARK_textFUE.ARK_buttonOK>div#ARK_buttonOK {
+    display: block;
+}
+
+#ARK_textFUE.ARK_buttonOK {
+    /* Anna then see skip tutorial*/
+    top: 30%;
+}
+
+.ARK_shadowFue {
+    border-radius: 50%;
+    box-shadow: 0 0 35px 13px #ffea31;
+}
+
+.ARK_shadowFueSelect {
+    border-radius: 50%;
+    box-shadow: 0 0 35px 15px #bdff31;
+}
+
+.ARK_button_ok_purple {
+    background-image: url('../images/SD_Button_Options_OK.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Options_OK.png') 1x, url('../images/HD_Button_Options_OK.png') 2x);
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.ARK_button_ok_purple:hover {
+    background-position: 0px -100px;
+}
+
+.ARK_button_next_purple {
+    background-image: url('../images/SD_Button_Next_Level.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Next_Level.png') 1x, url('../images/HD_Button_Next_Level.png') 2x);
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.ARK_button_next_purple:hover {
+    background-position: 0px -100px;
+}
+
+.ARK_button_yes {
+    background-image: url('../images/SD_Button_Exit_Yes.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Exit_Yes.png') 1x, url('../images/HD_Button_Exit_Yes.png') 2x);
+    width: 200px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.ARK_button_yes:hover {
+    background-position: 0px -110px;
+}
+
+.ARK_button_previous {
+    background-image: url('../images/SD_pointer_left.png');
+    background-image: -webkit-image-set(url('../images/SD_pointer_left.png') 1x, url('../images/HD_pointer_left.png') 2x);
+    width: 56px;
+    height: 65px;
+    cursor: pointer;
+    /*visibility: hidden;*/
+}
+
+.ARK_button_previous:hover {
+    background-position: 0px -65px;
+}
+
+.ARK_button_next {
+    background-image: url('../images/SD_pointer_right.png');
+    background-image: -webkit-image-set(url('../images/SD_pointer_right.png') 1x, url('../images/HD_pointer_right.png') 2x);
+    width: 56px;
+    height: 65px;
+    cursor: pointer;
+}
+
+.ARK_button_next:hover {
+    background-position: 0px -65px;
+}
+
+.ARK_button_resume_purple {
+    background-image: url('../images/SD_Button_Pause_Resume.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Pause_Resume.png') 1x, url('../images/HD_Button_Pause_Resume.png') 2x);
+    width: 230px;
+    height: 120px;
+    cursor: pointer;
+}
+
+.ARK_button_resume_purple:hover {
+    background-position: 0px -120px;
+}
+
+.ARK_button_cancel_green {
+    background-image: url('../images/SD_Button_Options_Cansel.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Options_Cansel.png') 1x, url('../images/HD_Button_Options_Cansel.png') 2x);
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.ARK_button_cancel_green:hover {
+    background-position: 0px -100px;
+}
+
+.ARK_button_no {
+    background-image: url('../images/SD_Button_Exit_No.png');
+    background-image: -webkit-image-set(url('../images/SD_Button_Exit_No.png') 1x, url('../images/HD_Button_Exit_No.png') 2x);
+    width: 200px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.ARK_button_no:hover {
+    background-position: 0px -110px;
+}
+
+/*----------------------------------------------------------------------------------------------- popUp --------------*/
+
+#ARK_popUp {
+    background-image: url('../images/popUp_BG.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-color: #000;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 10000;
+}
+
+#ARK_popUp>div>span {
+    position: absolute;
+    top: 187px;
+    right: 117px;
+    background: url(../images/SD_Button_Close.png);
+    background: -webkit-image-set(url(../images/SD_Button_Close.png) 1x, url(../images/HD_Button_Close.png) 2x);
+    width: 50px;
+    height: 78px;
+    z-index: 1;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#ARK_popUp>div>span:hover {
+    background-position: -50px 78px;
+}
+
+#ARK_popUp.ARK_popUp_Help>div>span {
+    visibility: visible;
+}
+
+#ARK_popUp>div {
+    background-image: url('../images/SD_popUp.png'), url('../images/SD_popUp_FG.jpg');
+    background-image: -webkit-image-set(url('../images/SD_popUp.png') 1x, url('../images/HD_popUp.png') 2x), -webkit-image-set(url('../images/SD_popUp_FG.jpg') 1x, url('../images/HD_popUp_FG.jpg') 2x);
+    background-repeat: no-repeat;
+    background-position: 0 0, 115px 176px;
+    width: 848px;
+    height: 768px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -384px 0px 0px -424px;
+    opacity: 0;
+}
+
+#ARK_popUp>div>div {
+    position: absolute;
+    width: 556px;
+    height: 376px;
+    top: 200px;
+    left: 150px;
+    visibility: hidden;
+}
+
+#ARK_popUp>div>div .ARK_popUp_title {
+    background-image: url('../images/SD_popUp_title_BG.png');
+    background-image: -webkit-image-set(url('../images/SD_popUp_title_BG.png') 1x, url('../images/HD_popUp_title_BG.png') 2x);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 89px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    overflow: visible;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: #94481a;
+}
+
+#ARK_popUp.ARK_popUp_show {
+    -webkit-animation: ARK_popUp_show 0.2s linear forwards;
+    animation: ARK_popUp_show 0.2s linear forwards;
+}
+
+#ARK_textFUE.ARK_popUp_show {
+    -webkit-animation: ARK_popUp_showDiv 0.2s linear forwards;
+    animation: ARK_popUp_showDiv 0.2s linear forwards;
+}
+
+@-webkit-keyframes ARK_popUp_show {
+    0% {
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes ARK_popUp_show {
+    0% {
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+#ARK_popUp.ARK_popUp_hide {
+    -webkit-animation: ARK_popUp_hide 0.2s 0.2s linear forwards;
+    animation: ARK_popUp_hide 0.2s 0.2s linear forwards;
+}
+
+#ARK_textFUE.ARK_popUp_hide {
+    -webkit-animation: ARK_popUp_hideFUE 0.2s linear forwards;
+    animation: ARK_popUp_hideFUE 0.2s linear forwards;
+}
+
+@-webkit-keyframes ARK_popUp_hideFUE {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_popUp_hideFUE {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes ARK_popUp_hide {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+    99% {
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        top: -10000px;
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_popUp_hide {
+    0% {
+        top: 0px;
+        opacity: 1;
+    }
+    99% {
+        top: 0px;
+        opacity: 0;
+    }
+    100% {
+        top: -10000px;
+        opacity: 0;
+    }
+}
+
+#ARK_popUp.ARK_popUp_show>div {
+    -webkit-animation: ARK_popUp_showDiv 0.2s 0.2s linear forwards;
+    animation: ARK_popUp_showDiv 0.2s 0.2s linear forwards;
+}
+
+@-webkit-keyframes ARK_popUp_showDiv {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ARK_popUp_showDiv {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#ARK_popUp.ARK_popUp_hide>div {
+    -webkit-animation: ARK_popUp_hideDiv 0.2s linear forwards;
+    animation: ARK_popUp_hideDiv 0.2s linear forwards;
+}
+
+@-webkit-keyframes ARK_popUp_hideDiv {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_popUp_hideDiv {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------- popUp Options ------*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type=range] {
+        -webkit-appearance: none;
+        background-color: transparent;
+        width: 228px;
+        height: 7px;
+        background-image: url(../images/SD_regulator.png);
+        background-image: -webkit-image-set(url(../images/SD_regulator.png) 1x, url(../images/HD_regulator.png) 2x);
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px -1px #a25d2c;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        background-image: url(../images/SD_runner.png);
+        background-image: -webkit-image-set(url(../images/SD_runner.png) 1x, url(../images/HD_runner.png) 2x);
+        background-color: transparent;
+        width: 16px;
+        height: 30px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0px 1px 5px -1px #774a10;
+    }
+    .ARK_interface .ARK_timer>div {
+        top: 29px;
+        font-size: 21px;
+        left: 79px;
+    }
+    .ARK_interface .ARK_score>div {
+        top: 29px;
+        font-size: 21px;
+    }
+}
+
+#ARK_popUp.ARK_popUp_options>div>div#ARK_popUp_options {
+    visibility: visible;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_button_ok_purple {
+    position: absolute;
+    bottom: -10px;
+    left: 75px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_button_cancel_green {
+    position: absolute;
+    bottom: -10px;
+    right: 75px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options #ARK_popUp_options_sound,
+#ARK_popUp>div>div#ARK_popUp_options #ARK_popUp_options_music,
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_fue,
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_feeback {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options #ARK_popUp_options_sound {
+    top: 100px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options #ARK_popUp_options_music {
+    top: 150px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_fue {
+    top: 205px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_feeback {
+    top: 245px;
+    margin-left: -41px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>span {
+    font-size: 30px;
+    width: 187px;
+    text-align: right;
+    float: left;
+    margin-right: 5px;
+    color: #94481a;
+    font-weight: bold;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>input {
+    float: left;
+    margin-top: 23px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>div {
+    background-image: url(../images/SD_check_box.png);
+    background-image: -webkit-image-set(url(../images/SD_check_box.png) 1x, url(../images/HD_check_box.png) 2x);
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>div.ARK_active {
+    background-position: -40px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>input.ARK_disable {
+    opacity: 0;
+    width: 0px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>input.ARK_active {
+    opacity: 1;
+    width: 228px;
+}
+
+.ARK_popUp_options_fue>span {
+    font-size: 24px;
+    width: 365px;
+    margin-left: 0px;
+    color: #94481a;
+    float: right;
+    text-align: left;
+}
+
+.ARK_popUp_options_feeback>span>a {
+    font-size: 24px;
+    width: 365px;
+    margin-left: 0px;
+    color: #94481a;
+    float: right;
+    text-align: left;
+    font-weight: bold;
+}
+
+.ARK_popUp_options_fue>div {
+    background-image: url(../images/SD_check_box.png);
+    background-image: -webkit-image-set(url(../images/SD_check_box.png) 1x, url(../images/HD_check_box.png) 2x);
+    width: 40px;
+    height: 40px;
+    /*margin-top: -40px;*/
+    margin-left: 147px;
+    float: left;
+    cursor: pointer;
+}
+
+.ARK_popUp_options_fue>div.ARK_active {
+    background-position: -40px;
+}
+
+/*----------------------------------------------------------------------------------------------- popUp Options ------*/
+
+#ARK_popUp.ARK_popUp_levelDone>div>div#ARK_popUp_levelDone {
+    visibility: visible;
+}
+
+#ARK_popUp.ARK_popUp_levelDone>div>div {
+    background-image: url(../images/SD_text_GreatJob.png);
+    background-image: -webkit-image-set(url(../images/SD_text_GreatJob.png) 1x, url(../images/HD_text_GreatJob.png) 2x);
+    background-repeat: no-repeat;
+    /*background-position: center -22px;*/
+    background-position: center 7px;
+    line-height: 205px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #94481a;
+}
+
+#ARK_popUp.ARK_popUp_levelDone>div>div>div {
+    top: 0px
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone>div.ARK_Score_Level_Done {
+    position: absolute;
+    top: 58px;
+    text-align: left;
+    width: 100%;
+    font-size: 43px;
+    font-weight: normal;
+    left: 116px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone>div.ARK_Time_Level_Done {
+    position: absolute;
+    top: 106px;
+    text-align: left;
+    width: 100%;
+    font-size: 43px;
+    font-weight: normal;
+    left: -123px;
+}
+
+table.ARK_Score_Level_Done {
+    /*Anna*/
+    /*line-height: 25px;*/
+    line-height: 17px;
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    text-align: left;
+    width: 100%;
+    font-size: 50px;
+    font-size: 43px;
+    font-weight: normal;
+    left: -21px;
+}
+
+table.ARK_Time_Level_Done {
+    /*Anna*/
+    line-height: 36px;
+    position: absolute;
+    top: 188px;
+    text-align: center;
+    text-align: left;
+    width: 100%;
+    font-size: 50px;
+    font-size: 43px;
+    font-weight: normal;
+    left: -21px;
+}
+
+table.ARK_Score_Level_Done
+/*> tbody > tr > td >*/
+
+span {
+    font-size: 27px;
+    width: 50%;
+}
+
+table.ARK_Time_Level_Done
+/*> tbody > tr > td >*/
+
+span {
+    font-size: 27px;
+    width: 50%;
+}
+
+table.ARK_Score_Level_Done>tbody>tr>td {
+    width: 50%;
+}
+
+table.ARK_Time_Level_Done>tbody>tr>td {
+    width: 50%;
+}
+
+/*----*/
+
+table.ARK_Score_Level_DoneNMM {
+    /*Anna*/
+    line-height: 25px;
+    position: absolute;
+    top: 213px;
+    text-align: center;
+    text-align: left;
+    width: 100%;
+    font-size: 50px;
+    font-size: 43px;
+    font-weight: normal;
+    left: -21px;
+}
+
+table.ARK_Time_Level_DoneNMM {
+    /*Anna*/
+    line-height: 36px;
+    position: absolute;
+    top: 251px;
+    text-align: center;
+    text-align: left;
+    width: 100%;
+    font-size: 50px;
+    font-size: 43px;
+    font-weight: normal;
+    left: -21px;
+}
+
+table.ARK_Score_Level_DoneNMM
+/*> tbody > tr > td >*/
+
+span {
+    font-size: 27px;
+    width: 50%;
+}
+
+table.ARK_Time_Level_DoneNMM
+/*> tbody > tr > td >*/
+
+span {
+    font-size: 27px;
+    width: 50%;
+}
+
+table.ARK_Score_Level_DoneNMM>tbody>tr>td {
+    width: 50%;
+}
+
+table.ARK_Time_Level_DoneNMM>tbody>tr>td {
+    width: 50%;
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone>div.ARK_Max_Combo {
+    position: absolute;
+    top: 164px;
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone>div.ARK_Max_Speed_Chain {
+    position: absolute;
+    top: 197px;
+    text-align: center;
+    width: 100%;
+    font-weight: normal;
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone .ARK_button_next_purple {
+    position: absolute;
+    top: 295px;
+    left: 177px;
+    /*visibility: hidden;*/
+    opacity: 0;
+    margin-top: 29px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone .ARK_print {
+    background-image: url(../images/SD_Printing.png);
+    background-image: -webkit-image-set(url(../images/SD_Printing.png) 1x, url(../images/HD_Printing.png) 2x);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 165px;
+    left: 415px;
+}
+
+.ARK_print>b {
+    line-height: 18px;
+    position: absolute;
+    width: 48px;
+    font-size: 16px;
+    /*font-size: 20px;*/
+    top: 59px;
+    /*left: 43px;*/
+    left: 40px;
+    color: #ffe7ae;
+}
+
+.ARK_print>div {
+    line-height: 18px;
+    position: absolute;
+    width: 48px;
+    /*font-size: 10px;*/
+    font-size: 13px;
+    top: 42px;
+    /*left: 43px;*/
+    left: 35px;
+    color: #ffe7ae;
+}
+
+/* Anna + */
+
+#ARK_popUp.ARK_popUp_NoMoreMatches>div>div#ARK_popUp_NoMoreMatches {
+    visibility: visible;
+}
+
+#ARK_popUp.ARK_popUp_NoMoreMatches>div>div {
+    background-image: url(../images/SD_Reshuffling.png);
+    background-image: -webkit-image-set(url(../images/SD_Reshuffling.png) 1x, url(../images/HD_Reshuffling.png) 2x);
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #94481a;
+}
+
+#ARK_popUp.ARK_popUp_NoMoreMatches>div>div>div {
+    top: 155px;
+    position: absolute;
+    left: 18%;
+}
+
+#ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div.ARK_Score_Level_Done {
+    position: absolute;
+    top: 206px;
+    left: 135px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div.ARK_Time_Level_Done {
+    position: absolute;
+    top: 261px;
+    left: 120px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#ARK_popUp>div>div#ARK_popUp_NoMoreMatches .ARK_button_next_purple {
+    position: absolute;
+    bottom: -78px;
+    left: 177px;
+    opacity: 0;
+}
+
+#ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+    background: url(../images/animation/NoMoreMatchLoading.gif);
+    background-size: 60% 60%;
+    width: 228px;
+    height: 228px;
+    background-repeat: no-repeat;
+    top: 213px;
+    left: 198px;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+/* Anna - */
+
+#ARK_popUp.ARK_popUp_TimesUp>div>div#ARK_popUp_TimesUp {
+    visibility: visible;
+}
+
+#ARK_popUp.ARK_popUp_TimesUp>div>div {
+    background-image: url(../images/SD_TimesUp.png);
+    background-image: -webkit-image-set(url(../images/SD_TimesUp.png) 1x, url(../images/HD_TimesUp.png) 2x);
+    background-repeat: no-repeat;
+    background-position: center -30px;
+    line-height: 374px;
+    /*font-size: 40px;*/
+    font-size: 43px;
+    font-weight: bold;
+    color: #94481a;
+    top: 237px;
+}
+
+/*#ARK_popUp > div > div#ARK_popUp_TimesUp > div.ARK_Total_Score { */
+
+/* Anna */
+
+/*position: absolute;*/
+
+/*top: 60px;*/
+
+/*left: 122px;*/
+
+/*text-align: left;*/
+
+/*width: 100%;*/
+
+/*font-size: 43px;*/
+
+/*}*/
+
+#ARK_popUp>div>div#ARK_popUp_TimesUp .ARK_button_ok_purple {
+    position: absolute;
+    top: 295px;
+    left: 177px;
+    opacity: 0;
+}
+
+#ARK_popUp>div>div#ARK_popUp_TimesUp>div.ARK_Max_Combo {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    /*font-weight: normal;*/
+    font-weight: bold;
+}
+
+#ARK_popUp>div>div#ARK_popUp_TimesUp>div.ARK_Max_Speed_Chain {
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/**************** You Win popup ********************/
+
+@-webkit-keyframes ARK_hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_hide {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes ARK_show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ARK_show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hideTimeBonus {
+    -webkit-animation: ARK_hide 1s linear 0s forwards;
+    animation: ARK_hide 1s linear 0s forwards;
+}
+
+.showCombos {
+    -webkit-animation: ARK_show 1s linear 1s forwards;
+    animation: ARK_show 1s linear 1s forwards;
+}
+
+#ARK_popUp.ARK_popUp_YouWin>div>div#ARK_popUp_YouWin {
+    visibility: visible;
+}
+
+#ARK_popUp.ARK_popUp_YouWin>div>div {
+    background-image: url(../images/SD_YouWin.png);
+    background-image: -webkit-image-set(url(../images/SD_YouWin.png) 1x, url(../images/HD_YouWin.png) 2x);
+    background-repeat: no-repeat;
+    background-position: center -30px;
+    line-height: 242px;
+    font-size: 38px;
+    font-weight: bold;
+    color: #94481a;
+    top: 240px;
+    left: 155px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div.ARK_Total_Score {
+    position: absolute;
+    top: 60px;
+    left: 122px;
+    text-align: left;
+    width: 100%;
+    font-size: 43px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div.ARK_Time_Bonus {
+    position: absolute;
+    /*top:120px;*/
+    top: 112px;
+    left: 67px;
+    text-align: left;
+    width: 100%;
+    font-size: 43px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div>span {
+    font-size: 27px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_TimesUp>div>span {
+    /*Anna*/
+    font-size: 27px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_levelDone>div>span {
+    /*Anna*/
+    font-size: 27px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div.ARK_Max_Combo {
+    position: absolute;
+    top: 117px;
+    text-align: center;
+    width: 100%;
+    font-size: 27px;
+    opacity: 0;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div.ARK_Max_Speed_Chain {
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    width: 100%;
+    font-size: 27px;
+    opacity: 0;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div>span.combos {
+    font-size: 17px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_YouWin>div.ARK_button_ok_purple {
+    position: absolute;
+    top: 295px;
+    left: 177px;
+    opacity: 0;
+}
+
+/*************** END Of YouWin popup *****************/
+
+#ARK_popUp.ARK_popUp_YouLose>div>div#ARK_popUp_YouLose {
+    visibility: visible;
+}
+
+#ARK_popUp.ARK_popUp_YouLose>div>div {
+    background-image: url(../images/SD_TimesUp.png);
+    background-image: -webkit-image-set(url(../images/SD_TimesUp.png) 1x, url(../images/HD_TimesUp.png) 2x);
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    line-height: 430px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #94481a;
+}
+
+.ARK_button_next_purple.ARK_showButton {
+    -webkit-animation: ARK_showButton 0.5s linear forwards;
+    animation: ARK_showButton 0.5s linear forwards;
+}
+
+.ARK_button_ok_purple.ARK_showButton {
+    -webkit-animation: ARK_showButton 0.5s linear forwards;
+    animation: ARK_showButton 0.5s linear forwards;
+}
+
+@-webkit-keyframes ARK_showButton {
+    0% {
+        top: 320px;
+        opacity: 0;
+    }
+    100% {
+        top: 295px;
+        opacity: 1;
+    }
+}
+
+@keyframes ARK_showButton {
+    0% {
+        top: 320px;
+        opacity: 0;
+    }
+    100% {
+        top: 295px;
+        opacity: 1;
+    }
+}
+
+#ARK_loader {
+    width: 89px;
+    height: 88px;
+    position: absolute;
+    right: -177px;
+    bottom: -140px;
+}
+
+#ARK_load {
+    background-image: url(../images/SD_Load.png);
+    background-image: -webkit-image-set(url(../images/SD_Load.png) 1x, url(../images/HD_Load.png) 2x);
+    width: 89px;
+    height: 88px;
+}
+
+#ARK_popUp.ARK_popUp_Pause>div>div#ARK_popUp_Pause {
+    visibility: visible;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Pause .ARK_button_resume_purple {
+    position: absolute;
+    bottom: 72px;
+    left: 161px;
+}
+
+#ARK_popUp.ARK_popUp_Quit>div>div#ARK_popUp_Quit {
+    visibility: visible;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Quit .ARK_button_yes {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Quit .ARK_button_no {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+#ARK_popUp.ARK_popUp_Quit>div>div {
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    line-height: 350px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #94481a;
+}
+
+#ARK_popUp.ARK_popUp_Help>div>div#ARK_popUp_Help {
+    visibility: visible;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help>#ARK_picture {
+    background-image: url(../images/SD_Help_pictures.png);
+    background-image: -webkit-image-set(url(../images/SD_Help_pictures.png) 1x, url(../images/HD_Help_pictures.png) 2x);
+    bottom: 75px;
+    position: absolute;
+    right: 265px;
+    width: 280px;
+    height: 220px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help>.ARK_popUp_options_fue {
+    position: absolute;
+    width: 100%;
+    line-height: 45px;
+    font-weight: normal;
+    bottom: -3px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help>#ARK_text {
+    bottom: 105px;
+    position: absolute;
+    right: 20px;
+    width: 250px;
+    height: 160px;
+    line-height: 30px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help>#ARK_text>span {
+    position: absolute;
+    /*left: 0;*/
+    /*width: 250px;*/
+    height: 160px;
+    /*line-height: 30px;*/
+    font-size: 22px;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ARK_Page1 {
+    background-position: 0px 0px;
+}
+
+.ARK_Page2 {
+    background-position: 0px -220px;
+}
+
+.ARK_Page3 {
+    background-position: 0px -440px;
+}
+
+.ARK_Page4 {
+    background-position: 0px -660px;
+}
+
+.ARK_Page5 {
+    background-position: 0px -880px;
+}
+
+.ARK_Page6 {
+    background-position: 0px -1100px;
+}
+
+.ARK_Page7 {
+    background-position: 0px -1320px;
+}
+
+.ARK_Page8 {
+    background-position: 0px -1540px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help>#ARK_currentPage {
+    bottom: -108px;
+    position: absolute;
+    right: 290px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help>#ARK_countPages {
+    bottom: -108px;
+    position: absolute;
+    right: 246px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help .ARK_button_ok_purple {
+    position: absolute;
+    bottom: -78px;
+    left: 177px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help .ARK_button_next {
+    position: absolute;
+    bottom: 35px;
+    right: 175px;
+}
+
+#ARK_popUp>div>div#ARK_popUp_Help .ARK_button_previous {
+    position: absolute;
+    bottom: 35px;
+    left: 177px;
+}
+
+.ARK_deactiv {
+    visibility: hidden;
+}
+
+.ARK_activ {
+    visibility: visible;
+}
+
+#ARK_popUp.ARK_popUp_Help>div>div {
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    line-height: 350px;
+    font-size: 34px;
+    font-weight: bold;
+    color: #94481a;
+}
+
+input[type="range"]::-ms-track {
+    color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower {
+    display: block;
+    background-color: #94481a;
+}
+
+input[type=range]::-ms-tooltip {
+    display: none;
+}
+
+input[type="range"]::-ms-thumb {
+    display: block;
+    background-color: #6b3513;
+}
+
+.ie10>#gameContainer>#ARK_popUp>div>div#ARK_popUp_options .ARK_popUp_options_volume>input {
+    float: left;
+    margin-top: 0px;
+}
+
+.ARK_positionPoint {
+    -webkit-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    top: 0%;
+    left: 100%;
+    ;
+}
+
+/*.ARK_positionPoint > b{*/
+
+/*position: absolute;*/
+
+/*font-size: 7px;*/
+
+/*color: #ffea31;*/
+
+/*left: -50px;*/
+
+/*top: 73px;*/
+
+/*}*/
+
+.ARK_positionPointRotate {
+    /*-webkit-transform-origin: 87px -25px;*/
+    /*transform-origin: 87px -25px;*/
+    -webkit-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    /*top: 50%;*/
+    /*left: 50%;*/
+    top: 0%;
+    left: 25%;
+}
+
+#ARK_pointFUE {
+    background-image: url('../images/SD_arrow.png');
+    background-image: -webkit-image-set(url('../images/SD_arrow.png') 1x, url('../images/HD_arrow.png') 2x);
+    width: 136px;
+    height: 75px;
+    position: absolute;
+    top: -37px;
+    left: -113px;
+    -webkit-transform-origin: 114px 38px;
+    transform-origin: 114px 38px;
+}
+
+#ARK_pointFUE.ARK_pointFUE {
+    -webkit-animation: ARK_pointFUE 2s infinite normal ease-out;
+    animation: ARK_pointFUE 2s infinite normal ease-out;
+}
+
+@-webkit-keyframes ARK_pointFUE {
+    0% {
+        left: -163px;
+        opacity: 0;
+    }
+    /*10% {*/
+    /*right: 60%;*/
+    /*opacity: 0.25;*/
+    /*}*/
+    /*20% {*/
+    /*right:40%;*/
+    /*opacity: 0.5;*/
+    /*}*/
+    /*30% {*/
+    /*right:20%;*/
+    /*opacity: 0.75;*/
+    /*}*/
+    40% {
+        left: -113px;
+        opacity: 1;
+    }
+    90% {
+        left: -113px;
+        opacity: 1;
+    }
+    100% {
+        left: -113px;
+        opacity: 0;
+    }
+}
+
+@keyframes ARK_pointFUE {
+    0% {
+        left: -163px;
+        opacity: 0;
+    }
+    /*10% {*/
+    /*right: 60%;*/
+    /*opacity: 0.25;*/
+    /*}*/
+    /*20% {*/
+    /*right:40%;*/
+    /*opacity: 0.5;*/
+    /*}*/
+    /*30% {*/
+    /*right:20%;*/
+    /*opacity: 0.75;*/
+    /*}*/
+    40% {
+        left: -113px;
+        opacity: 1;
+    }
+    90% {
+        left: -113px;
+        opacity: 1;
+    }
+    100% {
+        left: -113px;
+        opacity: 0;
+    }
+}
+
+/*----------------------------------------------------------------------------------------------------- @media -------*/
+
+@media only screen and (min-width: 480px) and (max-width: 567px) {
+    /*iPhone Landscape Full Screen*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: 0;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 0;
+        /*margin-top: 10px;*/
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+        bottom: -73px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 90px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 88px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timer {
+        left: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_score {
+        right: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_test {
+        left: 5px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_button {
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -18px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 18px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 18px;
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 18px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -18px;
+    }
+    /* Anna */
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 50px 23px;*/
+        /*transform-origin: 50px 23px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    element.style {}
+    /*
+    #ARK_popUp > div > div#ARK_popUp_Quit .ARK_button_yes {
+        position: absolute;
+        bottom: 0;         ***
+        left: 50px;
+    }
+    #ARK_popUp > div > div#ARK_popUp_Quit .ARK_button_no{
+        position: absolute;
+        bottom: 0;         ***
+        right: 50px;
+    }
+    #ARK_popUp > div > div .ARK_popUp_title{
+        background-image: url('../images/SD_popUp_title_BG.png');
+        background-image: -webkit-image-set(url('../images/SD_popUp_title_BG.png') 1x,
+        url('../images/HD_popUp_title_BG.png') 2x);
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 89px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        overflow: visible;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 90px;
+        text-transform: uppercase;
+        color: #94481a;
+    }   */
+    /*Anna*/
+    #ARK_textFUE>div#ARK_textFUE_style {
+        top: 100px;
+    }
+    .ARK_interface .ARK_timer>div {
+        top: 29px;
+        font-size: 21px;
+    }
+    .ARK_interface .ARK_score>div {
+        top: 29px;
+        font-size: 21px;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 602px) {
+    /*iPhone 5 Landscape Full Screen*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: 0;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 0;
+        /*margin-top: 10px;*/
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.55);
+        transform: scale(0.55);
+        bottom: -66px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface .ARK_timer {
+        left: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 90px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 88px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_score {
+        right: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_test {
+        left: 5px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_button {
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -18px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 18px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 18px;
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 18px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -18px;
+    }
+    /* Anna */
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 50px 23px;*/
+        /*transform-origin: 50px 23px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    #ARK_textFUE.ARK_popUp_show {
+        background-size: 100% 80%;
+        background-position-y: 49px;
+        background-repeat: no-repeat;
+        top: 74px;
+    }
+    #ARK_textFUE>div#ARK_textFUE_style {
+        top: 111px;
+    }
+    /*.ARK_interface .ARK_scoreBonus > span.ARK_bonusActive{
+        background-image:  -webkit-image-set(url('../images/SD_ScoreX.png') 1x,
+        url('../images/SD_ScoreX.png') 1x);
+    }*/
+}
+
+@media only screen and (width: 568px) and (height: 320px) {
+    /*Anna*/
+    /*its full screen = iPhone 5 Landscape Full Screen*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: 0;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 0;
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.55);
+        transform: scale(0.55);
+        bottom: -66px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface .ARK_timer {
+        left: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 90px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 88px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_score {
+        right: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_test {
+        left: 5px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_button {
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -18px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 18px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 18px;
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 18px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -18px;
+    }
+    /* Anna */
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 50px 23px;*/
+        /*transform-origin: 50px 23px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    #ARK_textFUE.ARK_popUp_show {
+        background-size: 100% 80%;
+        background-position-y: 79px;
+        background-repeat: no-repeat;
+        top: 74px;
+        height: 320px;
+    }
+    #ARK_textFUE>div#ARK_textFUE_style {
+        top: 146px;
+    }
+    #ARK_skipTutorial {
+        bottom: 39px;
+    }
+    #ARK_pointFUE {
+        width: 156px;
+        height: 52px;
+    }
+}
+
+@media only screen and (min-width: 962px) and (max-width: 979px) {
+    /*Nexus 7 Landscape*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: 0;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 0;
+        /*margin-top: 10px;*/
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: -35px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.65);
+        transform: scale(0.65);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.65);
+        transform: scale(0.65);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 165px;
+        top: -8px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 158px;
+        top: -8px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timer {
+        left: -70px;
+        top: -20px;
+    }
+    .ARK_interface .ARK_score {
+        right: -70px;
+        top: -20px;
+    }
+    .ARK_interface .ARK_test {
+        left: 220px;
+        top: -10px;
+    }
+    .ARK_interface .ARK_button {
+        top: 25px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -18px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 45px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 45px;
+        top: 25px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 45px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -18px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 49px 14px;*/
+        /*transform-origin: 49px 14px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPoint {
+        /* Anna */
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+    /*Samsung S3 Landscape*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: 0;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 0;
+        /*margin-top: 10px;*/
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        bottom: -66px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.45);
+        transform: scale(0.45);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+    .ARK_interface .ARK_timer {
+        left: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_score {
+        right: -130px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_test {
+        left: 5px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 94px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 88px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 20px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 20px;
+    }
+    .ARK_interface .ARK_timer>div {
+        top: 29px;
+        font-size: 21px;
+        left: 79px;
+    }
+    .ARK_interface .ARK_score>div {
+        top: 29px;
+        font-size: 21px;
+    }
+    .ARK_interface .ARK_button {
+        top: 10px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -18px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 22px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 22px;
+        top: 10px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 22px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -18px;
+    }
+    /*Anna*/
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 54px 21px;*/
+        /*transform-origin: 54px 21px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        /* bottom: -125px;
+        left: 136px; */
+    }
+    /*.ARK_interface .ARK_scoreBonus > span.ARK_bonusActive{
+        background-image:  -webkit-image-set(url('../images/SD_ScoreX.png') 1x,
+        url('../images/SD_ScoreX.png') 1x);
+    }*/
+}
+
+@media (width: 640px) and (height: 480px) {
+    /*Arena*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        bottom: 0;
+    }
+    #gameBackground {
+        background-image: url('../images/640x480_BG.jpg');
+    }
+    .ARK_interface .ARK_button {
+        width: 54px;
+        height: 38px;
+        top: 60px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -5px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 38px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 38px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 38px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -5px;
+    }
+    .ARK_interface #ARK_button_help {
+        background: url('../images/640x480_Help.png');
+    }
+    .ARK_interface #ARK_button_sound {
+        background: url('../images/640x480_Sound.png');
+    }
+    .ARK_interface #ARK_button_sound.ARK_sound_Off {
+        background-position: 0px -128px;
+    }
+    .ARK_interface #ARK_button_sound.ARK_sound_Off:hover {
+        background-position: 0px -192px;
+    }
+    .ARK_interface #ARK_button_options {
+        background: url('../images/640x480_Options.png');
+    }
+    .ARK_interface #ARK_button_pause {
+        background: url('../images/640x480_Pause.png');
+    }
+    .ARK_interface #ARK_button_exit {
+        background: url('../images/640x480_Exit.png');
+    }
+    .ARK_interface #ARK_button_help:hover {
+        background-position: 0px -38px;
+    }
+    .ARK_interface #ARK_button_options:hover {
+        background-position: 0px -38px;
+    }
+    .ARK_interface #ARK_button_sound:hover {
+        background-position: 0px -38px;
+    }
+    .ARK_interface #ARK_button_pause:hover {
+        background-position: 0px -38px;
+    }
+    .ARK_interface #ARK_button_exit:hover {
+        background-position: 0px -38px;
+    }
+    .ARK_popUp_options_fue>span {
+        font-weight: bold;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 24%;
+        left: 53%;
+        background-size: 65%;
+        background-repeat: no-repeat no-repeat;
+        background-position: 21px 63px;
+        position: fixed;
+    }
+    .ARK_intro>div#ARK_intro_play:hover {
+        background-position: 21px -118px;
+        height: 79px;
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.64);
+        transform: scale(0.64);
+        bottom: -26px;
+        left: 2px;
+        font-weight: bold;
+    }
+    #ARK_skipTutorial {
+        left: 141px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    .ARK_interface .ARK_timer {
+        top: 0px;
+        left: -31px;
+    }
+    .ARK_interface .ARK_score {
+        top: 0px;
+        right: -23px;
+    }
+    .ARK_interface .ARK_test {}
+    .ARK_interface .ARK_timerBonus {
+        top: 14px;
+        left: 212px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        top: 14px;
+        right: 209px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 14px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 14px;
+    }
+    .ARK_interface .ARK_timer>div {
+        font-size: 25px;
+        top: 23px;
+        left: 38px;
+    }
+    .ARK_interface .ARK_score>div {
+        top: 23px;
+        font-size: 25px;
+        left: 254px;
+    }
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    #ARK_textFUE>div#ARK_textFUE_style {
+        font-size: 32px;
+        top: 72px;
+    }
+}
+
+@media (width: 790px) and (height: 518px) {
+    /*Arena*/
+    .ARK_interface>div {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 24%;
+        left: 53%;
+        background-size: 65%;
+        background-repeat: no-repeat no-repeat;
+        background-position: 21px 63px;
+        position: fixed;
+    }
+    .ARK_intro>div#ARK_intro_play:hover {
+        background-position: 21px -118px;
+        height: 79px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.77);
+        transform: scale(0.77);
+        bottom: -26px;
+        left: 2px;
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-device-height: 600px) and (min-width: 981px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /*Samsung tab Landscape*/
+    #ARK_textFUE {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: -36px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.6);
+        transform: scale(0.6);
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 20px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 20px;
+    }
+    .ARK_interface .ARK_timer>div {
+        top: 29px;
+    }
+    .ARK_interface .ARK_score>div {
+        top: 29px;
+    }
+    /*Anna*/
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 54px 21px;*/
+        /*transform-origin: 54px 21px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        /* bottom: -125px;
+         left: 136px; */
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 5%;
+    }
+}
+
+@media only screen and (width: 760px) and (height: 540px) {
+    /*GDG*/
+    #ARK_gameLoader {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        bottom: 0;
+    }
+    .ARK_intro>div#ARK_intro_play {
+        bottom: 0;
+        /*margin-top: 10px;*/
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+        bottom: -35px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.73);
+        transform: scale(0.73);
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.73);
+        transform: scale(0.73);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    .ARK_interface .ARK_timer {
+        left: -55px;
+        top: -20px;
+    }
+    .ARK_interface .ARK_score {
+        right: -47px;
+        top: -20px;
+    }
+    .ARK_interface .ARK_test {
+        left: 153px;
+        top: -3px;
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 184px;
+        top: -6px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 186px;
+        top: -6px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 20px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 20px;
+    }
+    .ARK_interface .ARK_timer>div {
+        top: 29px;
+        font-size: 21px;
+    }
+    .ARK_interface .ARK_score>div {
+        top: 29px;
+        font-size: 21px;
+    }
+    .ARK_interface .ARK_button {
+        top: 25px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -12px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 50px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 50px;
+        top: 10px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 50px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -12px;
+    }
+    /*.ARK_interface .ARK_scoreBonus > span.ARK_bonusActive{
+        background-image:  -webkit-image-set(url('../images/SD_ScoreX.png') 1x,
+        url('../images/SD_ScoreX.png') 1x);
+    } */
+}
+
+/*@media only screen and (max-width: 980px) and (orientation: landscape) {*/
+
+/*Amazon Kindle Fire Landscape*/
+
+/*#ARK_textFUE {*/
+
+/*-webkit-transform: scale(0.5);*/
+
+/*transform: scale(0.5);*/
+
+/*bottom: -36px;*/
+
+/*}*/
+
+/*#ARK_popUp > div{*/
+
+/*-webkit-transform: scale(1);*/
+
+/*transform: scale(1);*/
+
+/*}*/
+
+/*}*/
+
+@media only screen and (width: 1280px) and (height: 800px) {
+    /*Amazon Kindle Fire Landscape fullscrean*/
+    /* Anna */
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 50px 23px;*/
+        /*transform-origin: 50px 23px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+}
+
+@media only screen and (width: 1220px) and (height: 668px) {
+    /*Amazon Kindle Fire Landscape no fullscrean*/
+    /* Anna */
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        /*-webkit-transform-origin: 50px 23px;*/
+        /*transform-origin: 50px 23px;*/
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+}
+
+@media only screen and (width: 1280px) and (max-width: 1024px) {
+    #ARK_pointFUE {
+        width: 136px;
+        height: 75px;
+    }
+}
+
+@media only screen and (width: 800px) and (height: 408px) {
+    /* Windows Mobile Phones, IE 10, nokia lumia, htc */
+    .ARK_intro>div#ARK_intro_play {
+        background-image: url("../images/SD_button_start.png");
+        bottom: 6%;
+        cursor: pointer;
+        height: 158px;
+        left: 50%;
+        margin-left: -125px;
+        position: absolute;
+        width: 266px;
+    }
+    .ARK_intro>div#ARK_intro_play:hover {
+        background-position: 0px -158px;
+    }
+    #ARK_textFUE {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+        bottom: -33px;
+    }
+    #ARK_popUp>div {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+        top: 58%;
+    }
+    #ARK_popUp>div>div#ARK_popUp_NoMoreMatches>div#ARK_NoMoreMatchLoading {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    .ARK_interface>div {
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+    .ARK_interface .ARK_timerBonus {
+        left: 187px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus {
+        right: 158px;
+        top: -12px;
+    }
+    .ARK_interface .ARK_scoreBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timerBonus>b {
+        top: 15px;
+    }
+    .ARK_interface .ARK_timer {
+        left: -50px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_score {
+        right: -70px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_test {
+        left: 5px;
+        top: -25px;
+    }
+    .ARK_interface .ARK_button {
+        top: 27px;
+    }
+    .ARK_interface #ARK_button_help {
+        left: -18px;
+    }
+    .ARK_interface #ARK_button_options {
+        left: 38px;
+    }
+    .ARK_interface #ARK_button_sound {
+        left: 18px;
+        top: 6px;
+    }
+    .ARK_interface #ARK_button_pause {
+        right: 37px;
+    }
+    .ARK_interface #ARK_button_exit {
+        right: -18px;
+    }
+    .ARK_positionPoint {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    .ARK_positionPointRotate {
+        -webkit-transform-origin: 50px 23px;
+        transform-origin: 50px 23px;
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 0px 0px;
+        transform-origin: 0px 0px;
+    }
+    #ARK_pointFUE {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    #ARK_textFUE>div#ARK_textFUE_style {
+        top: 32%;
+        font-size: 31px;
+    }
+}

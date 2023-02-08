@@ -1,0 +1,514 @@
+{
+    "frames": {
+        "Cloud1_Autumn": {
+            "frame": {
+                "x": 575,
+                "y": 1023,
+                "w": 194,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 194,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 194,
+                "h": 73
+            }
+        },
+        "Cloud1_Night": {
+            "frame": {
+                "x": 779,
+                "y": 1023,
+                "w": 194,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 194,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 194,
+                "h": 73
+            }
+        },
+        "Cloud1_Summer": {
+            "frame": {
+                "x": 167,
+                "y": 1023,
+                "w": 194,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 194,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 194,
+                "h": 73
+            }
+        },
+        "Cloud1_Winter": {
+            "frame": {
+                "x": 371,
+                "y": 1023,
+                "w": 194,
+                "h": 73
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 194,
+                "h": 73
+            },
+            "sourceSize": {
+                "w": 194,
+                "h": 73
+            }
+        },
+        "Cloud2_Autumn": {
+            "frame": {
+                "x": 720,
+                "y": 852,
+                "w": 251,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 251,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 251,
+                "h": 67
+            }
+        },
+        "Cloud2_Night": {
+            "frame": {
+                "x": 167,
+                "y": 946,
+                "w": 251,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 251,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 251,
+                "h": 67
+            }
+        },
+        "Cloud2_Summer": {
+            "frame": {
+                "x": 981,
+                "y": 852,
+                "w": 251,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 251,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 251,
+                "h": 67
+            }
+        },
+        "Cloud2_Winter": {
+            "frame": {
+                "x": 459,
+                "y": 852,
+                "w": 251,
+                "h": 67
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 251,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 251,
+                "h": 67
+            }
+        },
+        "Cloud3_Autumn": {
+            "frame": {
+                "x": 428,
+                "y": 946,
+                "w": 160,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 160,
+                "h": 61
+            }
+        },
+        "Cloud3_Night": {
+            "frame": {
+                "x": 598,
+                "y": 946,
+                "w": 160,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 160,
+                "h": 61
+            }
+        },
+        "Cloud3_Summer": {
+            "frame": {
+                "x": 768,
+                "y": 946,
+                "w": 160,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 160,
+                "h": 61
+            }
+        },
+        "Cloud3_Winter": {
+            "frame": {
+                "x": 1242,
+                "y": 852,
+                "w": 160,
+                "h": 61
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 160,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 160,
+                "h": 61
+            }
+        },
+        "Ground_Autumn": {
+            "frame": {
+                "x": 980,
+                "y": 176,
+                "w": 480,
+                "h": 165
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 165
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 165
+            }
+        },
+        "Ground_Night": {
+            "frame": {
+                "x": 980,
+                "y": 526,
+                "w": 480,
+                "h": 165
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 165
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 165
+            }
+        },
+        "Ground_Summer": {
+            "frame": {
+                "x": 980,
+                "y": 351,
+                "w": 480,
+                "h": 165
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 165
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 165
+            }
+        },
+        "Ground_Summer_Loop": {
+            "frame": {
+                "x": 980,
+                "y": 701,
+                "w": 480,
+                "h": 113
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 113
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 113
+            }
+        },
+        "Ground_Winter": {
+            "frame": {
+                "x": 980,
+                "y": 0,
+                "w": 480,
+                "h": 166
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 166
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 166
+            }
+        },
+        "Moon": {
+            "frame": {
+                "x": 0,
+                "y": 946,
+                "w": 157,
+                "h": 157
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 157,
+                "h": 157
+            },
+            "sourceSize": {
+                "w": 157,
+                "h": 157
+            }
+        },
+        "Plane": {
+            "frame": {
+                "x": 0,
+                "y": 852,
+                "w": 449,
+                "h": 84
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 449,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 449,
+                "h": 84
+            }
+        },
+        "Rocks_Autumn": {
+            "frame": {
+                "x": 0,
+                "y": 650,
+                "w": 480,
+                "h": 192
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 192
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 192
+            }
+        },
+        "Rocks_Night": {
+            "frame": {
+                "x": 490,
+                "y": 404,
+                "w": 480,
+                "h": 192
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 192
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 192
+            }
+        },
+        "Rocks_Summer": {
+            "frame": {
+                "x": 490,
+                "y": 202,
+                "w": 480,
+                "h": 192
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 192
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 192
+            }
+        },
+        "Rocks_Summer_Loop": {
+            "frame": {
+                "x": 490,
+                "y": 650,
+                "w": 480,
+                "h": 170
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 170
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 170
+            }
+        },
+        "Rocks_Winter": {
+            "frame": {
+                "x": 490,
+                "y": 0,
+                "w": 480,
+                "h": 192
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 192
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 192
+            }
+        },
+        "Sky_Summer": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 640
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 480,
+                "h": 640
+            },
+            "sourceSize": {
+                "w": 480,
+                "h": 640
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "environment.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1460,
+            "h": 1103
+        },
+        "scale": 1
+    }
+}

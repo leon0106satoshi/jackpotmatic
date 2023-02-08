@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:1f5074b2002c68175b23520cb008143e:884d2d3284718b029b715293dc156942:f22cfa749f58158b65b7f1f649c3d027$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="BottomObjects.png">
+    <SubTexture name="loshadi" x="2" y="597" width="662" height="389" frameX="-38" frameY="-8" frameWidth="720" frameHeight="410"/>
+    <SubTexture name="terrain_hindu" x="2" y="2" width="1020" height="593" frameX="-26" frameY="-74" frameWidth="1071" frameHeight="750"/>
+</TextureAtlas>

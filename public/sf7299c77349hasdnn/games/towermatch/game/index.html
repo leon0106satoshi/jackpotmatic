@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <!-- text/html from header (HC) -->
+
+    <meta charset="utf-8" />
+    <title>Tower Match</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="viewport" content="initial-scale=1 maximum-scale=1 user-scalable=0 minimal-ui">
+    <link rel="apple-touch-icon" href="icon_60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon_76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon_120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon_152x152.png">
+    <style>
+        body {
+            margin: 0 0 1px 0;
+            background: #000
+        }
+
+        #orientation {
+            margin: 0 auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(img/orientation.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #000;
+            z-index: 999;
+            display: none;
+        }
+
+        body {
+            background-color: #F6F6F6;
+            overflow: hidden;
+        }
+    </style>
+    <script src="game.js"></script>
+    <script>
+        window.gameLangs = ['en', 'de', 'es', 'fr', 'it', 'pt', 'tr', 'ru', 'nl', 'pl'];
+    </script>
+</head>
+
+<body>
+    <div id="orientation"></div>
+    <script>
+        startGame = function() {
+            var game = new Phaser.Game(480, 640, Phaser.CANVAS, '');
+            window.game = game;
+            game.state.add('Boot', G.Boot);
+            game.state.add('Preloader', G.Preloader);
+            game.state.add('MainMenu', G.MainMenu);
+            game.state.add('Game', G.Game);
+            game.state.add('CityOverview', G.CityOverview);
+            game.state.add('City', G.City);
+            game.state.add('CrateShop', G.CrateShop);
+            game.state.add('Daily', G.Daily);
+            game.state.start('Boot');
+        };
+        startGame();
+    </script>
+</body>
+
+</html>

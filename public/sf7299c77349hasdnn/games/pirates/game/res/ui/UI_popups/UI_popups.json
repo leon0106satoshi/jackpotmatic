@@ -1,0 +1,244 @@
+{"frames": [
+
+{
+	"filename": "popup_bg.png",
+	"frame": {"x":2,"y":2,"w":414,"h":635},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":414,"h":635},
+	"sourceSize": {"w":414,"h":635}
+},
+{
+	"filename": "popup_bg1b.png",
+	"frame": {"x":418,"y":503,"w":420,"h":126},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":420,"h":126},
+	"sourceSize": {"w":420,"h":126}
+},
+{
+	"filename": "popup_button_play.png",
+	"frame": {"x":1325,"y":251,"w":223,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":91},
+	"sourceSize": {"w":223,"h":91}
+},
+{
+	"filename": "popup_button_play_press.png",
+	"frame": {"x":1325,"y":344,"w":223,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":91},
+	"sourceSize": {"w":223,"h":91}
+},
+{
+	"filename": "popup_button_quit.png",
+	"frame": {"x":1112,"y":577,"w":61,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":60},
+	"sourceSize": {"w":61,"h":60}
+},
+{
+	"filename": "popup_button_quit_press.png",
+	"frame": {"x":1175,"y":577,"w":61,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":61,"h":60},
+	"sourceSize": {"w":61,"h":60}
+},
+{
+	"filename": "popup_button_restart.png",
+	"frame": {"x":1325,"y":251,"w":223,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":91},
+	"sourceSize": {"w":223,"h":91}
+},
+{
+	"filename": "popup_button_restart_press.png",
+	"frame": {"x":1325,"y":344,"w":223,"h":91},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":223,"h":91},
+	"sourceSize": {"w":223,"h":91}
+},
+{
+	"filename": "popup_go_characters.png",
+	"frame": {"x":418,"y":284,"w":358,"h":217},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":358,"h":217},
+	"sourceSize": {"w":358,"h":217}
+},
+{
+	"filename": "popup_go_coin.png",
+	"frame": {"x":1528,"y":437,"w":124,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":99},
+	"sourceSize": {"w":124,"h":99}
+},
+{
+	"filename": "popup_go_gem1.png",
+	"frame": {"x":1390,"y":437,"w":136,"h":98},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":136,"h":98},
+	"sourceSize": {"w":137,"h":99}
+},
+{
+	"filename": "popup_go_gem2.png",
+	"frame": {"x":1390,"y":537,"w":120,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":7,"w":120,"h":96},
+	"sourceSize": {"w":125,"h":108}
+},
+{
+	"filename": "popup_go_gem3.png",
+	"frame": {"x":1550,"y":2,"w":111,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":111,"h":96},
+	"sourceSize": {"w":112,"h":96}
+},
+{
+	"filename": "popup_go_score_bg.png",
+	"frame": {"x":1112,"y":464,"w":276,"h":111},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":111},
+	"sourceSize": {"w":276,"h":111}
+},
+{
+	"filename": "popup_lc_characters.png",
+	"frame": {"x":1064,"y":2,"w":267,"h":247},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":267,"h":247},
+	"sourceSize": {"w":267,"h":247}
+},
+{
+	"filename": "popup_lc_endgame.png",
+	"frame": {"x":418,"y":2,"w":319,"h":280},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":319,"h":280},
+	"sourceSize": {"w":319,"h":281}
+},
+{
+	"filename": "popup_lc_level30.png",
+	"frame": {"x":778,"y":261,"w":311,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":14,"w":311,"h":215},
+	"sourceSize": {"w":321,"h":237}
+},
+{
+	"filename": "popup_lc_medal.png",
+	"frame": {"x":1550,"y":287,"w":76,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":95},
+	"sourceSize": {"w":76,"h":95}
+},
+{
+	"filename": "popup_lc_score_bg.png",
+	"frame": {"x":1333,"y":146,"w":132,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":63},
+	"sourceSize": {"w":132,"h":63}
+},
+{
+	"filename": "popup_lc_star-1.png",
+	"frame": {"x":1449,"y":2,"w":72,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":77},
+	"sourceSize": {"w":72,"h":77}
+},
+{
+	"filename": "popup_lc_star-2.png",
+	"frame": {"x":1550,"y":100,"w":97,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":97,"h":95},
+	"sourceSize": {"w":97,"h":95}
+},
+{
+	"filename": "popup_lc_star-3.png",
+	"frame": {"x":1449,"y":81,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+{
+	"filename": "popup_lc_stars0.png",
+	"frame": {"x":840,"y":478,"w":270,"h":133},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":270,"h":133},
+	"sourceSize": {"w":270,"h":133}
+},
+{
+	"filename": "popup_lc_stars_bg.png",
+	"frame": {"x":1091,"y":251,"w":232,"h":211},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":232,"h":211},
+	"sourceSize": {"w":232,"h":211}
+},
+{
+	"filename": "popup_tl_bestscore_bg.png",
+	"frame": {"x":739,"y":217,"w":276,"h":42},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":42},
+	"sourceSize": {"w":276,"h":42}
+},
+{
+	"filename": "popup_tl_characters.png",
+	"frame": {"x":739,"y":2,"w":323,"h":213},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":213},
+	"sourceSize": {"w":323,"h":213}
+},
+{
+	"filename": "popup_tl_gem1.png",
+	"frame": {"x":1512,"y":538,"w":125,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":2,"w":125,"h":87},
+	"sourceSize": {"w":134,"h":92}
+},
+{
+	"filename": "popup_tl_gem2.png",
+	"frame": {"x":1333,"y":2,"w":114,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":114,"h":86},
+	"sourceSize": {"w":118,"h":105}
+},
+{
+	"filename": "popup_tl_gem3.png",
+	"frame": {"x":1550,"y":197,"w":104,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":104,"h":88},
+	"sourceSize": {"w":105,"h":90}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "UI_popups.png",
+	"format": "RGBA8888",
+	"size": {"w":1663,"h":639},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:592038a94146f1f9fd222a1056461a5c:2dfd6ad9e9054ade1b50790af13926e9:206a716f6dae73ba8a7eccc90d9a2f33$"
+}
+}

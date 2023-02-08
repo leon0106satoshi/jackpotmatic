@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cut it!</title>
+    <meta name="viewport" content="" data-original="width = device-width, initial-scale=1, maximum-scale=1.01" />
+    <style>
+        body {
+            background-color: black;
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/game.min.js"></script>
+
+    <script>
+        game = new Phaser.Game(420, 525, Phaser.CANVAS, '', "", false);
+
+        game.state.add('Boot', Boot);
+
+        game.state.add('Preload', Preload);
+        game.state.add('MainMenu', MainMenu);
+        game.state.add('Play', Play);
+        //game.state.add('PhotoMaker', PhotoMaker);
+
+        game.state.start('Boot');
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

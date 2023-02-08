@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "2-Bote.png.png",
+	"frame": {"x":53,"y":2,"w":40,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":30},
+	"sourceSize": {"w":40,"h":30}
+},
+{
+	"filename": "3-Bote1.png.png",
+	"frame": {"x":95,"y":2,"w":49,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":24},
+	"sourceSize": {"w":49,"h":24}
+},
+{
+	"filename": "3-Bote2.png.png",
+	"frame": {"x":56,"y":34,"w":58,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":58,"h":21},
+	"sourceSize": {"w":58,"h":21}
+},
+{
+	"filename": "3-Bote3.png.png",
+	"frame": {"x":2,"y":2,"w":49,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":49,"h":36},
+	"sourceSize": {"w":49,"h":36}
+},
+{
+	"filename": "3-Lampara.png.png",
+	"frame": {"x":116,"y":28,"w":22,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":21},
+	"sourceSize": {"w":22,"h":21}
+},
+{
+	"filename": "7-Bote.png.png",
+	"frame": {"x":2,"y":40,"w":52,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":16},
+	"sourceSize": {"w":52,"h":16}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "db_map_2.png",
+	"format": "RGBA8888",
+	"size": {"w":146,"h":58},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:80f36f5e9a5370bffd937fbb248bbb8e:52185a27f197697607ab74ea7bc848df:b5f79d7a4a86ea0483b67c975cf18f5d$"
+}
+}

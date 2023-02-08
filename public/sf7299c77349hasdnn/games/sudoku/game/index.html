@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- text/html from header (HC) -->
+
+    <meta charset="utf-8">
+    <title>Sudoku</title>
+
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="icons/57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/144x144.png">
+
+    <script src="preloadjs-0.4.1.min.js"></script>
+    <script src="soundjs-0.5.2.min.js"></script>
+    <link href='game.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="content"></div>
+    <script src="flambe.js"></script>
+    <script>
+        flambe.embed(["targets/main-html.js"], "content");
+    </script>
+</body>
+
+</html>

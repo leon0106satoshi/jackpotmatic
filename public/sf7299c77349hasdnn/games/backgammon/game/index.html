@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- text/html from header (HC) -->
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1, IE=edge" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta id="viewport" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,minimal-ui" />
+    <title>Backgammon Classic</title>
+    <meta name="robots" content="noindex,nofollow" />
+    <script>
+        window.addEventListener("touchmove", function(event) {
+            event.preventDefault();
+        }, false);
+    </script>
+    <script src="js/game.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden
+        }
+
+        #openfl-content {
+            background: #000;
+            width: 100%;
+            height: 100%
+        }
+
+        @font-face {
+            font-family: 'Calibri-Regular';
+            src: url('fonts/Calibri_gdi.woff') format('woff'), url('fonts/Calibri_gdi.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal
+        }
+    </style>
+</head>
+
+<body>
+    <div id="openfl-content"></div>
+    <script>
+        lime.embed("openfl-content", 0, 0, "000000");
+    </script>
+</body>
+
+</html>

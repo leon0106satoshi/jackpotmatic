@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "Images/bubble blue.png",
+	"frame": {"x":2,"y":66,"w":54,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":54,"h":54},
+	"sourceSize": {"w":54,"h":54}
+},
+{
+	"filename": "Images/bubble green.png",
+	"frame": {"x":2,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "Images/bubble orange.png",
+	"frame": {"x":111,"y":66,"w":40,"h":40},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":40,"h":40},
+	"sourceSize": {"w":40,"h":40}
+},
+{
+	"filename": "Images/bubble purple.png",
+	"frame": {"x":66,"y":2,"w":62,"h":62},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":62,"h":62},
+	"sourceSize": {"w":62,"h":62}
+},
+{
+	"filename": "Images/bubble red.png",
+	"frame": {"x":58,"y":66,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "Images/bubble yellow.png",
+	"frame": {"x":130,"y":2,"w":38,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":38},
+	"sourceSize": {"w":38,"h":38}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "mm_bubbles.png",
+	"format": "RGBA8888",
+	"size": {"w":170,"h":122},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4f8c60dba856b51b439b728387263dd3:74bf234001fb55c5721b7c886c6e1970:310e846ae02ae982edb63459b49b0d3f$"
+}
+}

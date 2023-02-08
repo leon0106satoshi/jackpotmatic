@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "bg/splashScreen.png",
+	"frame": {"x":0,"y":0,"w":1485,"h":725},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1485,"h":725},
+	"sourceSize": {"w":1485,"h":725},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bgLoading.png",
+	"format": "RGBA8888",
+	"size": {"w":1485,"h":725},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:1a337f2fc2277a9cea9638ae5bfabc57:ab1d3f67a5d8694ca824eac512b81422:6c1e7216370d2c2c2b3dd5f0f00ec76b$"
+}
+}

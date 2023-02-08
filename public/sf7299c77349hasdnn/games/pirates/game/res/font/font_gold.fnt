@@ -1,0 +1,26 @@
+<font>
+  <info face="font_gold" size="40" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="40" base="30" scaleW="256" scaleH="188" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="font_gold.png"/>
+  </pages>
+  <chars count="15">
+    <char id="49" x="2" y="2" width="44" height="59" xoffset="-8" yoffset="1" xadvance="17" page="0" chnl="15"/>
+    <char id="50" x="48" y="2" width="51" height="60" xoffset="-7" yoffset="0" xadvance="26" page="0" chnl="15"/>
+    <char id="51" x="101" y="2" width="55" height="60" xoffset="-8" yoffset="0" xadvance="28" page="0" chnl="15"/>
+    <char id="52" x="158" y="2" width="55" height="60" xoffset="-7" yoffset="0" xadvance="30" page="0" chnl="15"/>
+    <char id="53" x="2" y="64" width="52" height="61" xoffset="-8" yoffset="0" xadvance="27" page="0" chnl="15"/>
+    <char id="54" x="56" y="64" width="51" height="60" xoffset="-8" yoffset="0" xadvance="25" page="0" chnl="15"/>
+    <char id="55" x="109" y="64" width="53" height="59" xoffset="-8" yoffset="1" xadvance="27" page="0" chnl="15"/>
+    <char id="56" x="164" y="64" width="48" height="60" xoffset="-8" yoffset="0" xadvance="22" page="0" chnl="15"/>
+    <char id="57" x="109" y="125" width="51" height="60" xoffset="-8" yoffset="0" xadvance="25" page="0" chnl="15"/>
+    <char id="48" x="56" y="126" width="51" height="60" xoffset="-8" yoffset="0" xadvance="26" page="0" chnl="15"/>
+    <char id="47" x="2" y="127" width="52" height="59" xoffset="-7" yoffset="1" xadvance="27" page="0" chnl="15"/>
+    <char id="45" x="162" y="126" width="49" height="36" xoffset="-8" yoffset="13" xadvance="23" page="0" chnl="15"/>
+    <char id="46" x="215" y="2" width="35" height="36" xoffset="-8" yoffset="23" xadvance="9" page="0" chnl="15"/>
+    <char id="44" x="215" y="40" width="38" height="42" xoffset="-9" yoffset="23" xadvance="9" page="0" chnl="15"/>
+    <char id="58" x="214" y="84" width="35" height="47" xoffset="-8" yoffset="13" xadvance="9" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="-8" yoffset="13" xadvance="16" page="0" chnl="15"/>
+  </chars>
+  <kernings count="0"/>
+</font>

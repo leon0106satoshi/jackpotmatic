@@ -1,0 +1,3 @@
+"use strict"; Object.defineProperty(exports, "__esModule", { value: true }); // If we're in the browser make sure PIXI is available if (typeof PIXI === 'undefined') { throw "pixi-particles requires pixi.js to be loaded first"; } //ensure that the particles
+namespace exist - PIXI 4 creates it itself, PIXI 3 does not if (!PIXI.particles) { PIXI.particles = {}; } // get the library itself var particles = require("./particles"); // insert the library into the particles namespace on PIXI for (var prop in particles)
+{ PIXI.particles[prop] = particles[prop]; }

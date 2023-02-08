@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:31e27e981f8a1ab3134aa8777234451d:4e693ff246bd98c7ab1dcaee64df6213:ad8151d6bcf4c5fbda8b764a1d5e238d$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="River1.png">
+    <SubTexture name="riverGreenFFF_1" x="2" y="2" width="484" height="375"/>
+    <SubTexture name="riverGreenFFF_2" x="488" y="2" width="484" height="375"/>
+    <SubTexture name="riverGreenFFF_3" x="2" y="379" width="484" height="375"/>
+</TextureAtlas>

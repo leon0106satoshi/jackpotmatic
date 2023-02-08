@@ -1,0 +1,1785 @@
+{
+  "en_US": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play_again"                  : "PLAY AGAIN",
+    "play"                        : "PLAY",
+    "settings"                    : "SETTINGS",
+    "credits"                     : "CREDITS",
+    "reset"                       : "RESET DATA",
+    "back"                        : "BACK",
+	"reset_conf": {
+      "text": "Are you sure you want to\nclear your current progress?",
+      "size": 0.9
+    },
+    "yes"                         : "YES",
+    "no"                          : "NO",
+    "developed"                   : "Developed By:",
+    "music"                       : "Music & SFX By:",
+    "how_to_play"                 : "HOW TO PLAY",
+    "tutorial_tap"                : "Tap a direction to shoot a bubble.",
+    "tutorial_bubbles"            : "Pop bubbles and collect\nall the coins to beat the level.",
+    "tutorial_bomb"               : "Consecutive matches\nunlock boosts for bombs.",
+    "tutorial_walls"              : "Use the walls to reach\nthe higher bubbles!",
+    "tutorial_reload"             : "Swap bubbles by tapping\nthe next bubble!",
+    "tutorial_barrel"             : "Hit the barrel with a\ncouple of bubbles to smash it.",
+    "tutorial_ink"                : "Hit the ice three\ntimes to discover the color.",
+    "tutorial_skull"              : "Hit the skull four\ntimes to discover the color.",
+    "tutorial_solid"              : "Cannonballs are unbreakable.\nPop bubbles to drop them.",
+    "achievements"                : "ACHIEVEMENTS",
+    "ls_title"                    : "Level %%N%%",
+    "ls_coins"                    : "Collect all the coins!",
+    "ls_gem"                      : "Go for the gem!",
+    "ls_reward"                   : "Go for the reward!",
+	"ls_mistery": {
+      "text": "Go for the mystery reward!",
+      "size": 0.8
+    },
+    "ls_poster"                   : "Go for the poster!",
+    "ls_prize"                    : "Go for the prize!",
+    "ls_final"                    : "Go for the final award!",
+    "ls_best"                     : "Best Score:",
+    "pause"                       : "PAUSE",
+    "continue"                    : "CONTINUE",
+    "restart"                     : "RESTART",
+    "quit"                        : "QUIT",
+    "restart_conf"                : "Are you sure you want to\nrestart the game?",
+    "quit_conf"                   : "Are you sure want to\nquit the game?",
+    "lc_title"                    : "Level %%N%%",
+    "lc_complete"                 : "Level Completed!",
+    "lc_best"                     : "Score:",
+    "go_title"                    : "Level %%N%%",
+    "go_details"                  : "Game Over!",
+    "lc_complete_fn1"             : "Congrats, lad!",
+    "lc_complete_fn2"             : "Now you can beat\nyour scores in each level.\nGet to it!",
+    "lc_complete_fn3"             : "Congratulations!",
+    "lc_complete_fn4"             : "Well done!",
+    "lc_complete_fn5"             : "NEXT",
+    "lc_complete_fn6"             : "Achievement Unlocked",
+    "language_name"               : "Language",
+	"achievement_1.name": {
+      "text": "Don't get cocky",
+      "size": 0.9
+    },
+	"achievement_1.desc": {
+      "text": "Clear your first level.",
+      "size": 0.9
+    },
+	"achievement_2.name": {
+      "text": "Old Salt",
+      "size": 0.9
+    },
+	"achievement_2.desc": {
+      "text": "Clear Level 10.",
+      "size": 0.9
+    },
+	"achievement_3.name": {
+      "text": "Seadog",
+      "size": 0.9
+    },
+	"achievement_3.desc": {
+      "text": "Clear Level 20.",
+      "size": 0.9
+    },
+	"achievement_4.name": {
+      "text": "Legend",
+      "size": 0.9
+    },
+	"achievement_4.desc": {
+      "text": "Clear Level 30.",
+      "size": 0.9
+    },
+	"achievement_5.name": {
+      "text": "Swag",
+      "size": 0.9
+    },
+	"achievement_5.desc": {
+      "text": "Pop 1,000 bubbles.",
+      "size": 0.9
+    },
+	"achievement_6.name": {
+      "text": "Cast-away",
+      "size": 0.9
+    },
+	"achievement_6.desc": {
+      "text": "Drop 100 bubbles.",
+      "size": 0.9
+    },
+	"achievement_7.name": {
+      "text": "Shipshape",
+      "size": 0.9
+    },
+	"achievement_7.desc": {
+      "text": "Break 50 Ices.",
+      "size": 0.9
+    },
+	"achievement_8.name": {
+      "text": "Heave Ho",
+      "size": 0.9
+    },
+	"achievement_8.desc": {
+      "text": "Destroy 50 skulls.",
+      "size": 0.9
+    },
+	"achievement_9.name": {
+      "text": "Shark Bait",
+      "size": 0.9
+    },
+	"achievement_9.desc": {
+      "text": "Drop 20 skulls.",
+      "size": 0.9
+    },
+	"achievement_10.name": {
+      "text": "Galleon",
+      "size": 0.9
+    },
+	"achievement_10.desc": {
+      "text": "Shoot 100 cannon bombs.",
+      "size": 0.9
+    },
+	"achievement_11.name": {
+      "text": "Gangway",
+      "size": 0.9
+    },
+	"achievement_11.desc": {
+      "text": "Explode 30 level bombs.",
+      "size": 0.9
+    },
+	"achievement_12.name": {
+      "text": "Hornswaggle",
+      "size": 0.9
+    },
+	"achievement_12.desc": {
+      "text": "Get the cannon blocked 30 times.",
+      "size": 0.9
+    },
+	"achievement_13.name": {
+      "text": "Black Spotted",
+      "size": 0.9
+    },
+	"achievement_13.desc": {
+      "text": "Activate 30 orbs.",
+      "size": 0.9
+    },
+	"achievement_14.name": {
+      "text": "Doubloon",
+      "size": 0.9
+    },
+	"achievement_14.desc": {
+      "text": "Get a 3-star rating on any level.",
+      "size": 0.9
+    },
+	"achievement_15.name": {
+      "text": "Never tell me the odds",
+      "size": 0.9
+    },
+	"achievement_15.desc": "Get a 3-star rating\non all levels.",
+
+    "tutorial_orb_1"              : "Orbs will cover nearby\nbubbles with coral.",
+    "tutorial_orb_2"              : "Uh-oh! Orbs will throw\ncoral on nearby bubbles.",
+    "tutorial_drop_orb_1"         : "That was an orb. If hit,\nit will cover nearby\nbubbles with coral.",
+    "tutorial_drop_orb_1"         : "You dropped the orb. It\ncould have thrown coral\non nearby orbs.",
+    "tutorial_coral_1"            : "Hit the coral twice to\ndiscover the color.",
+    "tutorial_coral_2"            : "Hit the coral with a\n bubble 2 times to\nremove it!",
+    "tutorial_coral_3"            : "Hit the coral twice\nto get rid of it!",
+    "tutorial_tar_1"              : "Tar barrels will throw tar\non the cannons reserve bubble.",
+    "tutorial_tar_2"              : "You cannot swap bubbles.\nMake 3 matches to remove the tar."
+  },
+
+  "COPY": {
+    "number.decimal_separator"    : "",
+    "number.thousands_separator"  : "",
+    "settings"                    : "",
+    "credits"                     : "",
+    "reset"                       : "",
+    "back"                        : "",
+    "reset_conf"                  : "",
+    "yes"                         : "",
+    "no"                          : "",
+    "developed"                   : "",
+    "music"                       : "",
+    "how_to_play"                 : "",
+    "tutorial_tap"                : "",
+    "tutorial_bubbles"            : "",
+    "tutorial_bomb"               : "",
+    "tutorial_walls"              : "",
+    "tutorial_reload"             : "",
+    "tutorial_barrel"             : "",
+    "tutorial_ink"                : "",
+    "tutorial_skull"              : "",
+    "tutorial_solid"              : "",
+    "achievements"                : "",
+    "ls_title"                    : "",
+    "ls_coins"                    : "",
+    "ls_gem"                      : "",
+    "ls_best"                     : "",
+    "ls_reward"                   : "",
+    "ls_mistery"                  : "",
+    "ls_poster"                   : "",
+    "ls_prize"                    : "",
+    "ls_final"                    : "",
+    "ls_best"                     : "",
+    "pause"                       : "",
+    "continue"                    : "",
+    "restart"                     : "",
+    "quit"                        : "",
+    "restart_conf"                : "",
+    "quit_conf"                   : "",
+    "lc_title"                    : "",
+    "lc_complete"                 : "",
+    "lc_best"                     : "",
+    "go_title"                    : "",
+    "go_details"                  : "",
+    "lc_complete_fn1"             : "",
+    "lc_complete_fn2"             : "",
+    "lc_complete_fn3"             : "",
+    "lc_complete_fn4"             : "",
+    "lc_complete_fn5"             : "",
+    "lc_complete_fn6"             : "",
+    "language_name"               : "",
+    "achievement_1.name"          : "",
+    "achievement_1.desc"          : "",
+    "achievement_2.name"          : "",
+    "achievement_2.desc"          : "",
+    "achievement_3.name"          : "",
+    "achievement_3.desc"          : "",
+    "achievement_4.name"          : "",
+    "achievement_4.desc"          : "",
+    "achievement_5.name"          : "",
+    "achievement_5.desc"          : "",
+    "achievement_6.name"          : "",
+    "achievement_6.desc"          : "",
+    "achievement_7.name"          : "",
+    "achievement_7.desc"          : "",
+    "achievement_8.name"          : "",
+    "achievement_8.desc"          : "",
+    "achievement_9.name"          : "",
+    "achievement_9.desc"          : "",
+    "achievement_10.name"         : "",
+    "achievement_10.desc"         : "",
+    "achievement_11.name"         : "",
+    "achievement_11.desc"         : "",
+    "achievement_12.name"         : "",
+    "achievement_12.desc"         : "",
+    "achievement_13.name"         : "",
+    "achievement_13.desc"         : "",
+    "achievement_14.name"         : "",
+    "achievement_14.desc"         : "",
+    "achievement_15.name"         : "",
+    "achievement_15.desc"         : "",
+    "tutorial_orb_1"              : "",
+    "tutorial_orb_2"              : "",
+    "tutorial_drop_orb_1"         : "",
+    "tutorial_drop_orb_1"         : "",
+    "tutorial_coral_1"            : "",
+    "tutorial_coral_2"            : "",
+    "tutorial_coral_3"            : "",
+    "tutorial_tar_1"              : "",
+    "tutorial_tar_2"              : ""
+  },
+
+  "en_GB": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play_again"                  : "PLAY AGAIN",
+    "play"                        : "PLAY",
+    "settings"                    : "SETTINGS",
+    "credits"                     : "CREDITS",
+    "reset"                       : "RESET DATA",
+    "back"                        : "BACK",
+	"reset_conf": {
+      "text": "Are you sure you want to\nclear your current progress?",
+      "size": 0.9
+    },
+    "yes"                         : "YES",
+    "no"                          : "NO",
+    "developed"                   : "Developed By:",
+    "music"                       : "Music & SFX By:",
+    "how_to_play"                 : "HOW TO PLAY",
+    "tutorial_tap"                : "Tap a direction to shoot a bubble.",
+    "tutorial_bubbles"            : "Pop bubbles and collect\nall the coins to beat the level.",
+    "tutorial_bomb"               : "Consecutive matches\nunlock boosts for bombs.",
+    "tutorial_walls"              : "Use the walls to reach\nthe higher bubbles!",
+    "tutorial_reload"             : "Swap bubbles by tapping\nthe next bubble!",
+    "tutorial_barrel"             : "Hit the barrel with a\ncouple of bubbles to smash it.",
+    "tutorial_ink"                : "Hit the ice three\ntimes to discover the colour.",
+    "tutorial_skull"              : "Hit the skull four\ntimes to discover the colour.",
+    "tutorial_solid"              : "Cannonballs are unbreakable.\nPop bubbles to drop them.",
+    "achievements"                : "ACHIEVEMENTS",
+    "ls_title"                    : "Level %%N%%",
+    "ls_coins"                    : "Collect all the coins!",
+    "ls_gem"                      : "Go for the gem!",
+    "ls_best"                     : "Go for the gems!",
+    "ls_reward"                   : "Go for the reward!",
+	"ls_mistery": {
+      "text": "Go for the mystery reward!",
+      "size": 0.8
+    },
+    "ls_poster"                   : "Go for the poster!",
+    "ls_prize"                    : "Go for the prize!",
+    "ls_final"                    : "Go for the final award!",
+    "ls_best"                     : "Best Score:",
+    "pause"                       : "PAUSE",
+    "continue"                    : "CONTINUE",
+    "restart"                     : "RESTART",
+    "quit"                        : "QUIT",
+    "restart_conf"                : "Are you sure you want to\nrestart the game?",
+    "quit_conf"                   : "Are you sure want to\nquit the game?",
+    "lc_title"                    : "Level %%N%%",
+    "lc_complete"                 : "Level Completed!",
+    "lc_best"                     : "Score:",
+    "go_title"                    : "Level %%N%%",
+    "go_details"                  : "Game Over!",
+    "lc_complete_fn1"             : "Congrats, lad!",
+    "lc_complete_fn2"             : "Now you can beat\nyour scores in each level.\nGet to it!",
+    "lc_complete_fn3"             : "Congratulations!",
+    "lc_complete_fn4"             : "Well done!",
+    "lc_complete_fn5"             : "NEXT",
+    "lc_complete_fn6"             : "Achievement Unlocked",
+    "language_name"               : "Language",
+	"name": {
+      "text": "",
+      "size": 0.9
+    },
+	"achievement_1.name": {
+      "text": "Don't get cocky",
+      "size": 0.9
+    },
+	"achievement_1.desc": {
+      "text": "Clear your first level.",
+      "size": 0.9
+    },
+	"achievement_2.name": {
+      "text": "Old Salt",
+      "size": 0.9
+    },
+	"achievement_2.desc": {
+      "text": "Clear Level 10.",
+      "size": 0.9
+    },
+	"achievement_3.name": {
+      "text": "Seadog",
+      "size": 0.9
+    },
+	"achievement_3.desc": {
+      "text": "Clear Level 20.",
+      "size": 0.9
+    },
+	"achievement_4.name": {
+      "text": "Legend",
+      "size": 0.9
+    },
+	"achievement_4.desc": {
+      "text": "Clear Level 30.",
+      "size": 0.9
+    },
+	"achievement_5.name": {
+      "text": "Swag",
+      "size": 0.9
+    },
+	"achievement_5.desc": {
+      "text": "Pop 1,000 bubbles.",
+      "size": 0.9
+    },
+	"achievement_6.name": {
+      "text": "Cast-away",
+      "size": 0.9
+    },
+	"achievement_6.desc": {
+      "text": "Drop 100 bubbles.",
+      "size": 0.9
+    },
+	"achievement_7.name": {
+      "text": "Shipshape",
+      "size": 0.9
+    },
+	"achievement_7.desc": {
+      "text": "Break 50 Ices.",
+      "size": 0.9
+    },
+	"achievement_8.name": {
+      "text": "Heave Ho",
+      "size": 0.9
+    },
+	"achievement_8.desc": {
+      "text": "Destroy 50 skulls.",
+      "size": 0.9
+    },
+	"achievement_9.name": {
+      "text": "Shark Bait",
+      "size": 0.9
+    },
+	"achievement_9.desc": {
+      "text": "Drop 20 skulls.",
+      "size": 0.9
+    },
+	"achievement_10.name": {
+      "text": "Galleon",
+      "size": 0.9
+    },
+	"achievement_10.desc": {
+      "text": "Shoot 100 cannon bombs.",
+      "size": 0.9
+    },
+	"achievement_11.name": {
+      "text": "Gangway",
+      "size": 0.9
+    },
+	"achievement_11.desc": {
+      "text": "Explode 30 level bombs.",
+      "size": 0.9
+    },
+	"achievement_12.name": {
+      "text": "Hornswaggle",
+      "size": 0.9
+    },
+	"achievement_12.desc": {
+      "text": "Get the cannon blocked 30 times.",
+      "size": 0.9
+    },
+	"achievement_13.name": {
+      "text": "Black Spotted",
+      "size": 0.9
+    },
+	"achievement_13.desc": {
+      "text": "Activate 30 orbs.",
+      "size": 0.9
+    },
+	"achievement_14.name": {
+      "text": "Doubloon",
+      "size": 0.9
+    },
+	"achievement_14.desc": {
+      "text": "Get a 3-star rating on any level.",
+      "size": 0.9
+    },
+	"achievement_15.name": {
+      "text": "Never tell me the odds",
+      "size": 0.9
+    },
+	"achievement_15.desc": "Get a 3-star rating\non all levels.",
+
+    "tutorial_orb_1"              : "Orbs will cover nearby\nbubbles with coral.",
+    "tutorial_orb_2"              : "Uh-oh! Orbs will throw\ncoral on nearby bubbles.",
+    "tutorial_drop_orb_1"         : "That was an orb. If hit,\nit will cover nearby\nbubbles with coral.",
+    "tutorial_drop_orb_1"         : "You dropped the orb. It\ncould have thrown coral\non nearby orbs.",
+    "tutorial_coral_1"            : "Hit the coral twice to\ndiscover the color.",
+    "tutorial_coral_2"            : "Hit the coral with a\n bubble 2 times to\nremove it!",
+    "tutorial_coral_3"            : "Hit the coral twice\nto get rid of it!",
+    "tutorial_tar_1"              : "Tar barrels will throw tar on\nthe canon's reserve bubble.",
+    "tutorial_tar_2"              : "You can't swap bubbles.\nMake 3 matches to remove the tar."
+  },
+
+  "nl_NL": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play_again"                  : "NOG EENS",
+    "play"                        : "SPELEN",
+    "settings"                    : "INSTELL.",
+    "credits"                     : "CREDITS",
+	"reset": {
+      "text": "GEGEVENS\nRESETTEN",
+      "size": 0.8
+    },
+    "back"                        : "TERUG",
+    "reset_conf"                  : "Wil je echt je huidige\nvoortgang wissen?",
+    "yes"                         : "JA",
+    "no"                          : "NEE",
+    "developed"                   : "Ontwikkeld door:",
+    "music"                       : "Muziek & SFX door:",
+    "how_to_play"                 : "SPELUITLEG",
+    "tutorial_tap"                : "Tik om een\nbubbel te schieten.",
+    "tutorial_bubbles"            : "Knap bubbels en verzamel\nalle munten om het\nlevel te halen.",
+    "tutorial_bomb"               : "Maak meerdere combinaties\nop rij voor\nbommenboosters.",
+    "tutorial_walls"              : "Gebruik de muren om hogere\nbubbels te bereiken!",
+    "tutorial_reload"             : "Verwissel bubbels door\nop de volgende bubbel\nte tikken!",
+    "tutorial_barrel"             : "Raak de ton met een paar\nbubbels om hem\nkapot te schieten.",
+    "tutorial_ink"                : "Raak het ijs drie keer\nom te zien wat de kleur is!",
+    "tutorial_skull"              : "Raak de schedel vier\nkeer om de kleur te zien.",
+    "tutorial_solid"              : "Kogels zijn onbreekbaar.\nKnap bubbels om\nze te laten vallen.",
+    "achievements"                : "PRESTATIES",
+    "ls_title"                    : "Level %%N%%",
+    "ls_coins"                    : "Verzamel alle munten!",
+    "ls_gem"                      : "Pak de edelsteen!",
+    "ls_best"                     : "Pak de edelstenen!",
+    "ls_reward"                   : "Pak de beloning!",
+    "ls_mistery"                  : "Ga voor de beloning!",
+    "ls_poster"                   : "Ga voor de poster!",
+    "ls_prize"                    : "Ga voor de prijs!",
+    "ls_final"                    : "Ga voor de laatste prijs!",
+    "ls_best"                     : "Topscore:",
+    "pause"                       : "PAUZE",
+	"continue": {
+      "text": "DOORGAAN",
+      "size": 0.8
+    },
+    "restart"                     : "OPNIEUW",
+    "quit"                        : "STOPPEN",
+    "restart_conf"                : "Weet je zeker dat je het spel\nopnieuw wilt starten?",
+    "quit_conf"                   : "Wil je het spel\necht stoppen?",
+    "lc_title"                    : "Level %%N%%",
+    "lc_complete"                 : "Level voltooid!",
+    "lc_best"                     : "Score:",
+    "go_title"                    : "Level %%N%%",
+    "go_details"                  : "Game over!",
+	"lc_complete_fn1": {
+      "text": "Gefeliciteerd, maatje!",
+      "size": 0.8
+    },
+    "lc_complete_fn2"             : "Nu kun je je scores per\nlevel gaan verbeteren.\nAan de slag!",
+    "lc_complete_fn3"             : "Gefeliciteerd!",
+    "lc_complete_fn4"             : "Goed gedaan!",
+    "lc_complete_fn5"             : "VOLGENDE",
+    "lc_complete_fn6"             : "Prestatie\nvrijgespeeld",
+    "language_name"               : "Taal",
+	"achievement_1.name": {
+      "text": "Niet verwaand\nworden.",
+      "size": 0.9
+    },
+	"achievement_1.desc": {
+      "text": "Voltooi het\neerste level.",
+      "size": 0.9
+    },
+	"achievement_2.name": {
+      "text": "Zeerot",
+      "size": 0.9
+    },
+	"achievement_2.desc": {
+      "text": "Voltooi level 10.",
+      "size": 0.9
+    },
+	"achievement_3.name": {
+      "text": "Zeebonk",
+      "size": 0.9
+    },
+	"achievement_3.desc": {
+      "text": "Voltooi level 20.",
+      "size": 0.9
+    },
+	"achievement_4.name": {
+      "text": "Legende",
+      "size": 0.9
+    },
+	"achievement_4.desc": {
+      "text": "Voltooi level 30.",
+      "size": 0.9
+    },
+	"achievement_5.name": {
+      "text": "Buit",
+      "size": 0.9
+    },
+	"achievement_5.desc": {
+      "text": "Knap 1000 bubbels.",
+      "size": 0.9
+    },
+	"achievement_6.name": {
+      "text": "Schipbreukeling",
+      "size": 0.9
+    },
+	"achievement_6.desc": {
+      "text": "Laat 100 bubbels vallen.",
+      "size": 0.9
+    },
+	"achievement_7.name": {
+      "text": "Zeilklaar",
+      "size": 0.9
+    },
+	"achievement_7.desc": {
+      "text": "Breek 50 ijsblokken.",
+      "size": 0.9
+    },
+	"achievement_8.name": {
+      "text": "Anker op!",
+      "size": 0.9
+    },
+	"achievement_8.desc": {
+      "text": "Vernietig 50 schedels.",
+      "size": 0.9
+    },
+	"achievement_9.name": {
+      "text": "Haaienvoer",
+      "size": 0.9
+    },
+	"achievement_9.desc": {
+      "text": "Laat 20 schedels vallen.",
+      "size": 0.9
+    },
+	"achievement_10.name": {
+      "text": "Galjoen",
+      "size": 0.9
+    },
+	"achievement_10.desc": {
+      "text": "Vuur 100 kanonskogels af.",
+      "size": 0.9
+    },
+	"achievement_11.name": {
+      "text": "Loopplank",
+      "size": 0.9
+    },
+	"achievement_11.desc": {
+      "text": "Laat 30 levelbommen\nontploffen.",
+      "size": 0.8
+    },
+	"achievement_12.name": {
+      "text": "In de luren",
+      "size": 0.9
+    },
+	"achievement_12.desc": {
+      "text": "Blokkeer het\nkanon 30 keer.",
+      "size": 0.8
+    },
+	"achievement_13.name": {
+      "text": "Vervloekt",
+      "size": 0.9
+    },
+	"achievement_13.desc": {
+      "text": "Activeer 30 bollen.",
+      "size": 0.9
+    },
+	"achievement_14.name": {
+      "text": "Dubloen",
+      "size": 0.9
+    },
+	"achievement_14.desc": {
+      "text": "Behaal 3 sterren\nin een level.",
+      "size": 0.9
+    },
+	"achievement_15.name": {
+      "text": "Gekeerde kansen",
+      "size": 0.9
+    },
+	"achievement_15.desc": {
+      "text": "Behaal 3 sterren\nin alle levels.",
+      "size": 0.9
+    },
+    "tutorial_orb_1"              : "Bollen bedekken omliggende\nbubbels met koraal.",
+    "tutorial_orb_2"              : "O nee! Bollen gooien\nkoraal op omliggende\nbubbels.",
+    "tutorial_drop_orb_1"         : "Dat was een bol. Die\nbedekt omliggende bubbels\nmet koraal.",
+    "tutorial_drop_orb_1"         : "De bol is gevallen. Hij\nhad koraal op bollen\nkunnen gooien.",
+    "tutorial_coral_1"            : "Raak het koraal 2 keer\nom de kleur te zien.",
+    "tutorial_coral_2"            : "Raak het koraal 2 keer\nom het te verwijderen!",
+    "tutorial_coral_3"            : "Raak het koraal 2 keer!",
+    "tutorial_tar_1"              : "Teervaten gooien teer op de\nreservebubbel van\nhet kanon.",
+    "tutorial_tar_2"              : "Je kunt geen bubbels verwisselen.\nMaak 3 combo's om het teer\nte verwijderen."
+  },
+
+  "fr_FR": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play_again"                  : "REJOUER",
+    "play"                        : "JOEUR",
+    "settings"                    : "OPTIONS",
+    "credits"                     : "CRÉDITS",
+    "reset"                       : "RÉINIT.",
+    "back"                        : "RETOUR",
+    "reset_conf"                  : "Veux-tu vraiment effacer\nta progression en cours ?",
+    "yes"                         : "OUI",
+    "no"                          : "NON",
+    "developed"                   : "Développé par :",
+    "music"                       : "Audio/Effets :",
+    "how_to_play"                 : "RÈGLES",
+    "tutorial_tap"                : "Appuie pour\nlancer une bulle.",
+    "tutorial_bubbles"            : "Éclate des bulles\net récupère les\npièces pour gagner.",
+    "tutorial_bomb"               : "Enchaîne des séries\npour débloquer des\nbonus.",
+    "tutorial_walls"              : "Utilise les murs\npour atteindre les\nbulles hautes.",
+    "tutorial_reload"             : "Intervertis des\nbulles en touchant\ncelle d'à côté.",
+    "tutorial_barrel"             : "Envoie des bulles\nsur le tonneau\npour l'exploser.",
+    "tutorial_ink"                : "Touche la glace 3 fois\npour découvrir la couleur !",
+    "tutorial_skull"              : "Touche le crâne 4\nfois pour révéler\nla couleur.",
+    "tutorial_solid"              : "Éclate des bulles\npour faire tomber\nles boulets.",
+    "achievements"                : "RÉCOMPENSES",
+	"ls_title": {
+      "text": "Niveau %%N%%",
+      "size": 0.8
+    },
+    "ls_coins"                    : "Récupère les pièces !",
+    "ls_gem"                      : "Vise le joyau !",
+    "ls_best"                     : "Vise les gemmes !",
+    "ls_reward"                   : "Vise le trésor !",
+    "ls_mistery"                  : "Vise le trésor mystère !",
+    "ls_poster"                   : "Vise l'affiche !",
+    "ls_prize"                    : "Vise le prix !",
+    "ls_final"                    : "Vise l'ultime récompense.",
+    "ls_best"                     : "Record :",
+    "pause"                       : "PAUSE",
+    "continue"                    : "SUITE",
+    "restart"                     : "NOUVEAU",
+    "quit"                        : "RETOUR",
+    "restart_conf"                : "Veux-tu vraiment\nrecommencer la partie ?",
+    "quit_conf"                   : "Veux-tu vraiment\nquitter le jeu ?",
+    "lc_title": {
+      "text": "Niveau %%N%%",
+      "size": 0.8
+    },
+    "lc_complete"                 : "Niveau terminé !",
+    "lc_best"                     : "Score :",
+    "go_title": {
+      "text": "Niveau %%N%%",
+      "size": 0.8
+    },
+    "go_details"                  : "Jeu terminé !",
+    "lc_complete_fn1"             : "Bravo !",
+    "lc_complete_fn2"             : "Tu peux améliorer ton\nscore dans chaque niveau.\nAllez !",
+    "lc_complete_fn3"             : "Félicitations !",
+    "lc_complete_fn4"             : "Bien joué !",
+    "lc_complete_fn5"             : "SUIVANT",
+    "lc_complete_fn6"             : "Récompense débloquée",
+    "language_name"               : "Langue",
+    "achievement_1.name"          : "Marin d'eau\ndouce",
+    "achievement_1.desc"          : "Premier niveau terminé.",
+    "achievement_2.name"          : "Mousse",
+    "achievement_2.desc"          : "Niveau 10 terminé.",
+    "achievement_3.name"          : "Corsaire",
+    "achievement_3.desc"          : "Niveau 20 terminé.",
+    "achievement_4.name"          : "Vieux loup de mer",
+    "achievement_4.desc"          : "Niveau 30 terminé.",
+    "achievement_5.name"          : "Mille sabords",
+    "achievement_5.desc"          : "1 000 bulles éclatées.",
+    "achievement_6.name"          : "Terreur des mers",
+    "achievement_6.desc"          : "100 bulles tombées.",
+    "achievement_7.name"          : "Brise-glace",
+    "achievement_7.desc"          : "50 glaces brisées.",
+    "achievement_8.name"          : "Pas de quartier",
+    "achievement_8.desc"          : "50 crânes détruits.",
+    "achievement_9.name"          : "Appât à\nrequins",
+    "achievement_9.desc"          : "20 crânes tombés.",
+    "achievement_10.name"         : "Galion",
+    "achievement_10.desc"         : "100 bombes canon tirées.",
+    "achievement_11.name"         : "Branle-bas\nde combat",
+    "achievement_11.desc"         : "30 bombes de\nniveau explosées.",
+    "achievement_12.name"         : "Sabordage",
+    "achievement_12.desc"         : "Canon bloqué 30 fois.",
+    "achievement_13.name"         : "À l'abordage",
+    "achievement_13.desc"         : "30 orbes activés.",
+	"achievement_14.name": {
+      "text": "Doublon",
+      "size": 0.9
+    },
+    "achievement_14.desc"         : "3 étoiles obtenues\ndans un niveau.",
+    "achievement_15.name"         : {
+      "text": "Contre vents\net marées",
+      "size": 0.9
+    },
+    "achievement_15.desc"         : "3 étoiles obtenues\ndans tous les niveaux.",
+    "tutorial_orb_1"              : "Les orbes couvrent\nde corail les\nbulles voisines.",
+    "tutorial_orb_2"              : "Aïe ! Les orbes\nlancent du corail\nsur les bulles.",
+    "tutorial_drop_orb_1"         : "Si tu touches un\norbe, il couvrira les\nbulles voisines de corail.",
+    "tutorial_drop_orb_1"         : "Tu as fait tomber l'orbe.\nIl aurait pu lancer\ndu corail partout.",
+    "tutorial_coral_1"            : "Touche le corail 2\nfois pour révéler\nla couleur.",
+    "tutorial_coral_2"            : "Touche le corail 2\nfois pour\nl'enlever !",
+    "tutorial_coral_3"            : "Touche le corail 2\nfois pour t'en\ndébarrasser !",
+    "tutorial_tar_1"              : "Les tonneaux de goudron\nenverront du goudron sur la bulle\nde réserve du canon.",
+    "tutorial_tar_2"              : "Tu ne peux pas inverser\nles bulles. Forme 3 séries pour\nretirer le goudron."
+  },
+
+  "de_DE": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play_again"                  : "NEUES SPIEL",
+    "play"                        : "SPIELEN",
+    "settings"                    : "EINST.",
+    "credits"                     : "MITWIRK.",
+    "reset"                       : "DATEN ZUR.",
+    "back"                        : "ZURÜCK",
+	"reset_conf": {
+      "text": "Willst du wirklich den\naktuellen Fortschritt löschen?",
+      "size": 0.8
+    },
+    "yes"                         : "JA",
+    "no"                          : "NEIN",
+    "developed"                   : "Entwickelt von:",
+    "music"                       : "Musik und SFX von:",
+    "how_to_play"                 : "SPIELANLEITUNG",
+    "tutorial_tap"                : "Tippe zum Abschießen\nder Blase auf eine\nRichtung.",
+    "tutorial_bubbles"            : "Schieß Blasen u. sammle\nMünzen, um ein\nLevel zu beenden",
+    "tutorial_bomb"               : "Aufeinanderfolgende\nKombis schalten\nBoosts frei.",
+    "tutorial_walls"              : "Nutze die Wände, um\nBlasen weit oben\nzu erreichen!",
+    "tutorial_reload"             : "Tausche Blasen durch\nTippen auf die\nnächste Blase!",
+    "tutorial_barrel"             : "Triff das Fass mit ein\npaar Blasen, um es\nzu zerstören!",
+    "tutorial_ink"                : "Triff das Eis 3 Mal,\num die Farbe zu sehen!",
+    "tutorial_skull"              : "Triff den Schädel 4 Mal,\num die Farbe zu sehen.",
+    "tutorial_solid"              : "Kanonenkugeln sind\nunzerbrechlich. Lass\nBlasen platzen.",
+    "achievements"                : "ERFOLGE",
+    "ls_title"                    : "Level %%N%%",
+    "ls_coins"                    : "Sammle alle Münzen!",
+    "ls_gem"                      : "Hole das Juwel!",
+    "ls_best"                     : "Hole die Juwelen!",
+    "ls_reward"                   : "Hole die Belohnung!",
+    "ls_mistery"                  : "Hole die Überraschung!",
+    "ls_poster"                   : "Hole das Poster!",
+    "ls_prize"                    : "Hole den Preis!",
+    "ls_final"                    : "Hole den letzten Preis!",
+	"ls_best": {
+      "text": "Höchstpunktzahl:",
+      "size": 0.7
+    },
+    "pause"                       : "PAUSE",
+    "continue"                    : "WEITER",
+    "restart"                     : "NEUSTART",
+    "quit"                        : "BEENDEN",
+    "restart_conf"                : "Möchtest du wirklich\ndas Spiel neu starten?",
+    "quit_conf"                   : "Möchtest du wirklich\ndas Spiel beenden?",
+    "lc_title"                    : "Level %%N%%",
+    "lc_complete"                 : "Level abgeschlossen!",
+    "lc_best"                     : "Punkte:",
+    "go_title"                    : "Level %%N%%",
+    "go_details"                  : "Game Over!",
+    "lc_complete_fn1"             : "Glückwunsch!",
+	"lc_complete_fn2": {
+      "text": "Jetzt kannst du all deine\nLevel-Rekorde schlagen.\nTu es!",
+      "size": 0.8
+    },
+    "lc_complete_fn3"             : "Glückwunsch!",
+    "lc_complete_fn4"             : "Gut gemacht!",
+    "lc_complete_fn5"             : "WEITER",
+    "lc_complete_fn6"             : "Erfolg freigeschaltet",
+    "language_name"               : "Sprache",
+    "achievement_1.name"          : "Nicht übermütig\nwerden.",
+    "achievement_1.desc"          : "Beende dein erstes Level.",
+    "achievement_2.name"          : "Alter Seemann",
+    "achievement_2.desc"          : "Beende Level 10.",
+    "achievement_3.name"          : "Seehund",
+    "achievement_3.desc"          : "Beende Level 20.",
+    "achievement_4.name"          : "Legende",
+    "achievement_4.desc"          : "Beende Level 30.",
+    "achievement_5.name"          : "Beute",
+    "achievement_5.desc"          : "Zerstöre 1.000 Blasen.",
+    "achievement_6.name"          : "Verschollen",
+    "achievement_6.desc"          : "Lass 100 Blasen fallen.",
+    "achievement_7.name"          : "Tipptopp",
+    "achievement_7.desc"          : "Zerbrich 50 Eisblöcke.",
+    "achievement_8.name"          : "Hauruck",
+    "achievement_8.desc"          : "Zerstöre 50 Schädel.",
+    "achievement_9.name"          : "Haifisch-Köder",
+    "achievement_9.desc"          : "Lass 20 Schädel fallen.",
+    "achievement_10.name"         : "Galeone",
+    "achievement_10.desc"         : "Schieße 100 Kanonenbomben.",
+    "achievement_11.name"         : "Planke",
+    "achievement_11.desc"         : "Lass 30 Levelbomben\nexplodieren.",
+    "achievement_12.name"         : "Schwindel",
+    "achievement_12.desc"         : "Blockiere die\nKanone 30 Mal.",
+    "achievement_13.name"         : "Schwarz gefleckt",
+    "achievement_13.desc"         : "Aktiviere 30 Kugeln.",
+    "achievement_14.name"         : "Dublone",
+    "achievement_14.desc"         : "Erhalte eine 3-Sterne\n-Wertung in 1 Level.",
+    "achievement_15.name": {
+      "text": "Sag mir nie, wie\nmeine Chancen stehen.",
+      "size": 0.5
+    },
+    "achievement_15.desc"         : "Erhalte eine 3-Sterne-\nWertung in allen Leveln.",
+    "tutorial_orb_1"              : "Kugeln bedecken Blasen\nin der Nähe mit Korallen.",
+    "tutorial_orb_2"              : "Hoppla! Kugeln werfen\nKorallen auf nahe Blasen.",
+    "tutorial_drop_orb_1"         : "Eine Kugel. Trifft sie,\nbedeckt sie nahe Blasen\nmit Korallen.",
+    "tutorial_drop_orb_1"         : "Kugel gefallen. Sie\nhätte Korallen auf nahe\nKugeln werfen können.",
+    "tutorial_coral_1"            : "Triff die Koralle 2\nMal, um die Farbe\nzu sehen.",
+    "tutorial_coral_2"            : "Triff die Koralle zum\nEntfernen 2 Mal\nmit Blase.",
+    "tutorial_coral_3"            : "Triff die Koralle 2 Mal,\num sie loszuwerden!",
+    "tutorial_tar_1"              : "Teerfässer kippen\nTeer auf die Reserveblase\nder Kanone.",
+    "tutorial_tar_2"              : "Du kannst keine Blasen\ntauschen. Kombiniere 3, um\nden Teer zu entfernen."
+  },
+
+  "es_LA": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "JUGAR",
+    "play_again"                  : "NUEVO JUEGO",
+    "settings"                    : "AJUSTES",
+    "credits"                     : "CRÉDITOS",
+    "reset"                       : "BORRAR",
+    "back"                        : "VOLVER",
+    "reset_conf"                  : "¿Realmente quieres\neliminar tu progreso actual?",
+    "yes"                         : "SÍ",
+    "no"                          : "NO",
+    "developed"                   : "Desarrollo:",
+    "music"                       : "Música:",
+    "how_to_play"                 : "CÓMO JUGAR",
+    "tutorial_tap"                : "Toca en una dirección\npara disparar una burbuja.",
+    "tutorial_bubbles"            : "Explota burbujas y junta\nmonedas para ganar.",
+    "tutorial_bomb"               : "Las combinaciones consecutivas\ndesbloquean bombas.",
+    "tutorial_walls"              : "Usa las paredes para\nalcanzar las\nburbujas altas.",
+    "tutorial_reload"             : "¡Intercambia burbujas\ntocando la de al lado!",
+    "tutorial_barrel"             : "Dispara burbujas al\nbarril para romperlo.",
+    "tutorial_ink"                : "¡Golpea el hielo tres veces\npara descubrir su color!",
+    "tutorial_skull"              : "Golpea la calavera 4 veces\npara revelar su color.",
+    "tutorial_solid"              : "Rompe burbujas para tirar\nbalas de cañón irrompibles.",
+    "achievements"                : "LOGROS",
+    "ls_title"                    : "Nivel %%N%%",
+    "ls_coins"                    : "¡Junta las monedas!",
+    "ls_gem"                      : "¡Busca la gema!",
+    "ls_best"                     : "¡Busca las gemas!",
+    "ls_reward"                   : "¡Busca el premio!",
+    "ls_mistery"                  : "¡Busca el premio oculto!",
+    "ls_poster"                   : "¡Busca el póster!",
+    "ls_prize"                    : "¡Busca el trofeo!",
+    "ls_final"                    : "¡Busca el premio final!",
+    "ls_best"                     : "Mejor punt:",
+    "pause"                       : "PAUSA",
+    "continue"                    : "SEGUIR",
+    "restart"                     : "REINICIA",
+    "quit"                        : "SALIR",
+    "restart_conf"                : "¿Realmente quieres\nreiniciar el juego?",
+    "quit_conf"                   : "¿Realmente quieres\nsalir del juego?",
+    "lc_title"                    : "Nivel %%N%%",
+    "lc_complete"                 : "Completado",
+    "lc_best"                     : "Puntaje:",
+    "go_title"                    : "Nivel %%N%%",
+    "go_details"                  : "¡Se acabó!",
+    "lc_complete_fn1"             : "¡Bien, chico!",
+    "lc_complete_fn2"             : "Ahora puedes mejorar\ntus puntuaciones.\n¡Inténtalo!",
+    "lc_complete_fn3"             : "¡Felicitaciones!",
+    "lc_complete_fn4"             : "¡Bien hecho!",
+    "lc_complete_fn5"             : "PRÓXIMO",
+    "lc_complete_fn6"             : "Logro desbloqueado",
+    "language_name"               : "Idioma",
+	"achievement_1.name": {
+      "text": "No seas arrogante",
+      "size": 0.9
+    },
+	"achievement_1.desc": {
+      "text": "Completa el primer nivel.",
+      "size": 0.9
+    },
+	"achievement_2.name": {
+      "text": "Viejo marinero",
+      "size": 0.9
+    },
+	"achievement_2.desc": {
+      "text": "Completa el nivel 10.",
+      "size": 0.9
+    },
+	"achievement_3.name": {
+      "text": "Lobo de mar",
+      "size": 0.9
+    },
+	"achievement_3.desc": {
+      "text": "Completa el nivel 20.",
+      "size": 0.9
+    },
+	"achievement_4.name": {
+      "text": "Leyenda",
+      "size": 0.9
+    },
+	"achievement_4.desc": {
+      "text": "Completa el nivel 30.",
+      "size": 0.9
+    },
+	"achievement_5.name": {
+      "text": "Botín",
+      "size": 0.9
+    },
+	"achievement_5.desc": {
+      "text": "Estalla 1.000 burbujas.",
+      "size": 0.9
+    },
+	"achievement_6.name": {
+      "text": "Náufrago",
+      "size": 0.9
+    },
+	"achievement_6.desc": {
+      "text": "Baja 100 burbujas.",
+      "size": 0.9
+    },
+	"achievement_7.name": {
+      "text": "En orden",
+      "size": 0.9
+    },
+	"achievement_7.desc": {
+      "text": "Rompe 50 hielos.",
+      "size": 0.9
+    },
+	"achievement_8.name": {
+      "text": "El tablón",
+      "size": 0.9
+    },
+	"achievement_8.desc": {
+      "text": "Destruye 50 calaveras.",
+      "size": 0.9
+    },
+	"achievement_9.name": {
+      "text": "Comida de tiburones",
+      "size": 0.9
+    },
+	"achievement_9.desc": {
+      "text": "Baja 20 calaveras.",
+      "size": 0.9
+    },
+	"achievement_10.name": {
+      "text": "Galeón",
+      "size": 0.9
+    },
+	"achievement_10.desc": {
+      "text": "Dispara 100 balas de cañón.",
+      "size": 0.9
+    },
+	"achievement_11.name": {
+      "text": "Plancha",
+      "size": 0.9
+    },
+	"achievement_11.desc": {
+      "text": "Detona 30 bombas de nivel.",
+      "size": 0.9
+    },
+	"achievement_12.name": {
+      "text": "Tramposo",
+      "size": 0.9
+    },
+	"achievement_12.desc": {
+      "text": "Baja 20 orbes.",
+      "size": 0.9
+    },
+	"achievement_13.name": {
+      "text": "Condenado",
+      "size": 0.9
+    },
+	"achievement_13.desc": {
+      "text": "Activa 30 orbes.",
+      "size": 0.9
+    },
+	"achievement_14.name": {
+      "text": "Doblón",
+      "size": 0.9
+    },
+	"achievement_14.desc": {
+      "text": "Gana 3 estrellas en algún nivel.",
+      "size": 0.9
+    },
+	"achievement_15.name": {
+      "text": "No me hables\nde chances",
+      "size": 0.9
+    },
+	"achievement_15.desc": {
+      "text": "Gana 3 estrellas\nen todos los niveles.",
+      "size": 0.9
+	},
+    "tutorial_orb_1"              : "Los orbes cubren las\nburbujas cercanas con coral.",
+    "tutorial_orb_2"              : "¡Oh, no! Los orbes ponen\ncorales en las burbujas.",
+    "tutorial_drop_orb_1"         : "Eso era un orbe. Si le\npegas, cubrirá a las\nburbujas con coral.",
+    "tutorial_drop_orb_1"         : "Bajaste el orbe. Podría\nhaber cubierto las\nburbujas con coral.",
+    "tutorial_coral_1"            : "Dispárale al coral 2\nveces para revelar el color.",
+    "tutorial_coral_2"            : "¡Dispara al coral 2\nveces para quitarlo!",
+    "tutorial_coral_3"            : "¡Dispara al coral dos\nveces para eliminarlo!",
+    "tutorial_tar_1"              : "Los barriles de alquitrán\nse vuelcan sobre la burbuja en\nreserva del cañón.",
+    "tutorial_tar_2"              : "No puedes intercambiar\nburbujas. Combina 3 para eliminar\nel alquitrán."
+  },
+
+  "pt_BR": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "JOGAR",
+    "play_again"                  : "OUTRO JOGO",
+    "settings"                    : "CONFIG.",
+    "credits"                     : "CRÉDITOS",
+    "reset"                       : "RED. DADOS",
+    "back"                        : "VOLTAR",
+    "reset_conf"                  : "Tem certeza que deseja\napagar o progresso atual?",
+    "yes"                         : "SIM",
+    "no"                          : "NÃO",
+    "developed"                   : "Desenvolvedor:",
+    "music"                       : "Música/efeitos:",
+    "how_to_play"                 : "COMO JOGAR",
+    "tutorial_tap"                : "Toque em uma direção\npara acertar uma bolha.",
+    "tutorial_bubbles"            : "Estoure bolhas e colete\nmoedas para concluir o nível.",
+    "tutorial_bomb"               : "Combinações seguidas\ndesbloqueiam super bombas!",
+    "tutorial_walls"              : "Use as paredes para\nalcançar as bolhas\nmais altas!",
+    "tutorial_reload"             : "Toque na próxima bolha\npara trocar de bolha!",
+    "tutorial_barrel"             : "Atinja o barril com 2 ou\n3 bolhas para arrebentá-lo!",
+    "tutorial_ink"                : "Acerte o gelo três vezes\npara descobrir a cor!",
+    "tutorial_skull"              : "Acerte a caveira 4x para\ndescobrir a cor!",
+    "tutorial_solid"              : "Balas canhão não quebram.\nEstoure bolhas para derrubar.",
+    "achievements"                : "CONQUISTAS",
+    "ls_title"                    : "Nível %%N%%",
+    "ls_coins"                    : "Colete todas as moedas!",
+    "ls_gem"                      : "Pegue a joia!",
+    "ls_best"                     : "Pegue as joias!",
+    "ls_reward"                   : "Pegue a recompensa!",
+	"ls_mistery": {
+      "text": "Pegue o prêmio misterioso!",
+      "size": 0.8
+    },
+    "ls_poster"                   : "Pegue o pôster!",
+    "ls_prize"                    : "Pegue o prêmio!",
+    "ls_final"                    : "Pegue a recompensa final!",
+    "ls_best"                     : "Recorde:",
+    "pause"                       : "PAUSAR",
+    "continue"                    : "CONTINUE",
+    "restart"                     : "REINICIE",
+    "quit"                        : "SAIR",
+    "restart_conf"                : "Tem certeza que deseja\nreiniciar o jogo?",
+    "quit_conf"                   : "Tem certeza que deseja\nsair do jogo?",
+    "lc_title"                    : "Nível %%N%%",
+    "lc_complete"                 : "Nível concluído!",
+    "lc_best"                     : "Pontuação:",
+    "go_title"                    : "Nível %%N%%",
+    "go_details"                  : "Acabou!",
+    "lc_complete_fn1"             : "Parabéns!",
+    "lc_complete_fn2"             : "Agora, supere suas\npontuações em cada nível.\nVamos lá!",
+    "lc_complete_fn3"             : "Parabéns!",
+    "lc_complete_fn4"             : "Muito bem!",
+    "lc_complete_fn5"             : "AVANÇAR",
+    "lc_complete_fn6"             : "Conquista desbloq.",
+    "language_name"               : "Idioma",
+    "achievement_1.name"          : "Não fique\ncheio de si.",
+    "achievement_1.desc"          : "Termine seu primeiro nível.",
+    "achievement_2.name"          : "Velho Sal",
+    "achievement_2.desc"          : "Termine o nível 10.",
+    "achievement_3.name"          : "Lobo do mar",
+    "achievement_3.desc"          : "Termine o nível 20.",
+    "achievement_4.name"          : "Lenda",
+    "achievement_4.desc"          : "Termine o nível 30.",
+    "achievement_5.name"          : "Butim",
+    "achievement_5.desc"          : "Estoure 1.000 bolhas.",
+    "achievement_6.name"          : "Náufrago",
+    "achievement_6.desc"          : "Derrube 100 bolhas.",
+    "achievement_7.name"          : "Impecável",
+    "achievement_7.desc"          : "Quebre 50 gelos.",
+    "achievement_8.name"          : "Força!.",
+    "achievement_8.desc"          : "Destrua 50 caveiras.",
+    "achievement_9.name"          : "Isca de\ntubarão",
+    "achievement_9.desc"          : "Derrube 20 caveiras.",
+    "achievement_10.name"         : "Galeão",
+    "achievement_10.desc"         : "Atire 100 bombas de canhão.",
+    "achievement_11.name"         : "Na prancha",
+    "achievement_11.desc"         : "Usou 30 bombas do nível.",
+    "achievement_12.name"         : "Trapaceiro",
+    "achievement_12.desc"         : "Bloqueie o\ncanhão 30 vezes.",
+    "achievement_13.name"         : "Condenado",
+    "achievement_13.desc"         : "Ative 30 orbes.",
+    "achievement_14.name"         : "Dobrão",
+    "achievement_14.desc"         : "Ganhe 3 estrelas em\nqualquer nível.",
+    "achievement_15.name"         : "Não me conte\nas chances.",
+    "achievement_15.desc"         : "Ganhe 3 estrelas em\ntodos os níveis.",
+    "tutorial_orb_1"              : "Os orbes cobrem bolhas\npróximas com coral.",
+    "tutorial_orb_2"              : "Oh, não! Os orbes atiram\ncoral em bolhas próximas.",
+    "tutorial_drop_orb_1"         : "Esse é um orbe. Se\natingido, cobre as bolhas\npróximas com coral.",
+    "tutorial_drop_orb_1"         : "Você derrubou o orbe.\nEle poderia ter atirado\ncoral nas bolhas.",
+    "tutorial_coral_1"            : "Acerte o coral duas\nvezes para descobrir a cor.",
+    "tutorial_coral_2"            : "Acerte o coral 2x com a\nbolha para removê-lo!",
+    "tutorial_coral_3"            : "Acerte o coral duas vezes\npara se livrar dele!",
+    "tutorial_tar_1"              : "Os barris de piche jogarão\npiche na bolha de reserva\ndo canhão.",
+    "tutorial_tar_2"              : "Você não pode trocar bolhas.\nFaça 3 combinações para\nremover o piche."
+  },
+
+  "pt_PT": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "JOGAR",
+    "play_again"                  : "OUTRO JOGO",
+    "settings"                    : "CONFIG.",
+    "credits"                     : "CRÉDITOS",
+    "reset"                       : "RED. DADOS",
+    "back"                        : "VOLTAR",
+    "reset_conf"                  : "Tem certeza que deseja\napagar o progresso atual?",
+    "yes"                         : "SIM",
+    "no"                          : "NÃO",
+    "developed"                   : "Desenvolvedor:",
+    "music"                       : "Música/efeitos:",
+    "how_to_play"                 : "COMO JOGAR",
+    "tutorial_tap"                : "Toque em uma direção\npara acertar uma bolha.",
+    "tutorial_bubbles"            : "Estoure bolhas e colete\nmoedas para concluir o nível.",
+    "tutorial_bomb"               : "Combinações seguidas\ndesbloqueiam super bombas!",
+    "tutorial_walls"              : "Use as paredes para\nalcançar as bolhas\nmais altas!",
+    "tutorial_reload"             : "Toque na próxima bolha\npara trocar de bolha!",
+    "tutorial_barrel"             : "Atinja o barril com 2 ou\n3 bolhas para arrebentá-lo!",
+    "tutorial_ink"                : "Acerte o gelo três vezes\npara descobrir a cor!",
+    "tutorial_skull"              : "Acerte a caveira 4x para\ndescobrir a cor!",
+    "tutorial_solid"              : "Balas canhão não quebram.\nEstoure bolhas para derrubar.",
+    "achievements"                : "CONQUISTAS",
+    "ls_title"                    : "Nível %%N%%",
+    "ls_coins"                    : "Colete todas as moedas!",
+    "ls_gem"                      : "Pegue a joia!",
+    "ls_best"                     : "Pegue as joias!",
+    "ls_reward"                   : "Pegue a recompensa!",
+	"ls_mistery": {
+      "text": "Pegue o prêmio misterioso!",
+      "size": 0.8
+    },
+    "ls_poster"                   : "Pegue o pôster!",
+    "ls_prize"                    : "Pegue o prêmio!",
+    "ls_final"                    : "Pegue a recompensa final!",
+    "ls_best"                     : "Recorde:",
+    "pause"                       : "PAUSAR",
+    "continue"                    : "CONTINUE",
+    "restart"                     : "REINICIE",
+    "quit"                        : "SAIR",
+    "restart_conf"                : "Tem certeza que deseja\nreiniciar o jogo?",
+    "quit_conf"                   : "Tem certeza que deseja\nsair do jogo?",
+    "lc_title"                    : "Nível %%N%%",
+    "lc_complete"                 : "Nível concluído!",
+    "lc_best"                     : "Pontuação:",
+    "go_title"                    : "Nível %%N%%",
+    "go_details"                  : "Acabou!",
+    "lc_complete_fn1"             : "Parabéns!",
+    "lc_complete_fn2"             : "Agora, supere suas\npontuações em cada nível.\nVamos lá!",
+    "lc_complete_fn3"             : "Parabéns!",
+    "lc_complete_fn4"             : "Muito bem!",
+    "lc_complete_fn5"             : "AVANÇAR",
+    "lc_complete_fn6"             : "Conquista desbloq.",
+    "language_name"               : "Idioma",
+    "achievement_1.name"          : "Não fique\ncheio de si.",
+    "achievement_1.desc"          : "Termine seu primeiro nível.",
+    "achievement_2.name"          : "Velho Sal",
+    "achievement_2.desc"          : "Termine o nível 10.",
+    "achievement_3.name"          : "Lobo do mar",
+    "achievement_3.desc"          : "Termine o nível 20.",
+    "achievement_4.name"          : "Lenda",
+    "achievement_4.desc"          : "Termine o nível 30.",
+    "achievement_5.name"          : "Butim",
+    "achievement_5.desc"          : "Estoure 1.000 bolhas.",
+    "achievement_6.name"          : "Náufrago",
+    "achievement_6.desc"          : "Derrube 100 bolhas.",
+    "achievement_7.name"          : "Impecável",
+    "achievement_7.desc"          : "Quebre 50 gelos.",
+    "achievement_8.name"          : "Força!.",
+    "achievement_8.desc"          : "Destrua 50 caveiras.",
+    "achievement_9.name"          : "Isca de\ntubarão",
+    "achievement_9.desc"          : "Derrube 20 caveiras.",
+    "achievement_10.name"         : "Galeão",
+    "achievement_10.desc"         : "Atire 100 bombas de canhão.",
+    "achievement_11.name"         : "Na prancha",
+    "achievement_11.desc"         : "Usou 30 bombas do nível.",
+    "achievement_12.name"         : "Trapaceiro",
+    "achievement_12.desc"         : "Bloqueie o\ncanhão 30 vezes.",
+    "achievement_13.name"         : "Condenado",
+    "achievement_13.desc"         : "Ative 30 orbes.",
+    "achievement_14.name"         : "Dobrão",
+    "achievement_14.desc"         : "Ganhe 3 estrelas em\nqualquer nível.",
+    "achievement_15.name"         : "Não me conte\nas chances.",
+    "achievement_15.desc"         : "Ganhe 3 estrelas em\ntodos os níveis.",
+    "tutorial_orb_1"              : "Os orbes cobrem bolhas\npróximas com coral.",
+    "tutorial_orb_2"              : "Oh, não! Os orbes atiram\ncoral em bolhas próximas.",
+    "tutorial_drop_orb_1"         : "Esse é um orbe. Se\natingido, cobre as bolhas\npróximas com coral.",
+    "tutorial_drop_orb_1"         : "Você derrubou o orbe.\nEle poderia ter atirado\ncoral nas bolhas.",
+    "tutorial_coral_1"            : "Acerte o coral duas\nvezes para descobrir a cor.",
+    "tutorial_coral_2"            : "Acerte o coral 2x com a\nbolha para removê-lo!",
+    "tutorial_coral_3"            : "Acerte o coral duas vezes\npara se livrar dele!",
+    "tutorial_tar_1"              : "Os barris de piche jogarão\npiche na bolha de reserva\ndo canhão.",
+    "tutorial_tar_2"              : "Você não pode trocar bolhas.\nFaça 3 combinações para\nremover o piche."
+  },
+
+  "it_IT": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "GIOCA",
+    "play_again"                  : "RIGIOCA",
+	"settings": {
+      "text": "IMPOSTAZIONI",
+      "size": 0.6
+    },
+	"credits": {
+      "text": "RICONOSCIMENTI",
+      "size": 0.6
+    },
+	"reset": {
+      "text": "AZZERA DATI",
+      "size": 0.7
+    },
+    "back"                        : "INDIETRO",
+    "reset_conf"                  : "Vuoi davvero annullare\ngli attuali progressi?",
+    "yes"                         : "SÌ",
+    "no"                          : "NO",
+    "developed"                   : "Sviluppato da:",
+	"music": {
+      "text": "Musica ed effetti sonori di:",
+      "size": 0.7
+    },
+    "how_to_play"                 : "COME GIOCARE",
+    "tutorial_tap"                : "Tocca una direzione per\nsparare alla bolla.",
+    "tutorial_bubbles"            : "Scoppia le bolle e\nraccogli le monete\nper finire il livello.",
+    "tutorial_bomb"               : "Con abbinamenti consecutivi\nsblocchi la potenza\ndelle bombe!",
+    "tutorial_walls"              : "Usa le pareti per\nraggiungere le bolle\npiù in alto!",
+    "tutorial_reload"             : "Scambia bolle\ntoccando la\nbolla successiva!",
+    "tutorial_barrel"             : "Colpisci il barile\ncon un paio di bolle\nper distruggerlo!",
+    "tutorial_ink"                : "Colpisci l'inchiostro\ntre volte per scoprire\nil colore!",
+    "tutorial_skull"              : "Colpisci il teschio\nquattro volte\nper scoprire il colore!",
+    "tutorial_solid"              : "I cannoni sono\nindistruttibili.Scoppia\nbolle, così cadranno.",
+    "achievements"                : "RISULTATI",
+    "ls_title"                    : "Livello %%N%%",
+    "ls_coins"                    : "Raccogli tutte le monete!",
+    "ls_gem"                      : "Mira alla gemma!",
+    "ls_best"                     : "Mira alle gemme!",
+    "ls_reward"                   : "Prendi ricompensa!",
+	"ls_mistery": {
+      "text": "Prendi ricompensa mistero!",
+      "size": 0.7
+    },
+    "ls_poster"                   : "Mira al poster!",
+    "ls_prize"                    : "Mira al premio!",
+    "ls_final"                    : "Mira al premio finale!",
+    "ls_best"                     : "Record:",
+    "pause"                       : "PAUSA",
+	"continue": {
+      "text": "CONTINUA",
+      "size": 0.7
+    },
+    "restart"                     : "RIAVVIA",
+    "quit"                        : "ESCI",
+    "restart_conf"                : "Vuoi davvero\nriavviare la partita?",
+    "quit_conf"                   : "Vuoi davvero\nabbandonare il gioco?",
+    "lc_title"                    : "Livello %%N%%",
+    "lc_complete"                 : "Livello completato!",
+    "lc_best"                     : "Punteggio:",
+    "go_title"                    : "Liv. %%N%%",
+    "go_details"                  : "Gioco finito!",
+	"lc_complete_fn1": {
+      "text": "Congratulazioni, ragazzo!",
+      "size": 0.7
+    },
+    "lc_complete_fn2"             : "Ora puoi superare i tuoi\nrecord in ogni livello.\nContinua così!",
+    "lc_complete_fn3"             : "Complimenti!",
+    "lc_complete_fn4"             : "Vai così!",
+    "lc_complete_fn5"             : "AVANTI",
+    "lc_complete_fn6"             : "Sbloccato un risultato",
+    "language_name"               : "Lingua",
+    "achievement_1.name"          : "Non peccare\ndi superbia.",
+    "achievement_1.desc"          : "Completa il primo livello.",
+    "achievement_2.name"          : "Vecchio sale",
+    "achievement_2.desc"          : "Completa il livello 10.",
+    "achievement_3.name"          : "Lupo di\nmare",
+    "achievement_3.desc"          : "Completa il livello 20.",
+    "achievement_4.name"          : "Leggenda",
+    "achievement_4.desc"          : "Completa il livello 30.",
+    "achievement_5.name"          : "Bottino",
+    "achievement_5.desc"          : "Scoppia 1000 bolle.",
+    "achievement_6.name"          : "Naufrago",
+    "achievement_6.desc"          : "Fai cadere 100 bolle.",
+    "achievement_7.name"          : "A tutta\ndritta",
+    "achievement_7.desc"          : "Rompi 50 ghiacci.",
+    "achievement_8.name"          : "Oh issa",
+    "achievement_8.desc"          : "Distruggi 50 teschi.",
+    "achievement_9.name"          : "Esca di\nsqualo",
+    "achievement_9.desc"          : "Fai cadere 20 teschi.",
+    "achievement_10.name"         : "Galeone",
+    "achievement_10.desc"         : "Spara 100 bombe di cannone.",
+    "achievement_11.name"         : "Passerella",
+    "achievement_11.desc"         : "Usate 30 bombe di livello.",
+    "achievement_12.name"         : "Avanti, carica",
+    "achievement_12.desc"         : "Blocca il cannone\n30 volte.",
+    "achievement_13.name"         : "Maledetto",
+    "achievement_13.desc"         : "Attiva 30 sfere.",
+    "achievement_14.name"         : "Doblone",
+    "achievement_14.desc"         : "Ottieni un punteggio\ndi 3* per livello.",
+    "achievement_15.name"         : "Non dirmi mai\nle probabilità",
+    "achievement_15.desc"         : "Ottieni un punteggio\ndi 3* in ogni livello.",
+    "tutorial_orb_1"              : "Le sfere copriranno\nle bolle vicine\ndi corallo.",
+    "tutorial_orb_2"              : "Oh no! Le sfere\nlanceranno coralli\nsulle bolle.",
+    "tutorial_drop_orb_1"         : "Era una sfera Se\ncolpita, ricopre le\nbolle vicine di corallo.",
+    "tutorial_drop_orb_1"         : "Sfera caduta. Avrebbe\npotuto lanciare corallo\nsulle sfere vicine.",
+    "tutorial_coral_1"            : "Colpisci 2 volte il\ncorallo per scoprire\nil colore",
+    "tutorial_coral_2"            : "Colpisci il corallo\n2 volte per\nrimuoverlo!",
+    "tutorial_coral_3"            : "Colpisci il corallo\n2 volte per\nsbarazzartene!",
+    "tutorial_tar_1"              : "I barili del catrame lanciano\ncatrame sulla bolla di riserva\ndel cannone.",
+    "tutorial_tar_2"              : "Non puoi scambiare le bolle.\nCrea 3 abbinamenti per rimuovere\nil catrame."
+  },
+
+  "sv_SE": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "SPELA",
+    "play_again"                  : "SPELA IGEN",
+    "settings"                    : "INST.",
+    "credits"                     : "TACKLISTA",
+    "reset"                       : "NOLLSTÄLL",
+    "back"                        : "BAKÅT",
+	"reset_conf": {
+      "text": "Är du säker på att du vill\nta bort nuvarande framsteg?",
+      "size": 0.8
+    },
+    "yes"                         : "JA",
+    "no"                          : "NEJ",
+    "developed"                   : "Utvecklat av:",
+    "music"                       : "Musik/effekter:",
+    "how_to_play"                 : "SPELLEKTION",
+    "tutorial_tap"                : "Tryck i en riktning\nför att skjuta\nen bubbla",
+    "tutorial_bubbles"            : "Panga bubblor och samla\nihop mynt för att\nklara nivån.",
+    "tutorial_bomb"               : "Matchningar i följd\nlåser upp extrabomber!",
+    "tutorial_walls"              : "Använd väggarna för\natt nå bubblor\nhögre upp!",
+    "tutorial_reload"             : "Byt plats genom att\ntrycka på nästa\nbubbla!",
+    "tutorial_barrel"             : "Skjut några bubblor\nmot tunnan för att\nkrossa den!",
+    "tutorial_ink"                : "Träffa isen tre gånger\nför att avslöja färgen!",
+    "tutorial_skull"              : "Träffa skallen fyra\ngånger för att\navslöja färgen!",
+    "tutorial_solid"              : "Kanonkulor okrossbara.\nPanga bubblor för att\nsänka dem.",
+    "achievements"                : "UTMÄRKELSER",
+    "ls_title"                    : "Nivå %%N%%",
+    "ls_coins"                    : "Samla ihop alla mynt!",
+    "ls_gem"                      : "Ta juvelen!",
+    "ls_best"                     : "Ta juvelerna!",
+    "ls_reward"                   : "Ta belöningen!",
+	"ls_mistery": {
+      "text": "Ta deb hemliga belöningen!",
+      "size": 0.8
+    },
+    "ls_poster"                   : "Ta affischen!",
+    "ls_prize"                    : "Ta pokalen!",
+    "ls_final"                    : "Ta den sista belöningen!",
+    "ls_best"                     : "Toppoäng:",
+    "pause"                       : "PAUSA",
+    "continue"                    : "FORTSÄTT",
+    "restart"                     : "OMSTART",
+    "quit"                        : "STÄNG",
+    "restart_conf"                : "Är du säker på att du\nvill starta om spelet?",
+    "quit_conf"                   : "Är du säker på att du\nvill avsluta spelet?",
+    "lc_title"                    : "Nivå %%N%%",
+    "lc_complete"                 : "Nivå avklarad!",
+    "lc_best"                     : "Poäng:",
+    "go_title"                    : "Nivå %%N%%",
+    "go_details"                  : "Spelet slut!",
+    "lc_complete_fn1"             : "Grattis kompis!",
+    "lc_complete_fn2"             : "Försök nu slå din egen\npoäng på varje nivå.\nSätt igång!",
+    "lc_complete_fn3"             : "Grattis!",
+    "lc_complete_fn4"             : "Bra gjort!",
+    "lc_complete_fn5"             : "NÄSTA",
+    "lc_complete_fn6"             : "Utmärkelse upplåst",
+    "language_name"               : "Språk",
+    "achievement_1.name"          : "Bli inte stursk.",
+    "achievement_1.desc"          : "Slutför den första nivån.",
+    "achievement_2.name"          : "Gammalt salt",
+    "achievement_2.desc"          : "Klara nivå 10.",
+    "achievement_3.name"          : "Sjöbjörn",
+    "achievement_3.desc"          : "Klara nivå 20.",
+    "achievement_4.name"          : "Legend",
+    "achievement_4.desc"          : "Klara nivå 30.",
+    "achievement_5.name"          : "Pirat",
+    "achievement_5.desc"          : "Panga 1 000 bubblor.",
+    "achievement_6.name"          : "Strandsatt",
+    "achievement_6.desc"          : "Släpp ned 100 bubblor.",
+    "achievement_7.name"          : "Mönstergill",
+    "achievement_7.desc"          : "Krossa 50 isar.",
+    "achievement_8.name"          : "Hårda tag",
+    "achievement_8.desc"          : "Krossa 50 skallar.",
+    "achievement_9.name"          : "Hajbete",
+    "achievement_9.desc"          : "Släpp 20 skallar.",
+    "achievement_10.name"         : "Gallion",
+    "achievement_10.desc"         : "Avlossa 100 kanonbomber.",
+    "achievement_11.name"         : "Landgång",
+    "achievement_11.desc"         : "Sprängde 30 nivåbomber.",
+    "achievement_12.name"         : "Kanonblockad",
+    "achievement_12.desc"         : "Blockera kanonen\n30 gånger.",
+    "achievement_13.name"         : "Farligt",
+    "achievement_13.desc"         : "Aktivera 30 klot.",
+    "achievement_14.name"         : "Dublon",
+    "achievement_14.desc"         : "Fick trestjärnigt\nbetyg på en nivå.",
+    "achievement_15.name"         : "Avslöja\ninte oddsen",
+    "achievement_15.desc"         : "Tre stjärnor på alla nivåer.",
+    "tutorial_orb_1"              : "Klot täcker närliggande\nbubblor med korall.",
+    "tutorial_orb_2"              : "Åh nej! Klot kastar\nkorall på närliggande\nbubblor.",
+    "tutorial_drop_orb_1"         : "Det var ett klot Vid\nträff täcks närliggande\nbubblor av korall.",
+    "tutorial_drop_orb_1"         : "Du släppte klotet.\nDet kunde ha kastat korall\npå andra klot.",
+    "tutorial_coral_1"            : "Träffa korallen två\ngånger för att\navslöja färgen.",
+    "tutorial_coral_2"            : "Träffa korallen två\ngånger för att\nta bort den.",
+    "tutorial_coral_3"            : "Träffa korallen två\ngånger för att\nbli av med den!",
+    "tutorial_tar_1"              : "Tjärtunnor kastar\ntjära på kanonens\nreservbubbla.",
+    "tutorial_tar_2"              : "Du kan inte byta\nbubblor. Matcha 3 ggr för\natt ta bort tjäran."
+  },
+
+  "pl_PL": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "ZAGRAJ",
+    "play_again"                  : "REJOUER",
+	"settings": {
+      "text": "DOSTOSUJ",
+      "size": 0.8
+    },
+    "credits"                     : "AUTORZY",
+    "reset"                       : "RESETUJ",
+    "back"                        : "POWRÓT",
+    "reset_conf"                  : "Czy na pewno chcesz\nusunąć aktualne postępy?",
+    "yes"                         : "TAK",
+    "no"                          : "NIE",
+    "developed"                   : "Autorzy gry:",
+    "music"                       : "Muzyka, efekty:",
+    "how_to_play"                 : "JAK GRAĆ",
+    "tutorial_tap"                : "Dotknij, aby wystrzelić kulkę.",
+    "tutorial_bubbles"            : "Rozbijaj kulki i zbieraj\nmonety, by ukończyć poziom.",
+    "tutorial_bomb"               : "Kolejne dopasowania\nodblokowują wzmocnienia bomb!",
+    "tutorial_walls"              : "Użyj ścian, by dotrzeć\ndo wyżej położonych kulek!",
+    "tutorial_reload"             : "Zamieniaj kulki,\ndotykając kolejnej kulki!",
+    "tutorial_barrel"             : "Uderz beczkę kilkoma\nkulkami, by ją rozwalić!",
+    "tutorial_ink"                : "Uderz atrament trzy razy,\naby zobaczyć kolor!",
+    "tutorial_skull"              : "Uderz czaszkę cztery\nrazy, aby zobaczyć kolor!",
+    "tutorial_solid"              : "Nie da się rozbić kul.\nRozbij kulki, by je zrzucić.",
+    "achievements"                : "TROFEA",
+	"ls_title": {
+      "text": "Poziom %%N%%",
+      "size": 0.7
+    },
+    "ls_coins"                    : "Zbierz wszystkie monety!",
+    "ls_gem"                      : "Zdobądź klejnot!",
+    "ls_best"                     : "Zdobądź klejnoty!",
+    "ls_reward"                   : "Zdobądź nagrodę!",
+	"ls_mistery": {
+      "text": "Zdobądź tajemniczą nagrodę",
+      "size": 0.7
+    },
+    "ls_poster"                   : "Zdobądź plakat!",
+    "ls_prize"                    : "Zdobądź wygraną!",
+    "ls_final"                    : "Zdobądź nagrodę końcową!",
+    "ls_best"                     : "Rekord:",
+    "pause"                       : "PAUZA",
+    "continue"                    : "DALEJ",
+    "restart"                     : "RESTART",
+    "quit"                        : "WYJDŹ",
+    "restart_conf"                : "Czy na pewno chcesz\nrozpocząć grę ponownie?",
+    "quit_conf"                   : "Czy na pewno chcesz\nzakończyć grę?",
+    "lc_title": {
+      "text": "Poziom %%N%%",
+      "size": 0.7
+    },
+    "lc_complete"                 : "Poziom ukończony!",
+    "lc_best"                     : "Wynik:",
+    "go_title": {
+      "text": "Poziom %%N%%",
+      "size": 0.7
+    },
+    "go_details"                  : "Koniec gry!",
+    "lc_complete_fn1"             : "Gratulacje!",
+    "lc_complete_fn2"             : "Popraw swoje wyniki\nna każdym poziomie.\nZrób to teraz!",
+    "lc_complete_fn3"             : "Gratulacje!",
+    "lc_complete_fn4"             : "Dobra robota!",
+    "lc_complete_fn5"             : "DALEJ",
+    "lc_complete_fn6"             : "Odblokowano trofeum",
+    "language_name"               : "Język",
+    "achievement_1.name"          : "Nie bądź taki\nzarozumiały.",
+    "achievement_1.desc"          : "Ukończ pierwszy poziom.",
+    "achievement_2.name"          : "Gawędziarz",
+    "achievement_2.desc"          : "Ukończ poziom 10.",
+    "achievement_3.name"          : "Wilk morski",
+    "achievement_3.desc"          : "Ukończ poziom 20.",
+    "achievement_4.name"          : "Legenda",
+    "achievement_4.desc"          : "Ukończ poziom 30.",
+    "achievement_5.name"          : "Łup",
+    "achievement_5.desc"          : "Rozbij 1000 kulek.",
+    "achievement_6.name"          : "Daleko stąd",
+    "achievement_6.desc"          : "Zrzuć 100 kulek.",
+    "achievement_7.name"          : "Porządek",
+    "achievement_7.desc"          : "Rozbij 50\nkawałków lodu.",
+    "achievement_8.name"          : "Destrukcja",
+    "achievement_8.desc"          : "Zniszcz 50 czaszek.",
+    "achievement_9.name"          : "Przynęta",
+    "achievement_9.desc"          : "Zrzuć 20 czaszek.",
+    "achievement_10.name"         : "Galeon",
+    "achievement_10.desc"         : "Wystrzelono 100\nbomb z działa.",
+    "achievement_11.name"         : "Pomost",
+    "achievement_11.desc"         : "Wystrzelono 30\nbomb poziomu.",
+    "achievement_12.name"         : "Działo",
+    "achievement_12.desc"         : "Zablokuj działo\n30 razy.",
+    "achievement_13.name"         : "Przeklęty",
+    "achievement_13.desc"         : "Aktywuj 30 bomb.",
+    "achievement_14.name"         : "Gwiazdki",
+    "achievement_14.desc"         : "Zdobądź 3 gwiazdki na\ndowolnym poziomie.",
+    "achievement_15.name"         : "Mistrzostwo",
+    "achievement_15.desc"         : "Zdobądź 3 gwiazdki na\nkażdym poziomie.",
+    "tutorial_orb_1"              : "Kule pokryją pobliskie\nkulki koralami.",
+    "tutorial_orb_2"              : "Ojej! Kule rzucą korale\nna pobliskie kulki.",
+    "tutorial_drop_orb_1"         : "To była kula. Uderzona,\npokryje pobliskie kulki\nkoralami.",
+    "tutorial_drop_orb_1"         : "Zrzucono kulę. Mogła\nrzucić korale na\npobliskie kule.",
+    "tutorial_coral_1"            : "Uderz koral dwa razy,\naby zobaczyć kolor.",
+    "tutorial_coral_2"            : "Usuń koral z kulką\ndwa razy, aby go\nusunąć.",
+    "tutorial_coral_3"            : "Uderz koral dwa razy,\naby się go pozbyć!",
+    "tutorial_tar_1"              : "Smoła z beczek pokryje\nzapasową kulę do\ndziała.",
+    "tutorial_tar_2"              : "Nie możesz zamieniać kul.\nZrób 3 dopasowania,\nby usunąć smołę."
+  },
+
+  "ru_RU": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "ИГРАТЬ",
+    "play_again"                  : "ИГРАТЬ ЕЩЕ",
+	"settings": {
+      "text": "НАСТРОЙКИ",
+      "size": 0.8
+    },
+    "credits"                     : "АВТОРЫ",
+	"reset": {
+      "text": "СБРОС ДАННЫХ",
+      "size": 0.7
+    },
+    "back"                        : "НАЗАД",
+    "reset_conf"                  : "Удалить текущий\nпрогресс?",
+    "yes"                         : "ДА",
+    "no"                          : "НЕТ",
+    "developed"                   : "Разработчики:",
+    "music"                       : "Звук и музыка:",
+    "how_to_play"                 : "КАК ИГРАТЬ",
+    "tutorial_tap"                : "Щелчком выстрели по пузырьку.",
+    "tutorial_bubbles"            : "Чтобы пройти уровень,\nвзорви пузырьки и\nсобери все монеты.",
+    "tutorial_bomb"               : "Несколько сопоставлений\nподряд увеличивают\nмощь бомб.",
+    "tutorial_walls"              : "Поднимайся к пузырькам на\nвысоте с помощью стен!",
+    "tutorial_reload"             : "Меняй пузырьки местами,\nщелкая по следующему\nпузырьку!",
+    "tutorial_barrel"             : "Чтобы разбить бочку, ударь\nпо ней парой пузырьков.",
+    "tutorial_ink"                : "Трижды ударь по чернилам,\nчтобы узнать их цвет!",
+    "tutorial_skull"              : "Четырежды ударь по черепу,\nчтобы узнать его цвет.",
+    "tutorial_solid"              : "Ядра не разрушаются. Взрывай\nпузырьки, чтобы сбросить их.",
+    "achievements"                : "ДОСТИЖЕНИЯ",
+    "ls_title"                    : "Уровень %%N%%",
+    "ls_coins"                    : "Собери все монеты!",
+    "ls_gem"                      : "Ищи драгоценности!",
+    "ls_best"                     : "Ищи драгоценности!",
+    "ls_reward"                   : "Получи награду!",
+    "ls_mistery"                  : "Получи таинственную\nнаграду!",
+    "ls_poster"                   : "Получи постер!",
+    "ls_prize"                    : "Выиграй приз!",
+    "ls_final"                    : "Получи главную\nнаграду!",
+    "ls_best"                     : "Рекорд:",
+    "pause"                       : "ПАУЗА",
+	"continue": {
+      "text": "ПРОДОЛЖИТЬ",
+      "size": 0.7
+    },
+    "restart"                     : "СНАЧАЛА",
+    "quit"                        : "ВЫХОД",
+    "restart_conf"                : "Повторно начать игру?",
+    "quit_conf"                   : "Выйти из игры?",
+    "lc_title"                    : "Уровень %%N%%",
+    "lc_complete"                 : "Уровень пройден!",
+    "lc_best"                     : "Счет:",
+    "go_title"                    : "Уровень %%N%%",
+    "go_details"                  : "Игра закончена!",
+    "lc_complete_fn1"             : "Поздравляем, парень!",
+    "lc_complete_fn2"             : "Теперь ты можешь побить свой\nрекорд на каждом уровне.\nЗа дело!",
+    "lc_complete_fn3"             : "Поздравляем!",
+    "lc_complete_fn4"             : "Превосходно!",
+    "lc_complete_fn5"             : "ДАЛЬШЕ",
+    "lc_complete_fn6"             : "Достижение открыто",
+    "language_name"               : "Язык",
+    "achievement_1.name"          : "Не задирайся.",
+    "achievement_1.desc"          : "Пройден первый уровень.",
+    "achievement_2.name"          : "Бывалый моряк",
+    "achievement_2.desc"          : "Пройден уровень 10.",
+    "achievement_3.name"          : "Морской волк",
+    "achievement_3.desc"          : "Пройден уровень 20.",
+    "achievement_4.name"          : "Легенда",
+    "achievement_4.desc"          : "Пройден уровень 30.",
+    "achievement_5.name"          : "Добыча",
+    "achievement_5.desc"          : "Взорвано 1000 пузырьков.",
+    "achievement_6.name"          : "Кораблекрушение",
+    "achievement_6.desc"          : "Сброшено 100 пузырьков.",
+    "achievement_7.name"          : "Как следует",
+    "achievement_7.desc"          : "Сбей 50 льдинок.",
+    "achievement_8.name"          : "Раз-два взяли!",
+    "achievement_8.desc"          : "Уничтожено 50 черепов.",
+    "achievement_9.name"          : "На корм\nакулам",
+    "achievement_9.desc"          : "Сброшено 20 черепов.",
+    "achievement_10.name"         : "Галеон",
+    "achievement_10.desc"         : "Выпущено 100 пушечных ядер.",
+    "achievement_11.name"         : "Картечь",
+    "achievement_11.desc"         : "Взорвано 30 бомб.",
+    "achievement_12.name"         : "Надувательство",
+    "achievement_12.desc"         : "Заблокируй пушку\n30 раз.",
+    "achievement_13.name"         : "Получил\nчерную метку",
+    "achievement_13.desc"         : "Активировано 30 шаров.",
+    "achievement_14.name"         : "Золотая монета",
+    "achievement_14.desc"         : "Набрано 3 звезды на\nлюбом уровне.",
+    "achievement_15.name"         : "Не говори, что\nэто невозможно!",
+    "achievement_15.desc"         : "Набрано 3 звезды\nна каждом уровне.",
+    "tutorial_orb_1"              : "Шары покрывают ближние\nпузырьки кораллами.",
+    "tutorial_orb_2"              : "О нет! Шары сбрасывают\nкоралл на ближние пузырьки.",
+    "tutorial_drop_orb_1"         : "Это был шар. При ударе\nпокрывает ближние\nпузырьки кораллами.",
+    "tutorial_drop_orb_1"         : "Шар сброшен. Он мог сбросить\nкоралл на ближние пузырьки.",
+    "tutorial_coral_1"            : "Дважды ударь по кораллу,\nчтобы узнать его цвет.",
+    "tutorial_coral_2"            : "2 раза ударь коралл\nпузырьком, чтобы убрать его!",
+    "tutorial_coral_3"            : "Дважды ударь по кораллу,\nчтобы избавиться от него!",
+    "tutorial_tar_1"              : "Деготь из бочки льется\nна резервный пушечный\nпузырек.",
+    "tutorial_tar_2"              : "Пузырьки не меняются.\nСделай 3 сопоставления,\nчтобы избавиться от дегтя."
+  },
+
+  "id_ID": {
+    "number.decimal_separator"    : ".",
+    "number.thousands_separator"  : ",",
+    "play"                        : "MAIN",
+    "play_again"                  : "MAIN LAGI",
+    "settings"                    : "SETELAN",
+    "credits"                     : "KREDIT",
+    "reset"                       : "RESET DATA",
+    "back"                        : "KEMBALI",
+    "reset_conf"                  : "Kamu yakin ingin menghapus\nkemajuan saat ini?",
+    "yes"                         : "YA",
+    "no"                          : "TDK",
+    "developed"                   : "Pengembang:",
+    "music"                       : "Musik & SFX:",
+    "how_to_play"                 : "CARA MAIN",
+    "tutorial_tap"                : "Ketuk arah untuk menembak\ngelembung.",
+    "tutorial_bubbles"            : "Letuskan gelembung &\nambil semua koin\nagar level tuntas",
+    "tutorial_bomb"               : "Kecocokan beruntun\nmembuka peningkat\nuntuk bom.",
+    "tutorial_walls"              : "Gunakan dinding untuk\nmencapai gelembung\nyang lebih tinggi!",
+    "tutorial_reload"             : "Tukar gelembung dengan\nmengetuk gelembung\nberikutnya!",
+    "tutorial_barrel"             : "Hantam tong dengan\ngelembung untuk\nmenghancurkannya.",
+    "tutorial_ink"                : "Hantam es tiga kali untuk\nmengetahui warnanya!",
+    "tutorial_skull"              : "Hantam tengkorak empat\nkali untuk mengetahui\nwarnanya.",
+    "tutorial_solid"              : "Bola meriam tak bisa\nhancur. Letuskan gelembung\nuntuk menjatuhkannya.",
+    "achievements"                : "PRESTASI",
+    "ls_title"                    : "Level %%N%%",
+    "ls_coins"                    : "Kumpulkan semua koin!",
+    "ls_gem"                      : "Incar permata!",
+    "ls_best"                     : "Incar permata!",
+    "ls_reward"                   : "Incar imbalan!",
+    "ls_mistery"                  : "Incar imbalan misteri!",
+    "ls_poster"                   : "Incar poster!",
+    "ls_prize"                    : "Incar hadiah!",
+    "ls_final"                    : "Incar penghargaan akhir!",
+    "ls_best"                     : "Skor Terbaik:",
+    "pause"                       : "JEDA",
+	"continue": {
+      "text": "LANJUTKAN",
+      "size": 0.8
+    },
+    "restart"                     : "ULANGI",
+    "quit"                        : "KELUAR",
+    "restart_conf"                : "Kamu yakin ingin memulai\nulang game?",
+    "quit_conf"                   : "Kamu yakin ingin\nkeluar dari game?",
+    "lc_title"                    : "Level %%N%%",
+    "lc_complete"                 : "Level Selesai!",
+    "lc_best"                     : "Skor:",
+    "go_title"                    : "Level %%N%%",
+    "go_details"                  : "Game Selesai!",
+    "lc_complete_fn1"             : "Selamat, kawan!",
+	"lc_complete_fn2": {
+      "text": "Sekarang kamu bisa melampaui\nskormu di tiap level.\nAyo mulai!",
+      "size": 0.8
+    },
+    "lc_complete_fn3"             : "Selamat!",
+    "lc_complete_fn4"             : "Bagus!",
+    "lc_complete_fn5"             : "LANJUT",
+    "lc_complete_fn6"             : "Prestasi Dibuka",
+    "language_name"               : "Bahasa",
+    "achievement_1.name"          : "Jangan takabur.",
+    "achievement_1.desc"          : "Selesaikan level pertamamu.",
+    "achievement_2.name"          : "Asam Garam",
+    "achievement_2.desc"          : "Selesaikan Level 10.",
+    "achievement_3.name"          : "Nelayan Veteran",
+    "achievement_3.desc"          : "Selesaikan Level 20.",
+    "achievement_4.name"          : "Legenda",
+    "achievement_4.desc"          : "Selesaikan Level 30.",
+    "achievement_5.name"          : "Flamboyan",
+    "achievement_5.desc"          : "Letuskan 1.000 gelembung.",
+    "achievement_6.name"          : "Terdampar",
+    "achievement_6.desc"          : "Jatuhkan 100 gelembung.",
+    "achievement_7.name"          : "Kapal Kutub",
+    "achievement_7.desc"          : "Hancurkan 50 Es.",
+    "achievement_8.name"          : "Bajak Laut",
+    "achievement_8.desc"          : "Hancurkan 50 tengkorak.",
+    "achievement_9.name"          : "Umpan Hiu",
+    "achievement_9.desc"          : "Jatuhkan 20 tengkorak.",
+    "achievement_10.name"         : "Galleon",
+    "achievement_10.desc"         : "Tembakkan 100 bom meriam.",
+    "achievement_11.name"         : "Tangga Geladak",
+    "achievement_11.desc"         : "Menggunakan 30 bom level.",
+    "achievement_12.name"         : "Terompet Laut.",
+    "achievement_12.desc"         : "Meriam diblok\n30 kali.",
+    "achievement_13.name"         : "Kutukan Hitam",
+    "achievement_13.desc"         : "Aktifkan 30 orb.",
+    "achievement_14.name"         : "Koin Emas",
+    "achievement_14.desc"         : "Dapatkan nilai 3 bintang\ndi level mana saja",
+    "achievement_15.name"         : "Peluang Emas",
+    "achievement_15.desc"         : "Dapatkan nilai 3 bintang\ndi setiap level.",
+    "tutorial_orb_1"              : "Orb akan menutupi\ngelembung terdekat\ndengan koral.",
+    "tutorial_orb_2"              : "Waduh! Orb melempar\nkoral ke gelembung\nterdekat.",
+    "tutorial_drop_orb_1"         : "Itu orb. Jika kena\nakan menutupi gelembung\nterdekat dengan koral.",
+    "tutorial_drop_orb_1"         : "Kamu menjatuhkan orb.\nIa bisa melempar koral\nke orb terdekat.",
+    "tutorial_coral_1"            : "Kenai koral 2x untuk\nmengetahui warnanya.",
+    "tutorial_coral_2"            : "Kenai koral dengan\ngelembung 2x untuk\nmenghapus.",
+    "tutorial_coral_3"            : "Kenai koral 2x untuk\nmenyingkirkannya!",
+    "tutorial_tar_1"              : "Tong aspal akan melemparkan\naspal pada gelembung\ncadangan meriam.",
+    "tutorial_tar_2"              : "Kamu tidak bisa menukarkan\ngelembung. Buat 3 kecocokan\nuntuk menghilangkan aspal."
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:88b50470e971e3b387c1570bbb6bae87:7e8f46d315a32ba8714751b494c7391e:60c564008606fb5c725f9b0b02472299$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="Monstr.png">
+    <SubTexture name="frog_head_1" x="839" y="1390" width="183" height="199"/>
+    <SubTexture name="frog_head_10" x="806" y="1791" width="184" height="198" frameX="-2" frameY="-3" frameWidth="189" frameHeight="203"/>
+    <SubTexture name="frog_head_11" x="426" y="1729" width="187" height="218" frameX="-6" frameY="-8" frameWidth="202" frameHeight="230"/>
+    <SubTexture name="frog_head_12" x="236" y="1729" width="188" height="238" frameX="-11" frameY="-14" frameWidth="213" frameHeight="258"/>
+    <SubTexture name="frog_head_13" x="298" y="1471" width="191" height="256" frameX="-16" frameY="-20" frameWidth="223" frameHeight="284"/>
+    <SubTexture name="frog_head_2" x="615" y="1801" width="184" height="198" frameX="-4" frameY="-3" frameWidth="190" frameHeight="205"/>
+    <SubTexture name="frog_head_3" x="806" y="1591" width="188" height="198" frameX="-11" frameY="-7" frameWidth="204" frameHeight="217"/>
+    <SubTexture name="frog_head_4" x="615" y="1590" width="189" height="209" frameX="-18" frameY="-9" frameWidth="216" frameHeight="228"/>
+    <SubTexture name="frog_head_5" x="733" y="2" width="244" height="233" frameX="0" frameY="-11" frameWidth="256" frameHeight="244"/>
+    <SubTexture name="frog_head_6" x="729" y="237" width="293" height="256" frameX="0" frameY="-12" frameWidth="305" frameHeight="268"/>
+    <SubTexture name="frog_head_7" x="2" y="1231" width="294" height="259" frameX="0" frameY="-12" frameWidth="306" frameHeight="271"/>
+    <SubTexture name="frog_head_8" x="650" y="1127" width="299" height="261" frameX="0" frameY="-12" frameWidth="311" frameHeight="273"/>
+    <SubTexture name="frog_head_9" x="314" y="1210" width="297" height="259" frameX="0" frameY="-12" frameWidth="309" frameHeight="271"/>
+    <SubTexture name="frog_paw_1" x="2" y="1059" width="310" height="170" frameX="-14" frameY="-13" frameWidth="352" frameHeight="207"/>
+    <SubTexture name="frog_paw_10" x="331" y="880" width="317" height="328" frameX="0" frameY="-14" frameWidth="340" frameHeight="355"/>
+    <SubTexture name="frog_paw_11" x="2" y="232" width="347" height="207" frameX="0" frameY="0" frameWidth="375" frameHeight="213"/>
+    <SubTexture name="frog_paw_12" x="374" y="2" width="357" height="219" frameX="-7" frameY="-14" frameWidth="386" frameHeight="239"/>
+    <SubTexture name="frog_paw_13" x="2" y="2" width="370" height="228" frameX="-9" frameY="0" frameWidth="407" frameHeight="234"/>
+    <SubTexture name="frog_paw_15" x="2" y="888" width="313" height="169" frameX="-11" frameY="-14" frameWidth="354" frameHeight="206"/>
+    <SubTexture name="frog_paw_2" x="650" y="962" width="308" height="163" frameX="-2" frameY="-16" frameWidth="344" frameHeight="200"/>
+    <SubTexture name="frog_paw_3" x="331" y="710" width="319" height="168" frameX="0" frameY="-14" frameWidth="344" frameHeight="192"/>
+    <SubTexture name="frog_paw_4" x="671" y="495" width="327" height="178" frameX="0" frameY="-4" frameWidth="351" frameHeight="191"/>
+    <SubTexture name="frog_paw_5" x="2" y="690" width="327" height="196" frameX="-8" frameY="-4" frameWidth="359" frameHeight="210"/>
+    <SubTexture name="frog_paw_6" x="339" y="482" width="330" height="226" frameX="-7" frameY="-2" frameWidth="361" frameHeight="238"/>
+    <SubTexture name="frog_paw_7" x="2" y="441" width="335" height="247" frameX="0" frameY="-3" frameWidth="358" frameHeight="260"/>
+    <SubTexture name="frog_paw_8" x="671" y="675" width="321" height="285" frameX="0" frameY="-4" frameWidth="345" frameHeight="301"/>
+    <SubTexture name="frog_paw_9" x="2" y="1492" width="232" height="440" frameX="-10" frameY="-2" frameWidth="266" frameHeight="455"/>
+    <SubTexture name="jalose_1" x="613" y="1390" width="224" height="198" frameX="-1" frameY="0" frameWidth="225" frameHeight="200"/>
+    <SubTexture name="jalose_2" x="351" y="352" width="336" height="128" frameX="-2" frameY="0" frameWidth="339" frameHeight="129"/>
+    <SubTexture name="jalose_3" x="374" y="223" width="353" height="127" frameX="0" frameY="-1" frameWidth="353" frameHeight="128"/>
+</TextureAtlas>

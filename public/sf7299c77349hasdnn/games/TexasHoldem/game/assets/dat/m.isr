@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<stringresources>
+	<languages>
+		<language>en</language>
+		<language>sk</language>
+		<language>es</language>
+		<language>de</language>
+		<language>fr</language>
+		<language>pt</language>
+		<language>it</language>
+	</languages>
+	<strings>
+		<string id="1" index="0">
+			<en>en</en>
+			<sk>sk</sk>
+			<es>es</es>
+			<de>de</de>
+			<fr>fr</fr>
+			<pt>pt</pt>
+			<it>it</it>
+		</string>
+		<string id="3" index="1">
+			<en>LOADING...</en>
+			<sk>NAHRÁVAM...</sk>
+			<es>CARGANDO...</es>
+			<de>LADEN...</de>
+			<fr>CHARGEMENT...</fr>
+			<pt>A CARREGAR...</pt>
+			<it>CARICAMENTO...</it>
+		</string>
+		<string id="4" index="2">
+			<en>EXIT?</en>
+			<sk>KONIEC?</sk>
+			<es>¿FINAL?</es>
+			<de>ENDE?</de>
+			<fr>QUITTER?</fr>
+			<pt>ACABAR?</pt>
+			<it>ESCI?</it>
+		</string>
+        <string id="MAIN_MENU" index="22">
+            <en>MAIN MENU</en>
+            <es>LISTA PRINCIPAL</es>
+            <de>HAUPTMENÜ</de>
+            <it>MENÙ PRINCIPALE</it>
+            <fr>MENU PRINCIPAL</fr>
+            <pt>MENU PRINCIPAL</pt>
+        </string>
+		<string id="5" index="3">
+			<en>ENABLE MUSIC?</en>
+			<sk>ZAPNÚŤ ZVUKY?</sk>
+			<es>¿PONER MÚSICA?</es>
+			<de>MUSIK EINSCHALTEN?</de>
+			<fr>ALLUMER LA MUSIQUE?</fr>
+			<pt>LIGAR A MÚSICA?</pt>
+			<it>ACCENDERE SUONI?</it>
+		</string>
+		<string id="6" index="4">
+			<en>YES</en>
+			<sk>ÁNO</sk>
+			<es>SÍ</es>
+			<de>JA</de>
+			<fr>OUI</fr>
+			<pt>SIM</pt>
+			<it>SÌ</it>
+		</string>
+		<string id="7" index="5">
+			<en>NO</en>
+			<sk>NIE</sk>
+			<es>NO</es>
+			<de>NEIN</de>
+			<fr>NON</fr>
+			<pt>NÃO</pt>
+			<it>NO</it>
+		</string>
+		<string id="8" index="6">
+			<en>MENU</en>
+			<sk>BB MENU</sk>
+			<es>MENÚ</es>
+			<de>MENÜ</de>
+			<fr>MENU</fr>
+			<pt>MENU</pt>
+			<it>MENU</it>
+		</string>
+		<string id="9" index="7">
+			<en>BACK</en>
+			<sk>BB BACK</sk>
+			<es>VOLVER</es>
+			<de>ZURÜCK</de>
+			<fr>RETOUR</fr>
+			<pt>VOLTAR</pt>
+			<it>INDIETRO</it>
+		</string>
+		<string id="10" index="8">
+			<en>VERSION</en>
+			<sk>VERZIA</sk>
+			<es>VERSIÓN</es>
+			<de>VERSION</de>
+			<fr>VERSION</fr>
+			<pt>VERSÃO</pt>
+			<it>VERSIONE</it>
+		</string>
+		<string id="11" index="9">
+			<en>ON</en>
+			<sk>ZAP.</sk>
+			<es>ON</es>
+			<de>AN</de>
+			<fr>OUI</fr>
+			<pt>LIG.</pt>
+			<it>ACC.</it>
+		</string>
+		<string id="12" index="10">
+			<en>OFF</en>
+			<sk>VYP.</sk>
+			<es>OFF</es>
+			<de>AUS</de>
+			<fr>NON</fr>
+			<pt>DESLIG.</pt>
+			<it>CHIUD.</it>
+		</string>
+		<string id="CONTINUE" index="11">
+			<en>CONTINUE</en>
+			<sk>POKRAČOVAŤ</sk>
+			<es>CONTINUAR</es>
+			<de>WEITER</de>
+			<fr>CONTINUER</fr>
+			<pt>CONTINUAR</pt>
+			<it>CONTINUARE</it>
+		</string>
+		<string id="1000" index="12">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="PLAY" index="13">
+			<en>PLAY</en>
+			<sk/>
+			<es>JUGAR</es>
+			<de>SPIELEN</de>
+			<fr>JOUER</fr>
+			<pt>JOGAR</pt>
+			<it>GIOCA</it>
+		</string>
+		<string id="15" index="14">
+			<en>PROFILE</en>
+			<sk/>
+			<es>PERFIL</es>
+			<de>PROFIL</de>
+			<fr>PROFIL</fr>
+			<pt>PERFIL</pt>
+			<it>PROFILO</it>
+		</string>
+		<string id="NEW_GAME" index="5">
+            <en>NEW GAME</en>
+            <es>NUEVO JUEGO</es>
+            <de>NEUES SPIEL</de>
+            <it>NUOVO GIOCO</it>
+            <fr>NOUVELLE PARTIE</fr>
+            <pt>NOVO JOGO</pt>
+        </string>
+		<string id="150000" index="15">
+			<en>STATISTICS</en>
+			<sk/>
+			<es>ESTADÍSTICAS</es>
+			<de>STATISTIK</de>
+			<fr>STATISTIQUES</fr>
+			<pt>ESTATÍSCA</pt>
+			<it>STATISTICHE</it>
+		</string>
+		<string id="16" index="16">
+			<en>SETTINGS</en>
+			<sk/>
+			<es>AJUSTES</es>
+			<de>EINSTELLUNGEN</de>
+			<fr>PARAMÈTRES</fr>
+			<pt>DEFINIÇÕES</pt>
+			<it>IMPOSTAZIONI</it>
+		</string>
+		<string id="INSTRUCTIONS" index="17">
+			<en>INSTRUCTIONS</en>
+			<sk/>
+			<es>INSTRUCCIONES</es>
+			<de>ANLEITUNG</de>
+			<fr>INSTRUCTIONS</fr>
+			<pt>INSTRUÇÕES</pt>
+			<it>ISTRUZIONI</it>
+		</string>
+		<string id="ABOUT" index="18">
+			<en>ABOUT</en>
+			<sk/>
+			<es>SOBRE EL JUEGO</es>
+			<de>ÜBER SPIEL</de>
+			<fr>À PROPOS</fr>
+			<pt>SOBRE O JOGO</pt>
+			<it>INFORMAZIONI SU</it>
+		</string>
+		<string id="MORE_GAMES" index="11">
+			<en>MORE GAMES</en>
+			<es>MÁS JUEGOS</es>
+			<de>MEHR SPIELE</de>
+			<it>ALTRI GIOCHI</it>
+			<fr>PLUS DE JEUX</fr>
+			<pt>MAIS JOGOS</pt>
+        </string>
+		<string id="20" index="20">
+			<en>SOUND</en>
+			<sk/>
+			<es>SONIDO</es>
+			<de>TON</de>
+			<fr>SON</fr>
+			<pt>SOM</pt>
+			<it>SUONI</it>
+		</string>
+		<string id="21" index="21">
+			<en>RESET</en>
+			<sk/>
+			<es>RESTABLECER</es>
+			<de>ZURÜCKSETZEN</de>
+			<fr>RÉINITIALISER</fr>
+			<pt>RETOMAR</pt>
+			<it>RIPRISTINA</it>
+		</string>
+		<string id="22" index="22">
+			<en>RESET GAME DATA?</en>
+			<sk/>
+			<es>¿RESTABLECER LOS DATOS DEL JUEGO?</es>
+			<de>SPIELDATEN ZURÜCKSETZEN?</de>
+			<fr>RÉINITIALISER LES DONNÉES DU JEU?</fr>
+			<pt>REPOR DADOS DO JOGO?</pt>
+			<it>RIPRISTINARE I DATI DI GIOCO?</it>
+		</string>
+		<string id="220000" index="23">
+			<en>RESET?</en>
+			<sk/>
+			<es>¿RESTABLECER?</es>
+			<de>ZURÜCKSETZEN?</de>
+			<fr>RÉINITIALISER?</fr>
+			<pt>RETOMAR?</pt>
+			<it>RIPRISTINARE?</it>
+		</string>
+		<string id="23" index="24">
+			<en>RESUME</en>
+			<sk/>
+			<es>CONTINUAR</es>
+			<de>FORTSETZEN</de>
+			<fr>REPRENDRE</fr>
+			<pt>RETOMAR</pt>
+			<it>RIPRENDI</it>
+		</string>
+		<string id="24" index="25">
+			<en>NEW GAME</en>
+			<sk/>
+			<es>NUEVA PARTIDA</es>
+			<de>NEUES SPIEL</de>
+			<fr>NOUVELLE PARTIE</fr>
+			<pt>NOVO JOGO</pt>
+			<it>NUOVA PARTITA</it>
+		</string>
+		<string id="25" index="26">
+			<en>ARE YOU SURE? PREVIOUSLY SAVED GAME WILL BE LOST.</en>
+			<sk/>
+			<es>¿ESTÁS SEGURO? ESTO BORRARÁ EL JUEGO SALVADO PREVIAMENTE.</es>
+			<de>BIST DU DIR SICHER? DIES WIRD DEIN ZUVOR GESPEICHERTES SPIEL LÖSCHEN.</de>
+			<fr>ES-TU SÛR? LE JEU EN COURS SERA ANNULÉ.</fr>
+			<pt>VOCÊ TEM CERTEZA? ISSO IRÁ APAGAR O SEU JOGO ANTERIOR.</pt>
+			<it>DAVVERO? LA PARTITA SALVATA PRECEDENTEMENTE ANDRÀ PERDUTA.</it>
+		</string>
+		<string id="26" index="27">
+			<en>QUIT TO MENU</en>
+			<sk/>
+			<es>SALIR AL MENÚ</es>
+			<de>ZUM MENÜ</de>
+			<fr>RETOUR AU MENU</fr>
+			<pt>SAIR PARA O MENU</pt>
+			<it>USCIRE DI MENU</it>
+		</string>
+		<string id="27" index="28">
+			<en>QUIT TO MENU?</en>
+			<sk/>
+			<es>¿SALIR AL MENÚ?</es>
+			<de>ZUM MENÜ?</de>
+			<fr>RETOUR AU MENU?</fr>
+			<pt>SAIR PARA O MENU?</pt>
+			<it>USCIRE DI MENU?</it>
+		</string>
+		<string id="28" index="29">
+			<en>ARE YOU SURE? THIS WILL EXIT THE APPLICATION.</en>
+			<sk/>
+			<es>¿ESTÁS SEGURO? ESO TERMINARÁ LA PARTIDA.</es>
+			<de>BIST DU SICHER? DAS WIRD DIE ANWENDUNG BEENDEN.</de>
+			<fr>CONFIRMER? L'APPLICATION SERA FERMÉE.</fr>
+			<pt>VOCÊ TEM CERTEZA? O JOGO VAI TERMINAR.</pt>
+			<it>SEI SICURO? QUESTO VOLONTÁ USCIRE DALL'APPLICAZIONE.</it>
+		</string>
+		<string id="29" index="30">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="30" index="31">
+			<en>HRS</en>
+			<sk>profil - hours</sk>
+			<es>H</es>
+			<de>STD</de>
+			<fr>H</fr>
+			<pt>HRS</pt>
+			<it>ORE</it>
+		</string>
+		<string id="31" index="32">
+			<en>MINS</en>
+			<sk>profil - minutes</sk>
+			<es>MIN</es>
+			<de>MIN</de>
+			<fr>MIN</fr>
+			<pt>MINS</pt>
+			<it>MIN</it>
+		</string>
+		<string id="32" index="33">
+			<en>S</en>
+			<sk>profil - seconds</sk>
+			<es>S</es>
+			<de>SEK</de>
+			<fr>S</fr>
+			<pt>S</pt>
+			<it>SEC</it>
+		</string>
+		<string id="2000" index="34">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="PLAYER" index="35">
+			<en>PLAYER</en>
+			<sk/>
+			<es>JUGADOR</es>
+			<de>SPIELER</de>
+			<fr>JOUEUR</fr>
+			<pt>JOGADOR</pt>
+			<it>GIOCATORE</it>
+		</string>
+		<string id="34" index="36">
+			<en>GAMES</en>
+			<sk/>
+			<es>PARTIDAS</es>
+			<de>SPIELE</de>
+			<fr>PARTIES</fr>
+			<pt>JOGOS</pt>
+			<it>PARTITE</it>
+		</string>
+		<string id="35" index="37">
+			<en>HANDS</en>
+			<sk/>
+			<es>MANOS</es>
+			<de>PARTIEN</de>
+			<fr>MAINS</fr>
+			<pt>MÃOS</pt>
+			<it>MANI</it>
+		</string>
+		<string id="POT" index="38">
+			<en>POT</en>
+			<sk>POT long</sk>
+			<es>EL BOTE</es>
+			<de>DER POT</de>
+			<fr>LE POT</fr>
+			<pt>O POTE</pt>
+			<it>PIATTO</it>
+		</string>
+		<string id="37" index="39">
+			<en>POT</en>
+			<sk>POT short</sk>
+			<es>BOTE</es>
+			<de>POT</de>
+			<fr>POT</fr>
+			<pt>POTE</pt>
+			<it>POT</it>
+		</string>
+		<string id="38" index="40">
+			<en>YOU</en>
+			<sk/>
+			<es>USTED</es>
+			<de>DU</de>
+			<fr>TU</fr>
+			<pt>VOCÊ</pt>
+			<it>TU</it>
+		</string>
+		<string id="3000" index="41">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="45" index="42">
+			<en>AIM:\n\nCLASSIC TEXAS HOLD 'EM POKER GAME RULES APPLY. BRIEFLY: THE MAIN GOAL IS TO GATHER ALL OF THE CHIPS EACH PLAYER AROUND THE TABLE HAS. A ROUND OF POKER IS WON BY HAVING THE HIGHEST WINNING COMBINATION OF 5 CARDS CONSISTING OF THE 2 CARDS IN A PLAYER'S HAND AND THE 5 CARDS ON THE TABLE. A PLAYER PROCEEDS TO THE NEXT ROUND OF BETS ONLY IF THEIR BET IS EQUAL TO THE OTHER PLAYERS' BETS.</en>
+			<es>OBJETIVO:\n\nSE APLICAN LAS REGLAS CLÁSICAS DE TEXAS HOLD'EM POKER. EN POCAS PALABRAS: EL OBJETIVO PRINCIPAL CONSISTE EN CONSEGUIR TODAS LAS FICHAS DE LOS DEMÁS JUGADORES DE LA MESA. PARA GANAR UNA RONDA DE PÓQUER, HAS DE TENER LA COMBINACIÓN GANADORA MÁS ALTA DE 5 CARTAS, COMPUESTA A PARTIR DE LAS 2 CARTAS SITUADAS EN LA MANO DEL JUGADOR Y LAS 5 CARTAS QUE HAY SOBRE LA MESA. UN JUGADOR SOLAMENTE AVANZA A LA SIGUIENTE RONDA SI SU APUESTA IGUALA LA DE LOS DEMÁS JUGADORES.</es>
+			<de>ZIEL:\n\nES GELTEN DIE KLASSISCHEN TEXAS HOLD'EM-REGELN. IN KÜRZE: DAS HAUPTZIEL IST, ALLE CHIPS DER GEGNER ZU GEWINNEN. DU GEWINNST EINE RUNDE, WENN DU AUS DEN 2 KARTEN IN DEINER HAND UND DEN 5 KARTEN AM TISCH DIE HÖCHSTE KOMBINATION AUS 5 KARTEN BILDEN KANNST. DU BLEIBST NUR DANN IM SPIEL, WENN DU MIT DEINER WETTE MITGEHEN KANNST.</de>
+			<fr>BUT:\n\nLES RÈGLES CLASSIQUES DE TEXAS HOLD'EM POKER SONT UTILISÉES. EN BREF, IL FAUT GAGNER TOUS LES JETONS DES CONCURRENTS DE LA TABLE. UNE PARTIE EST GAGNÉE QUAND VOUS AVEZ LA COMBINAISON DE CARTES GAGNANTES LA PLUS ÉLEVÉE - 5 CARTES COMPOSÉES DE 2 CARTES EN MAIN ET 5 SUR LA TABLE. UN JOUEUR PASSE À LA PROCHAINE SÉRIE DE MISES SI SA MISE EST ÉGALE À CELLES DES AUTRES JOUEURS.</fr>
+			<pt>OBJECTIVO:\n\nAPLICAM-SE AS REGRAS DE JOGO CLASSIC TEXAS HOLD 'EM POKER. EM SUMA: OBJECTIVO PRINCIPAL É GANHAR TODAS AS FICHAS DE CADA JOGADOR NA MESA. UMA RODADA É GANHA POR AQUELE QUE TIVERA COMBINAÇÃO VENCEDORA MAIS ALTA DE 5 CARTAS QUE CONSISTE EM 2 CARTAS DA SUA MÃO E 5 CARTAS NA MESA. O JOGADOR VAI PARA A PRÓXIMA RODADA DE APOSTAS APENAS QUANDO A SUA APOSTA ESTIVER TÃO ELEVADA COMO AS APOSTAS DOS OUTROS JOGADORES.</pt>
+			<it>SCOPO:\n\nVALGONO LE CLASSICHE REGOLE DEL GIOCO TEXAS HOLD'EM POKER. IN BREVE: LO SCOPO PRINCIPALE DEL GIOCO È OTTENERE TUTTE LE CHIP DI OGNI GIOCATORE SEDUTO AL TAVOLO. VINCE IL GIRO DI POKER CHI HA LA COMBINAZIONE VINCENTE PIÙ ALTA DI 5 CARTE, COMPOSTA DA DUE CARTE NELLA SUA MANO E LE 5 CARTE SUL TAVOLO. IL GIOCATORE CONTINUA IL PROSSIMO GIRO DI PUNTATE SOLO SE LA SUA SCOMMESSA È PARI A QUELLA DEGLI ALTRI GIOCATORI.</it>
+		</string>
+		<string id="46" index="43">
+			<en>CONTROLS:\n\nTAP ONSCREEN ICONS FOR CORRESPONDING ACTION (NAVIGATION THROUGH MENU, CHOICE OF GAME ACTION - CHECK, FOLD, BET, RAISE, CALL, ALL IN ETC. AND THEIR CONFIRMATION).</en>
+			<es>CONTROLES:\n\nPULSA LOS ICONOS EN LA PANTALLA PARA REALIZAR LA ACCIÓN CORRESPONDIENTE (NAVEGAR POR EL MENÚ, SELECCIONAR LA ACCIÓN DEL JUEGO: CONTINUAR, RETIRARSE, APOSTAR, AUMENTAR LA APUESTA, VER, APOSTAR TODO, ETC., Y CONFIRMAR).</es>
+			<de>STEUERUNG:\n\nNUTZE DIE BETREFFENDEN SYMBOLE AUF DEM BILDSCHIRM ZUR NAVIGATION UND ZUR AUSWAHL VON SPIELAKTIONEN (CHECK, PASSEN, WETTEN, ERHÖHEN, MITGEHEN, ALL-IN USW.).</de>
+			<fr>COMMANDES:\n\nTOUCHEZ LES ICÔNES À L'ÉCRAN POUR RÉALISER L'ACTION DÉSIRÉE (NAVIGATION DANS LE MENU, CHOIX DES FONCTIONS DU JEU - PAROLE, SE COUCHER, MISER, RELANCER, APPELER, TAPIS, ETC. ET LA CONFIRMER).</fr>
+			<pt>COMANDOS:\n\nTOCA NOS ITENS NO ECRÃ PARA A ACÇÃO CORRESPONDENTE (NAVEGAÇÃO ATRAVÉS DO MENU, ESCOLHA DA ACÇÃO DE JOGO - CONTINUAR/CHECK, DOBRAR/FOLD, APOSTAR/BET, AUMENTAR/RAISE, PAGAR PARA VER AS CARTAS/CALL, TUDO/ALL IN ETC. E CONFIRMAÇÃO).</pt>
+			<it>COMANDI:\n\nTOCCA LE ICONE SULLO SCHERMO PER ESEGUIRE L'AZIONE CORRISPONDENTE (NAVIGAZIONE NEL MENU, SCELTA DELL'AZIONE DI GIOCO: PASSA, LASCIA, PUNTA, RILANCIA, VEDI, ALL-IN, ECC., E LA LORO CONFERMA).</it>
+		</string>
+		<string id="47" index="44">
+			<en>CONTROLS:\n\n2 OR NAVIGATION KEY UP - UP IN MENU, INCREASE BET OR RAISE\n\n8 OR NAVIGATION KEY DOWN - DOWN IN MENU, LOWER BET OR RAISE\n\n4 OR NAVIGATION KEY LEFT - LEFT IN MENU, SCROLL THROUGH GAME ACTIONS\n\n6 OR NAVIGATION KEY RIGHT - RIGHT IN MENU, SCROLL THROUGH GAME ACTIONS\n\nLEFT SOFT KEY, 5 OR CENTRAL NAVIGATION KEY - CONFIRM SELECTION\n\nRIGHT SOFT KEY - BACK, PAUSE AND ACCESS INGAME MENU, QUIT</en>
+			<sk>instructions - controls keyboard</sk>
+			<es>CONTROLES:\n\n2 O BOTÓN DE NAVEGACIÓN HACIA ARRIBA - ARRIBA EN EL MENÚ, AUMENTAR LA APUESTA O EL INCREMENTO\n\n8 O BOTÓN DE NAVEGACIÓN HACIA ABAJO - ABAJO EN EL MENÚ, REDUCIR LA APUESTA O EL INCREMENTO\n\n4 O BOTÓN DE NAVEGACIÓN A LA IZQUIERDA - IZQUIERDA EN EL MENÚ, DESPLAZARSE POR LAS ACCIONES DEL JUEGO\n\n6 O BOTÓN DE NAVEGACIÓN A LA DERECHA - DERECHA EN EL MENÚ, DESPLAZARSE POR LAS ACCIONES DEL JUEGO\n\nBOTÓN DE SELECCIÓN IZQUIERDO, 5 O BOTÓN CENTRAL DE NAVEGACIÓN - CONFIRMAR SELECCIÓN\n\nBOTÓN DE SELECCIÓN DERECHO - VOLVER, PAUSA Y ACCESO AL MENÚ PRINCIPAL, SALIR</es>
+			<de>STEUERUNG:\n\n2/NAVIGATIONSTASTE OBEN - NACH OBEN NAVIGIEREN, EINSATZ ERHÖHEN\n\n8/NAVIGATIONSTASTE UNTEN - NACH UNTEN NAVIGIEREN, EINSATZ SENKEN\n\n4/NAVIGATIONSTASTE LINKS - NACH LINKS NAVIGIEREN, SPIELAKTIONEN WÄHLEN\n\n6/NAVIGATIONSTASTE RECHTS - NACH RECHTS NAVIGIEREN, SPIELAKTIONEN WÄHLEN\n\nAUSWAHLTASTE LINKS/5/NAVIGATIONSTASTE MITTE - AUSWAHL BESTÄTIGEN\n\nAUSWAHLTASTE RECHTS - ZURÜCK, PAUSIEREN, SPIELMENÜ ÖFFNEN, VERLASSEN</de>
+			<fr>COMMANDES:\n\n2 OU TOUCHE DE NAVIGATION HAUTE - VERS LE HAUT DANS LE MENU, AUGMENTER LA MISE OU LA RELANCE\n\n8 OU TOUCHE DE NAVIGATION BASSE - VERS LE BAS DANS LE MENU, RÉDUIRE LA MISE OU LA RELANCE\n\n4 OU TOUCHE DE NAVIGATION GAUCHE - VERS LA GAUCHE DANS LE MENU, DÉFILEMENT ENTRE LES ACTIONS DU JEU\n\n6 OU TOUCHE DE NAVIGATION DROITE - VERS LA DROITE DANS LE MENU, DÉFILEMENT ENTRE LES ACTIONS DU JEU\n\nTOUCHE FONCTIONNELLE GAUCHE, 5 OU TOUCHE DE NAVIGATION CENTRALE - CONFIRMER LA SÉLECTION\n\nTOUCHE FONCTIONNELLE DROITE - RETOUR, PAUSE ET ACCÉDER AU MENU DU JEU, QUITTER</fr>
+			<pt>COMANDOS:\n\n2 OU TECLA DE NAVEGAÇÃO PARA CIMA - PARA CIMA NO MENU, AUMENTAR OU SUPERAR A APOSTA\n\n8 OU TECLA DE NAVEGAÇÃO PARA BAIXO - PARA BAIXO NO MENU, REDUZIR OU SUPERAR A APOSTA\n\n4 OU TECLA DE NAVEGAÇÃO PARA A ESQUERDA - ESQUERDA NO MENU, SELECCIONAR ACÇÕES DO JOGO\n\n6 OU TECLA DE NAVEGAÇÃO PARA A DIREITA - DIREITA NO MENU, SELECCIONAR ACÇÕES DO JOGO\n\nTECLA DE FUNÇÃO ESQUERDA, 5 OU TECLA DE NAVEGAÇÃO CENTRAL - CONFIRMAR A SELECÇÃO\n\nTECLA DE FUNÇÃO DIREITA - VOLTAR, PAUSAR E ACESSO AO MENU DE JOGO, SAIR</pt>
+			<it>COMANDI:\n\n2 O TASTO DI NAVIGAZIONE SU - SALI NEL MENU, AUMENTA O RIDUCI LA PUNTATA\n\n8 O TASTO DI NAVIGAZIONE GIÙ - SCENDI NEL MENU, AUMENTA O RIDUCI LA PUNTATA\n\n4 O TASTO DI NAVIGAZIONE SINISTRO - SINISTRA NEL MENU, SCORRI LE AZIONI DI GIOCO\n\n6 O TASTO DI NAVIGAZIONE DESTRO - DESTRA NEL MENU, SCORRI LE AZIONI DI GIOCO\n\nTASTO FUNZIONE SINISTRO, 5 O TASTO DI NAVIGAZIONE CONTRALE - CONFERMA LA SELEZIONE\n\nTASTO FUNZIONE DESTRO - INDIETRO, PAUSA E ACCEDI AL MENU DEL GIOCO, ESCI</it>
+		</string>
+		<string id="48" index="45">
+			<en>GAME ACTIONS:\n\nCHECK\nFOLD\nBET\nRAISE\nCALL\nALL IN</en>
+			<sk>instructions - game actions</sk>
+			<es>SELECCIÓN DE ACIÓN DEL JUEGO:\n\nCHECK - PASAR\nFOLD - NO IR\nBET - ABRIR\nRAISE - SUBIR\nCALL - IR\nALL IN - ALL IN</es>
+			<de>WAHL DER SPIELAKTION:\n\nCHECK - ABWARTEN\nFOLD - PASSEN\nBET - WETTEN\nRAISE - ERHÖHEN\nCALL - MITGEHEN\nALL IN - ALL IN</de>
+			<fr>DES FONCTIONS DU JEU:\n\nCHECK - PAROLE\nFOLD - SE COUCHER\nBET - MISER\nRAISE - RELANCER\nCALL - APPELER\nALL IN - TAPIS</fr>
+			<pt>SELEÇÃO DE AÇÃO DE JOGO:\n\nCHECK - CONTINUAR\nFOLD - DOBRAR\nBET - APOSTAR\nRAISE - AUMENTAR\nCALL - PAGAR PARA VER AS CARTAS\nALL IN - TUDO</pt>
+			<it>AZIONI DI GIOCO:\n\nCHECK - PASSA\nFOLD - ABBANDONA\nBET - PUNTA\nRAISE - RILANCIA\nCALL - VEDI\nALL IN - ALL-IN</it>
+		</string>
+		<string id="49" index="46">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="4000" index="47">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="50" index="48">
+			<en>FOLD</en>
+			<sk/>
+			<es>FOLD</es>
+			<de>FOLD</de>
+			<fr>FOLD</fr>
+			<pt>FOLD</pt>
+			<it>FOLD</it>
+		</string>
+		<string id="51" index="49">
+			<en>CHECK</en>
+			<sk/>
+			<es>CHECK</es>
+			<de>CHECK</de>
+			<fr>CHECK</fr>
+			<pt>CHECK</pt>
+			<it>CHECK</it>
+		</string>
+		<string id="52" index="50">
+			<en>BET</en>
+			<sk/>
+			<es>BET</es>
+			<de>BET</de>
+			<fr>BET</fr>
+			<pt>BET</pt>
+			<it>BET</it>
+		</string>
+		<string id="53" index="51">
+			<en>CALL</en>
+			<sk/>
+			<es>CALL</es>
+			<de>CALL</de>
+			<fr>CALL</fr>
+			<pt>CALL</pt>
+			<it>CALL</it>
+		</string>
+		<string id="54" index="52">
+			<en>RAISE</en>
+			<sk/>
+			<es>RAISE</es>
+			<de>RAISE</de>
+			<fr>RAISE</fr>
+			<pt>RAISE</pt>
+			<it>RAISE</it>
+		</string>
+		<string id="55" index="53">
+			<en>ALL IN</en>
+			<sk/>
+			<es>ALL IN</es>
+			<de>ALL IN</de>
+			<fr>ALL IN</fr>
+			<pt>ALL IN</pt>
+			<it>ALL IN</it>
+		</string>
+		<string id="5000" index="54">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="60" index="55">
+			<en>CHOOSE THE NUMBER OF THE OPPONENTS</en>
+			<sk/>
+			<es>ELIGE EL NÚMERO DE RIVALES</es>
+			<de>WÄHLE DIE ZAHL DER GEGNER</de>
+			<fr>CHOISISSEZ LE NOMBRE DES ADVERSAIRES</fr>
+			<pt>ESCOLHA O NÚMERO DE OPONENTES</pt>
+			<it>SCEGLI IL NUMERO DEGLI AVVERSARI</it>
+		</string>
+		<string id="61" index="56">
+			<en>CHOOSE BLINDS</en>
+			<sk/>
+			<es>ELIGE APUESTAS A CIEGAS</es>
+			<de>WÄHLE DIE EINSÄTZE</de>
+			<fr>CHOISISSEZ LES BLINDS</fr>
+			<pt>ESCOLHA APOSTAS CEGAS</pt>
+			<it>SCEGLI I BUI</it>
+		</string>
+		<string id="62" index="57">
+			<en>WIN</en>
+			<sk>(oni) vyhravaju</sk>
+			<es>GANAN</es>
+			<de>GEWINNEN</de>
+			<fr>REMPORTENT</fr>
+			<pt>GANHAR</pt>
+			<it>VINCONO</it>
+		</string>
+		<string id="63" index="58">
+			<en>WINS</en>
+			<sk>(on) vyhrava</sk>
+			<es>GANA</es>
+			<de>GEWINNT</de>
+			<fr>REMPORTE</fr>
+			<pt>GANHA</pt>
+			<it>VINCE</it>
+		</string>
+		<string id="64" index="59">
+			<en>WIN THE GAME!</en>
+			<sk>(oni) vyhravaju hru</sk>
+			<es>GANAN LA PARTIDA!</es>
+			<de>GEWINNEN DAS SPIEL!</de>
+			<fr>REMPORTENT LA PARTIE!</fr>
+			<pt>GANHAR O JOGO!</pt>
+			<it>VINCONO LA PARTITA!</it>
+		</string>
+		<string id="WINS_THE_GAME" index="60">
+			<en>WINS THE GAME!</en>
+			<sk>(on) vyhrava hru</sk>
+			<es>GANA LA PARTIDA!</es>
+			<de>GEWINNT DAS SPIEL!</de>
+			<fr>REMPORTE LA PARTIE!</fr>
+			<pt>GANHA O JOGO!</pt>
+			<it>VINCE LA PARTITA!</it>
+		</string>
+		<string id="LOSES_THE_GAME" index="61">
+			<en>LOSES THE GAME!</en>
+			<sk>(on) prehrava hru</sk>
+			<es>PIERDE LA PARTIDA!</es>
+			<de>VERLIERT DAS SPIEL!</de>
+			<fr>PERDANT LA PARTIE!</fr>
+			<pt>PERDE O JOGO!</pt>
+			<it>PERDE LA PARTITA!</it>
+		</string>
+		<string id="660000" index="62">
+			<en>LOSE THE GAME!</en>
+			<sk>x</sk>
+			<es>PIERDE LA PARTIDA!</es>
+			<de>VERLIERT DAS SPIEL!</de>
+			<fr>PERDANT LA PARTIE!</fr>
+			<pt>PERDE O JOGO!</pt>
+			<it>PERDONO LA PARTITA!</it>
+		</string>
+		<string id="67" index="63">
+			<en>WITH KICKER</en>
+			<sk>s kicker kartou ...</sk>
+			<es>CON LA CARTA KICKER</es>
+			<de>MIT EINEM KICKER</de>
+			<fr>AVEC KICKER</fr>
+			<pt>COM KICKER</pt>
+			<it>CON IL KICKER</it>
+		</string>
+		<string id="68" index="64">
+			<en>AND</en>
+			<sk/>
+			<es>Y</es>
+			<de>UND</de>
+			<fr>ET</fr>
+			<pt>E</pt>
+			<it>E</it>
+		</string>
+		<string id="69" index="65">
+			<en/>
+			<sk>inverted exclamation mark (only ES)</sk>
+			<es>¡</es>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="70" index="66">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="6000" index="67">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="80" index="68">
+			<en>ACE</en>
+			<sk/>
+			<es>AS</es>
+			<de>ASS</de>
+			<fr>AS</fr>
+			<pt>ÁS</pt>
+			<it>ASSO</it>
+		</string>
+		<string id="81" index="69">
+			<en>TWO</en>
+			<sk/>
+			<es>DOS</es>
+			<de>ZWEI</de>
+			<fr>DEUX</fr>
+			<pt>DOIS</pt>
+			<it>DUE</it>
+		</string>
+		<string id="82" index="70">
+			<en>THREE</en>
+			<sk/>
+			<es>TRES</es>
+			<de>DREI</de>
+			<fr>TROIS</fr>
+			<pt>TRÊS</pt>
+			<it>TRE</it>
+		</string>
+		<string id="83" index="71">
+			<en>FOUR</en>
+			<sk/>
+			<es>CUATRO</es>
+			<de>VIER</de>
+			<fr>QUATRE</fr>
+			<pt>QUATRO</pt>
+			<it>QUATTRO</it>
+		</string>
+		<string id="84" index="72">
+			<en>FIVE</en>
+			<sk/>
+			<es>CINCO</es>
+			<de>FÜNF</de>
+			<fr>CINQ</fr>
+			<pt>CINCO</pt>
+			<it>CINQUE</it>
+		</string>
+		<string id="85" index="73">
+			<en>SIX</en>
+			<sk/>
+			<es>SEIS</es>
+			<de>SECHS</de>
+			<fr>SIX</fr>
+			<pt>SEIS</pt>
+			<it>SEI</it>
+		</string>
+		<string id="86" index="74">
+			<en>SEVEN</en>
+			<sk/>
+			<es>SIETE</es>
+			<de>SIEBEN</de>
+			<fr>SEPT</fr>
+			<pt>SETE</pt>
+			<it>SETTE</it>
+		</string>
+		<string id="87" index="75">
+			<en>EIGHT</en>
+			<sk/>
+			<es>OCHO</es>
+			<de>ACHT</de>
+			<fr>HUIT</fr>
+			<pt>OITO</pt>
+			<it>OTTO</it>
+		</string>
+		<string id="88" index="76">
+			<en>NINE</en>
+			<sk/>
+			<es>NUEVE</es>
+			<de>NEUN</de>
+			<fr>NEUF</fr>
+			<pt>NOVE</pt>
+			<it>NOVE</it>
+		</string>
+		<string id="89" index="77">
+			<en>TEN</en>
+			<sk/>
+			<es>DIEZ</es>
+			<de>ZEHN</de>
+			<fr>DIX</fr>
+			<pt>DEZ</pt>
+			<it>DIECI</it>
+		</string>
+		<string id="90" index="78">
+			<en>JACK</en>
+			<sk/>
+			<es>JOTA</es>
+			<de>BUBE</de>
+			<fr>VALET</fr>
+			<pt>VALETE</pt>
+			<it>FANTE</it>
+		</string>
+		<string id="91" index="79">
+			<en>QUEEN</en>
+			<sk/>
+			<es>DAMA</es>
+			<de>DAME</de>
+			<fr>REINE</fr>
+			<pt>DAMA</pt>
+			<it>REGINA</it>
+		</string>
+		<string id="92" index="80">
+			<en>KING</en>
+			<sk/>
+			<es>REY</es>
+			<de>KÖNIG</de>
+			<fr>ROI</fr>
+			<pt>REI</pt>
+			<it>RE</it>
+		</string>
+		<string id="7000" index="81">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="100" index="82">
+			<en>HIGH CARD</en>
+			<sk/>
+			<es>CARTA ALTA</es>
+			<de>HÖCHSTE KARTE</de>
+			<fr>CARTE HAUTE</fr>
+			<pt>HIGH CARD</pt>
+			<it>HIGH CARD</it>
+		</string>
+		<string id="101" index="83">
+			<en>ONE PAIR</en>
+			<sk/>
+			<es>PAREJA</es>
+			<de>EIN PAAR</de>
+			<fr>UNE PAIRE</fr>
+			<pt>ONE PAIR</pt>
+			<it>COPPIA</it>
+		</string>
+		<string id="102" index="84">
+			<en>TWO PAIR</en>
+			<sk/>
+			<es>DOBLE PAREJA</es>
+			<de>ZWEI PAARE</de>
+			<fr>DEUX PAIRES</fr>
+			<pt>TWO PAIR</pt>
+			<it>DOPPIA COPPIA</it>
+		</string>
+		<string id="103" index="85">
+			<en>THREE OF A KIND</en>
+			<sk/>
+			<es>TRÍO</es>
+			<de>DRILLING</de>
+			<fr>BRELAN</fr>
+			<pt>THREE OF A KIND</pt>
+			<it>TRIS</it>
+		</string>
+		<string id="104" index="86">
+			<en>STRAIGHT</en>
+			<sk/>
+			<es>ESCALERA</es>
+			<de>STRASSE</de>
+			<fr>SUITE</fr>
+			<pt>STRAIGHT</pt>
+			<it>SCALA</it>
+		</string>
+		<string id="105" index="87">
+			<en>FLUSH</en>
+			<sk/>
+			<es>COLOR</es>
+			<de>FLUSH</de>
+			<fr>COULEUR</fr>
+			<pt>FLUSH</pt>
+			<it>COLORE</it>
+		</string>
+		<string id="106" index="88">
+			<en>FULL HOUSE</en>
+			<sk/>
+			<es>FULL</es>
+			<de>FULL HOUSE</de>
+			<fr>MAIN PLEINE</fr>
+			<pt>FULL HOUSE</pt>
+			<it>FULL</it>
+		</string>
+		<string id="107" index="89">
+			<en>FOUR OF A KIND</en>
+			<sk/>
+			<es>PÓQUER</es>
+			<de>VIERLING</de>
+			<fr>CARRÉ</fr>
+			<pt>FOUR OF A KIND</pt>
+			<it>POKER</it>
+		</string>
+		<string id="108" index="90">
+			<en>STRAIGHT FLUSH</en>
+			<sk/>
+			<es>ESCALERA DE COLOR</es>
+			<de>STRAIGHT FLUSH</de>
+			<fr>QUINTE-COULEUR</fr>
+			<pt>STRAIGHT FLUSH</pt>
+			<it>SCALA A COLORE</it>
+		</string>
+		<string id="109" index="91">
+			<en>ROYAL FLUSH</en>
+			<sk/>
+			<es>ESCALERA REAL</es>
+			<de>ROYAL FLUSH</de>
+			<fr>QUINTE ROYALE</fr>
+			<pt>ROYAL FLUSH</pt>
+			<it>SCALA REALE</it>
+		</string>
+		<string id="8000" index="92">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="110" index="93">
+			<en>LEVEL</en>
+			<sk/>
+			<es>NIVEL</es>
+			<de>LEVEL</de>
+			<fr>NIVEAU</fr>
+			<pt>NÍVEL</pt>
+			<it>LIVELLO</it>
+		</string>
+		<string id="111" index="94">
+			<en>XP</en>
+			<sk/>
+			<es>EXP</es>
+			<de>XP</de>
+			<fr>XP</fr>
+			<pt>EXP</pt>
+			<it>XP</it>
+		</string>
+		<string id="112" index="95">
+			<en>GAMES PLAYED</en>
+			<sk/>
+			<es>PARTIDAS JUGADAS</es>
+			<de>GESPIELTE SPIELE</de>
+			<fr>PARTIES JOUÉES</fr>
+			<pt>JOGOS JOGADOS</pt>
+			<it>PARTITE GIOCATE</it>
+		</string>
+		<string id="113" index="96">
+			<en>GAMES WON</en>
+			<sk/>
+			<es>PARTIDAS GANADAS</es>
+			<de>GEWONNENE SPIELE</de>
+			<fr>PARTIES REMPORTÉES</fr>
+			<pt>JOGOS GANHOS</pt>
+			<it>PARTITE VINTE</it>
+		</string>
+		<string id="114" index="97">
+			<en>HANDS PLAYED</en>
+			<sk/>
+			<es>MANOS JUGADAS</es>
+			<de>GESPIELTE HÄNDE</de>
+			<fr>MAINS JOUÉES</fr>
+			<pt>MÃOS JOGADOS</pt>
+			<it>MANI GIOCATE</it>
+		</string>
+		<string id="115" index="98">
+			<en>HANDS WON</en>
+			<sk/>
+			<es>MANOS GANADAS</es>
+			<de>GEWONNENE HÄNDE</de>
+			<fr>MAINS REMPORTÉES</fr>
+			<pt>MÃOS GANHAS</pt>
+			<it>MANI VINTE</it>
+		</string>
+		<string id="116" index="99">
+			<en>MOST HANDS WON IN A ROW</en>
+			<sk>x</sk>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+		<string id="117" index="100">
+			<en>BIGGEST WIN</en>
+			<sk/>
+			<es>MAYOR GANANCIA</es>
+			<de>GRÖSSTER SIEG</de>
+			<fr>PLUS GROS GAIN</fr>
+			<pt>GANHO MAIOR</pt>
+			<it>VINCITA PIÙ GRANDE</it>
+		</string>
+		<string id="118" index="101">
+			<en>TIME PLAYED</en>
+			<sk/>
+			<es>TIEMPO JUGADO</es>
+			<de>GESPIELTE ZEIT</de>
+			<fr>TEMPS DE JEU</fr>
+			<pt>TEMPO DE JOGO</pt>
+			<it>TEMPO GIOCATO</it>
+		</string>
+		<string id="119" index="102">
+			<en>ACHIEVEMENTS</en>
+			<sk/>
+			<es>LOGROS</es>
+			<de>ERFOLGE</de>
+			<fr>SUCCÈS</fr>
+			<pt>FEITOS</pt>
+			<it>OBIETTIVI</it>
+		</string>
+		<string id="120" index="103">
+			<en>WIN WITH</en>
+			<sk/>
+			<es>GANAR CON</es>
+			<de>GEWINNE MIT</de>
+			<fr>GAGNEZ AVEC</fr>
+			<pt>GANHAR COM</pt>
+			<it>VINCI CON</it>
+		</string>
+		<string id="1210000" index="104">
+			<en>WON IN A ROW</en>
+			<sk>x</sk>
+			<es>GANADAS/-OS EN FILA</es>
+			<de>NACHEINANDER GEWONNEN</de>
+			<fr>REMPORTÉES À LA SUITE</fr>
+			<pt>VENCIDAS/-OS EM UMA LINHA</pt>
+			<it>VITTORIE CONSECUTIVE OTTENUTE</it>
+		</string>
+		<string id="121" index="105">
+			<en>WINS IN A ROW</en>
+			<sk/>
+			<es>VICTORIAS SEGUIDAS</es>
+			<de>SIEGE HINTEREINANDER</de>
+			<fr>VICTOIRES CONSÉCUTIFS</fr>
+			<pt>GANHA EM UMA FILEIRA</pt>
+			<it>VITTORIE CONSECUTIVE</it>
+		</string>
+		<string id="122" index="106">
+			<en>SELECT YOUR CHARACTER</en>
+			<sk/>
+			<es>SELECCIONA TU PERSONAJE</es>
+			<de>WÄHLE DEINEN CHARAKTER</de>
+			<fr>SÉLECTIONNER PERSONNAGE</fr>
+			<pt>ESCOLHE O TEU PERSONAGEM</pt>
+			<it>SELEZIONA IL PERSONAGGIO</it>
+		</string>
+		<string id="9000" index="107">
+			<en/>
+			<sk/>
+			<es/>
+			<de/>
+			<fr/>
+			<pt/>
+			<it/>
+		</string>
+	</strings>
+</stringresources>

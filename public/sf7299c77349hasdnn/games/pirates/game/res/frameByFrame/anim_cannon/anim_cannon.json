@@ -1,0 +1,156 @@
+{"frames": [
+
+{
+	"filename": "anim_cannonshot_0.png",
+	"frame": {"x":85,"y":101,"w":52,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":34,"w":52,"h":47},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_1.png",
+	"frame": {"x":2,"y":101,"w":81,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":19,"w":81,"h":72},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_10.png",
+	"frame": {"x":637,"y":97,"w":127,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":15,"w":127,"h":82},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_11.png",
+	"frame": {"x":884,"y":2,"w":127,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":127,"h":88},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_12.png",
+	"frame": {"x":884,"y":92,"w":127,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":127,"h":86},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_13.png",
+	"frame": {"x":2,"y":2,"w":127,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":97},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_2.png",
+	"frame": {"x":766,"y":95,"w":108,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":13,"w":108,"h":82},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_3.png",
+	"frame": {"x":761,"y":2,"w":121,"h":91},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":6,"w":121,"h":91},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_4.png",
+	"frame": {"x":637,"y":2,"w":122,"h":93},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":4,"w":122,"h":93},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_5.png",
+	"frame": {"x":389,"y":2,"w":122,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":122,"h":95},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_6.png",
+	"frame": {"x":513,"y":2,"w":122,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":122,"h":95},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_7.png",
+	"frame": {"x":131,"y":2,"w":127,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":97},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_8.png",
+	"frame": {"x":260,"y":2,"w":127,"h":97},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":97},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonshot_9.png",
+	"frame": {"x":389,"y":99,"w":118,"h":79},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":18,"w":118,"h":79},
+	"sourceSize": {"w":127,"h":97}
+},
+{
+	"filename": "anim_cannonspark_0.png",
+	"frame": {"x":139,"y":101,"w":28,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":32},
+	"sourceSize": {"w":28,"h":32}
+},
+{
+	"filename": "anim_cannonspark_1.png",
+	"frame": {"x":169,"y":101,"w":27,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":32},
+	"sourceSize": {"w":28,"h":32}
+},
+{
+	"filename": "anim_cannonspark_2.png",
+	"frame": {"x":139,"y":135,"w":28,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":32},
+	"sourceSize": {"w":28,"h":32}
+},
+{
+	"filename": "anim_cannonspark_3.png",
+	"frame": {"x":169,"y":101,"w":27,"h":32},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":32},
+	"sourceSize": {"w":28,"h":32}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "anim_cannon.png",
+	"format": "RGBA8888",
+	"size": {"w":1013,"h":181},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4e00d74348a9c635a82f20c5bd2e4750:2795f4e05e9d5e40f1dc2f1c7d908f0b:3de45b0592d5bc4a4287ad8bb6052397$"
+}
+}

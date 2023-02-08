@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "2-Humo.png.png",
+	"frame": {"x":673,"y":147,"w":26,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":75},
+	"sourceSize": {"w":26,"h":75}
+},
+{
+	"filename": "6-Barcovolador.png.png",
+	"frame": {"x":412,"y":2,"w":205,"h":311},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":311},
+	"sourceSize": {"w":205,"h":311}
+},
+{
+	"filename": "7-Torre.png.png",
+	"frame": {"x":619,"y":243,"w":41,"h":67},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":41,"h":67},
+	"sourceSize": {"w":45,"h":67}
+},
+{
+	"filename": "8-Barco1.png.png",
+	"frame": {"x":619,"y":2,"w":90,"h":143},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":143},
+	"sourceSize": {"w":90,"h":143}
+},
+{
+	"filename": "8-Barco1casa.png.png",
+	"frame": {"x":619,"y":147,"w":52,"h":94},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":52,"h":94},
+	"sourceSize": {"w":52,"h":94}
+},
+{
+	"filename": "9-Barcojefe.png.png",
+	"frame": {"x":2,"y":2,"w":408,"h":355},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":408,"h":355},
+	"sourceSize": {"w":408,"h":355}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "db_map_4.png",
+	"format": "RGBA8888",
+	"size": {"w":711,"h":359},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:495b0d4708523a989368682e5d58f541:1fd7282023b214d226539da55641941e:2f911271156a8a2ffd969abee07fd184$"
+}
+}

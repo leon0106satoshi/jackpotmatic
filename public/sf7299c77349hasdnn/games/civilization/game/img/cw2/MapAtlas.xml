@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:1d350d2b2fbfb15e1ee87e62d6a560bf:c7f8722b8c59baac5c2a25ee13cf6a14:c0fb600ff7d87ad3524bdc7902f6a605$ -->
+
+<!-- text/xml from header (HC) -->
+<TextureAtlas imagePath="MapAtlas.png">
+    <SubTexture name="EnemyLabelCloud" x="258" y="128" width="176" height="136"/>
+    <SubTexture name="MapImageLevelConverted0" x="874" y="151" width="120" height="68"/>
+    <SubTexture name="MapImageLevelConverted1" x="642" y="604" width="73" height="73" frameX="-1" frameY="0" frameWidth="80" frameHeight="75"/>
+    <SubTexture name="MapImageLevelConverted10" x="499" y="273" width="115" height="95" frameX="0" frameY="0" frameWidth="126" frameHeight="98"/>
+    <SubTexture name="MapImageLevelConverted11" x="720" y="450" width="88" height="92" frameX="0" frameY="0" frameWidth="89" frameHeight="92"/>
+    <SubTexture name="MapImageLevelConverted12" x="642" y="542" width="74" height="60" frameX="-5" frameY="-2" frameWidth="84" frameHeight="63"/>
+    <SubTexture name="MapImageLevelConverted13" x="171" y="252" width="84" height="95" frameX="0" frameY="0" frameWidth="87" frameHeight="98"/>
+    <SubTexture name="MapImageLevelConverted14" x="2" y="417" width="93" height="93" frameX="0" frameY="0" frameWidth="96" frameHeight="98"/>
+    <SubTexture name="MapImageLevelConverted15" x="720" y="353" width="88" height="95" frameX="0" frameY="0" frameWidth="89" frameHeight="95"/>
+    <SubTexture name="MapImageLevelConverted16" x="2" y="694" width="92" height="91" frameX="0" frameY="-2" frameWidth="106" frameHeight="93"/>
+    <SubTexture name="MapImageLevelConverted17" x="900" y="482" width="88" height="83" frameX="0" frameY="0" frameWidth="89" frameHeight="83"/>
+    <SubTexture name="MapImageLevelConverted18" x="891" y="85" width="127" height="64" frameX="-3" frameY="-1" frameWidth="132" frameHeight="70"/>
+    <SubTexture name="MapImageLevelConverted19" x="726" y="252" width="114" height="99" frameX="0" frameY="-1" frameWidth="114" frameHeight="100"/>
+    <SubTexture name="MapImageLevelConverted2" x="2" y="606" width="93" height="86"/>
+    <SubTexture name="MapImageLevelConverted20" x="810" y="510" width="87" height="80" frameX="-1" frameY="-3" frameWidth="97" frameHeight="83"/>
+    <SubTexture name="MapImageLevelConverted21" x="891" y="2" width="128" height="81"/>
+    <SubTexture name="MapImageLevelConverted22" x="257" y="338" width="113" height="125"/>
+    <SubTexture name="MapImageLevelConverted23" x="499" y="370" width="99" height="76" frameX="-1" frameY="0" frameWidth="100" frameHeight="77"/>
+    <SubTexture name="MapImageLevelConverted24" x="730" y="2" width="159" height="123"/>
+    <SubTexture name="MapImageLevelConverted25" x="257" y="266" width="114" height="70" frameX="-5" frameY="0" frameWidth="119" frameHeight="80"/>
+    <SubTexture name="MapImageLevelConverted26" x="730" y="127" width="142" height="123" frameX="0" frameY="-1" frameWidth="142" frameHeight="124"/>
+    <SubTexture name="MapImageLevelConverted27" x="499" y="167" width="118" height="104" frameX="0" frameY="0" frameWidth="121" frameHeight="106"/>
+    <SubTexture name="MapImageLevelConverted28" x="97" y="417" width="72" height="99" frameX="0" frameY="0" frameWidth="75" frameHeight="105"/>
+    <SubTexture name="MapImageLevelConverted29" x="170" y="533" width="79" height="77" frameX="0" frameY="-2" frameWidth="80" frameHeight="79"/>
+    <SubTexture name="MapImageLevelConverted3" x="616" y="343" width="102" height="119" frameX="0" frameY="0" frameWidth="106" frameHeight="119"/>
+    <SubTexture name="MapImageLevelConverted30" x="874" y="221" width="119" height="103" frameX="0" frameY="0" frameWidth="121" frameHeight="105"/>
+    <SubTexture name="MapImageLevelConverted31" x="810" y="414" width="88" height="94" frameX="0" frameY="0" frameWidth="95" frameHeight="94"/>
+    <SubTexture name="MapImageLevelConverted32" x="251" y="559" width="92" height="96"/>
+    <SubTexture name="MapImageLevelConverted33" x="349" y="520" width="79" height="85" frameX="0" frameY="0" frameWidth="81" frameHeight="88"/>
+    <SubTexture name="MapImageLevelConverted34" x="842" y="326" width="92" height="86"/>
+    <SubTexture name="MapImageLevelConverted4" x="171" y="349" width="81" height="96" frameX="0" frameY="0" frameWidth="84" frameHeight="102"/>
+    <SubTexture name="MapImageLevelConverted5" x="619" y="226" width="105" height="115" frameX="0" frameY="-1" frameWidth="105" frameHeight="116"/>
+    <SubTexture name="MapImageLevelConverted6" x="96" y="766" width="68" height="92" frameX="0" frameY="-2" frameWidth="68" frameHeight="94"/>
+    <SubTexture name="MapImageLevelConverted7" x="619" y="167" width="108" height="57" frameX="0" frameY="-1" frameWidth="111" frameHeight="61"/>
+    <SubTexture name="MapImageLevelConverted8" x="490" y="448" width="96" height="86"/>
+    <SubTexture name="MapImageLevelConverted9" x="430" y="451" width="55" height="61"/>
+    <SubTexture name="enemyLabel0001" x="372" y="351" width="57" height="82" frameX="-60" frameY="-16" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00010" x="373" y="266" width="58" height="83" frameX="-59" frameY="-15" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00011" x="372" y="435" width="56" height="83" frameX="-58" frameY="-9" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00012" x="171" y="447" width="81" height="84" frameX="-51" frameY="-11" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00013" x="97" y="579" width="69" height="87" frameX="-53" frameY="-2" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00015" x="718" y="544" width="73" height="74" frameX="-54" frameY="-27" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00016" x="430" y="600" width="52" height="55" frameX="-61" frameY="-52" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00023" x="431" y="402" width="57" height="47" frameX="-60" frameY="-49" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel00024" x="978" y="567" width="42" height="42" frameX="-71" frameY="-51" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel0004" x="97" y="518" width="71" height="59" frameX="-53" frameY="-39" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel0005" x="430" y="514" width="52" height="84" frameX="-61" frameY="-13" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel0006" x="436" y="128" width="61" height="88" frameX="-59" frameY="-10" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel0007" x="436" y="218" width="61" height="88" frameX="-59" frameY="-10" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel0008" x="433" y="308" width="64" height="92" frameX="-53" frameY="-6" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="enemyLabel0009" x="97" y="668" width="68" height="96" frameX="-53" frameY="0" frameWidth="132" frameHeight="112"/>
+    <SubTexture name="mapImage_selector" x="258" y="2" width="240" height="124" frameX="0" frameY="-1" frameWidth="241" frameHeight="125"/>
+    <SubTexture name="stageType1_1" x="2" y="512" width="93" height="92" frameX="-2" frameY="0" frameWidth="95" frameHeight="94"/>
+    <SubTexture name="stageType2_1" x="168" y="612" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType2_2" x="936" y="326" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType3_1" x="936" y="404" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType3_2" x="899" y="567" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType4_1" x="588" y="464" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType4_2" x="484" y="536" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType5_1" x="345" y="607" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType5_2" x="247" y="657" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType6_1" x="254" y="465" width="93" height="92" frameX="-2" frameY="-1" frameWidth="95" frameHeight="94"/>
+    <SubTexture name="stageType7_1" x="167" y="690" width="77" height="76" frameX="0" frameY="0" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType7_2" x="2" y="787" width="77" height="76" frameX="0" frameY="0" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType8_1" x="563" y="542" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageType8_2" x="484" y="614" width="77" height="76" frameX="0" frameY="-1" frameWidth="77" frameHeight="77"/>
+    <SubTexture name="stageTypeIcon1" x="874" y="127" width="8" height="8"/>
+    <SubTexture name="stageTypeIcon2" x="874" y="137" width="8" height="8"/>
+    <SubTexture name="submeniuPopUp" x="2" y="2" width="254" height="248"/>
+    <SubTexture name="submenuShade" x="500" y="2" width="228" height="163"/>
+    <SubTexture name="submenuUnderlay" x="2" y="252" width="167" height="163"/>
+</TextureAtlas>

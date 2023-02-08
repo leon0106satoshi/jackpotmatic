@@ -1,0 +1,260 @@
+{"frames": [
+
+{
+	"filename": "tutorial10_seaweed_1.png",
+	"frame": {"x":860,"y":2,"w":215,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":215,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial10_seaweed_2.png",
+	"frame": {"x":2,"y":1196,"w":213,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":288},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial11_trap_1.png",
+	"frame": {"x":576,"y":579,"w":215,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":215,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial11_trap_2.png",
+	"frame": {"x":824,"y":301,"w":218,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial12_coral_1.png",
+	"frame": {"x":793,"y":600,"w":215,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":215,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial12_coral_2.png",
+	"frame": {"x":434,"y":1177,"w":215,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":215,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial14_tarbarrel_1.png",
+	"frame": {"x":2,"y":1486,"w":169,"h":236},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":169,"h":236},
+	"sourceSize": {"w":177,"h":237}
+},
+{
+	"filename": "tutorial14_tarbarrel_2.png",
+	"frame": {"x":648,"y":1475,"w":170,"h":226},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":170,"h":226},
+	"sourceSize": {"w":177,"h":237}
+},
+{
+	"filename": "tutorial15_tar_1.png",
+	"frame": {"x":820,"y":1475,"w":169,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":169,"h":227},
+	"sourceSize": {"w":177,"h":237}
+},
+{
+	"filename": "tutorial15_tar_2.png",
+	"frame": {"x":218,"y":1750,"w":169,"h":228},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":169,"h":228},
+	"sourceSize": {"w":177,"h":237}
+},
+{
+	"filename": "tutorial1_collectcoin_1.png",
+	"frame": {"x":2,"y":1724,"w":214,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial1_collectcoin_2.png",
+	"frame": {"x":651,"y":1187,"w":214,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial2_bombstreak_1.png",
+	"frame": {"x":2,"y":623,"w":291,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":0,"w":291,"h":272},
+	"sourceSize": {"w":343,"h":272}
+},
+{
+	"filename": "tutorial3_wallbounce_1.png",
+	"frame": {"x":432,"y":1465,"w":214,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial3_wallbounce_2.png",
+	"frame": {"x":389,"y":1753,"w":214,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial4_swapbubble_1.png",
+	"frame": {"x":576,"y":291,"w":246,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":0,"w":246,"h":286},
+	"sourceSize": {"w":267,"h":298}
+},
+{
+	"filename": "tutorial4_swapbubble_2.png",
+	"frame": {"x":605,"y":1753,"w":214,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial5_barrel_1.png",
+	"frame": {"x":295,"y":623,"w":214,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial5_barrel_2.png",
+	"frame": {"x":821,"y":1704,"w":214,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial7_ice_1.png",
+	"frame": {"x":218,"y":1511,"w":165,"h":237},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":165,"h":237},
+	"sourceSize": {"w":177,"h":237}
+},
+{
+	"filename": "tutorial7_ice_2.png",
+	"frame": {"x":867,"y":1187,"w":169,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":169,"h":227},
+	"sourceSize": {"w":177,"h":237}
+},
+{
+	"filename": "tutorial7_ink_1.png",
+	"frame": {"x":511,"y":878,"w":214,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial7_ink_2.png",
+	"frame": {"x":217,"y":1221,"w":213,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":288},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial8_skull_1.png",
+	"frame": {"x":2,"y":897,"w":214,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial8_skull_2.png",
+	"frame": {"x":576,"y":2,"w":282,"h":287},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":287},
+	"sourceSize": {"w":299,"h":297}
+},
+{
+	"filename": "tutorial9_wall_1.png",
+	"frame": {"x":218,"y":922,"w":214,"h":297},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":214,"h":297},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial9_wall_2.png",
+	"frame": {"x":727,"y":899,"w":219,"h":286},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":219,"h":286},
+	"sourceSize": {"w":223,"h":297}
+},
+{
+	"filename": "tutorial_base.png",
+	"frame": {"x":2,"y":2,"w":572,"h":619},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":572,"h":619},
+	"sourceSize": {"w":572,"h":619}
+},
+{
+	"filename": "tutorial_button.png",
+	"frame": {"x":948,"y":899,"w":129,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":52},
+	"sourceSize": {"w":129,"h":52}
+},
+{
+	"filename": "tutorial_button_press.png",
+	"frame": {"x":948,"y":953,"w":129,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":129,"h":52},
+	"sourceSize": {"w":129,"h":52}
+},
+{
+	"filename": "tutorial_pattern.png",
+	"frame": {"x":824,"y":291,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":100,"h":100}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "UI_tutorial_ingame.png",
+	"format": "RGBA8888",
+	"size": {"w":1079,"h":2041},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e0c86e6b8d3074b5da66af3b6678d696:5ed7dd5caf38dd7de1a40860158bd1be:33b690042dab156fffa96591c154267c$"
+}
+}
