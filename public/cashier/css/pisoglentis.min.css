@@ -1,0 +1,833 @@
+html {
+    height: 100%
+}
+
+html body {
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: #043d8a
+}
+
+.container-fluid.body-content {
+    width: 100%;
+    overflow-y: auto;
+    margin-top: -19px;
+    height: calc(100% - 103px)
+}
+
+header {
+    min-height: 50px;
+    width: 100%
+}
+
+footer {
+    background-color: #043d8a;
+    min-height: 30px;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    width: 100%
+}
+
+.logoutbutton {
+    margin-left: 17px;
+    margin-top: -5px;
+    padding: 2px
+}
+
+@media(min-width:1024px) {
+    .col-lg-2 {
+        width: 16.66666667%;
+        float: left;
+        margin-bottom: 10px
+    }
+}
+
+.table-bordered {
+    border: 0 solid #ddd
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid black
+}
+
+.panel {
+    border-radius: 0
+}
+
+.panel-heading {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.navStats {
+    margin-bottom: -12px;
+    margin-top: 12px;
+    border: 5px solid
+}
+
+.footer2 {
+    background-color: red;
+    bottom: 0;
+    height: 50px
+}
+
+.mainTable {
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 11px;
+    background-color: #043d8a;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.mainTableShifts {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: white;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+    border-radius: 10px
+}
+
+.rightLogs {
+    background-color: white
+}
+
+.pre-scrollable2 {
+    overflow-y: scroll;
+    margin-top: -15px
+}
+
+.navbar-default-top {
+    background-color: #a5000e;
+    border-color: #a5000e
+}
+
+@media(min-width:768px) {
+    .navbar {
+        border-radius: 0
+    }
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #a5000e
+}
+
+.dropdown-menu {
+    background-color: #a5000e
+}
+
+.dropdown-menu>li>a {
+    color: white
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    color: white
+}
+
+.navbar-default .navbar-brand {
+    color: #fff
+}
+
+.xtable {
+    width: 100%;
+    border: 4px solid black
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0
+}
+
+#logdiv {
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Arial";
+    overflow: auto;
+    adding: 0;
+    line-height: 100%;
+    height: 100%
+}
+
+.footerLines {
+    line-height: 5px
+}
+
+.footerTr {
+    color: white
+}
+
+.Fcredits {
+    background-color: green
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid white
+}
+
+.footerTr2 {
+    background-color: #a5000e
+}
+
+.searchBox {
+    height: 26px;
+    margin: 0;
+    width: 140px;
+    display: -moz-box;
+    float: right;
+    margin-top: -11px;
+    padding: 5px;
+    margin-bottom: 2px;
+    margin-top: -20px
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #a5000e
+}
+
+.mainTableColor {
+    background-color: black;
+    color: white
+}
+
+.rightArrow {
+    position: relative;
+    top: -8px;
+    margin-left: 15px
+}
+
+::-webkit-scrollbar {
+    width: 22px;
+    height: 22px
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1)
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #a5000e
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #a5000e;
+    border-left: 0;
+    border-right: 0
+}
+
+.table {
+    margin-bottom: 0
+}
+
+.fooTerTable {
+    border: 1px solid red
+}
+
+.modal {
+    text-align: center
+}
+
+@media screen and (min-width:768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    min-height: 350px
+}
+
+body .modal-admin {
+    width: 750px;
+    margin-left: -375px
+}
+
+.modal-xl {
+    background-color: #a5000e
+}
+
+.modal-dialog {
+    height: 35%;
+    border: solid #ffa500 2px
+}
+
+@media(max-width:767px) {
+    .modal-dialog {
+        height: 95%;
+        border: solid #ffa500 2px
+    }
+}
+
+@media only screen and (min-device-width:767px) and (max-device-width:1024px) {
+    .modal-dialog {
+        height: 50%;
+        border: solid #ffa500 2px
+    }
+}
+
+.modal-content {
+    box-shadow: none;
+    background-color: #a5000e;
+    border: 0
+}
+
+@media(min-width:768px) {
+    .modal-content {
+        box-shadow: none;
+        background-color: #a5000e;
+        border: 0
+    }
+}
+
+#nameinput {
+    background-color: black;
+    color: red;
+    text-align: center;
+    border: 0;
+    font-size: 25px;
+    size: 24px;
+    width: 33%;
+    margin: 7px
+}
+
+.inform {
+    height: 50px
+}
+
+.modal-footer {
+    padding: 7px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+    position: absolute;
+    bottom: 0
+}
+
+.modal-footer-2 {
+    margin-top: 27px
+}
+
+.freeinput {
+    color: white
+}
+
+#inamount {
+    font-size: 30px;
+    background-color: black;
+    color: red
+}
+
+#pleaseWait {
+    background: #111;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    text-indent: -1;
+    opacity: 0;
+    -webkit-transition: all .6s;
+    transition: all .6s
+}
+
+#pleaseWait.show {
+    opacity: 1;
+    z-index: 1060;
+    text-indent: 1
+}
+
+#pleaseWait .ie {
+    display: none;
+    margin: 30px auto;
+    text-align: center
+}
+
+#pleaseWait .ie img {
+    display: inline-block !important
+}
+
+#pleaseWait .spinner {
+    margin: 30px auto 0;
+    width: 70px;
+    text-align: center
+}
+
+#pleaseWait .spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s
+}
+
+.logo-image {
+    width: 170px;
+    text-align: center
+}
+
+.centerPage .td {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+.centerPage .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle
+}
+
+.centerPage .cont {
+    display: inline-block
+}
+
+.logo-image {
+    width: 100%
+}
+
+#nameinputOUT {
+    background-color: black;
+    color: red;
+    text-align: center;
+    border: 0;
+    font-size: 25px;
+    size: 24px;
+    width: 33%;
+    margin: 7px
+}
+
+#outamount {
+    font-size: 30px;
+    background-color: black;
+    color: red
+}
+
+.InButton {
+    height: 50px;
+    width: 150px
+}
+
+.OutButton {
+    height: 50px;
+    width: 150px
+}
+
+.SeachDiv {
+    margin-top: -20px;
+    margin-bottom: -5px
+}
+
+.alertify .dialog>*,
+.alertify .alert>* {
+    width: 400px;
+    color: white;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    background: #a5000e;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.14), 0 4px 5px 0 rgba(0, 0, 0, 0.098), 0 1px 10px 0 rgba(0, 0, 0, 0.084)
+}
+
+.alertify .dialog nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button),
+.alertify .alert nav button:not(.btn):not(.pure-button):not(.md-button):not(.mdl-button) {
+    color: white;
+    background-color: black
+}
+
+#gameserverstatus {
+    padding-left: 5px
+}
+
+#pusherstatus {
+    padding-left: 5px
+}
+
+.panicButton {
+    margin-top: -11px
+}
+
+.DisableButton {
+    margin-top: -11px;
+    margin-left: 11px
+}
+
+.HeaderText {
+    color: white
+}
+
+.PlayerProfilePassowrd {
+    margin-top: 10px
+}
+
+.profileSecondSection {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.navbar-brand-gginc {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+    margin-top: 10px
+}
+
+.nav-bar-top {
+    margin-right: 18px
+}
+
+@media(min-width:768px) {
+    .navbar-nav {
+        width: 100%;
+        text-align: center
+    }
+    .navbar-nav>li {
+        float: none;
+        display: inline-block
+    }
+    .navbar-nav>li.navbar-right {
+        float: right !important
+    }
+}
+
+.top-nav-panic {
+    margin-left: 30px;
+    background-color: red
+}
+
+@media(max-width:767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white
+    }
+    .container-fluid.body-content {
+        overflow-y: hidden
+    }
+}
+
+.navbar-right {
+    margin-right: 0
+}
+
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.nav-bar-top {
+    margin-right: 0
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.resetCashSum {
+    background-color: green
+}
+
+.shiftsTable,
+th,
+td {
+    border: 0 solid #a5000e
+}
+
+.pinDiv {
+    margin-top: 50px
+}
+
+.ui-datepicker-month {
+    background-color: #043d8a
+}
+
+.ui-datepicker-year {
+    background-color: #043d8a
+}
+
+.dataform {
+    padding-bottom: 11px
+}
+
+.dtbonus {
+    display: none
+}
+
+.cashNav {
+    color: white
+}
+
+.alertify.ajs-movable:not(.ajs-maximized) .ajs-header {
+    background-color: #a5000e;
+    color: white
+}
+
+.alertify .ajs-footer {
+    background-color: #a5000e;
+    color: white
+}
+
+.alertify .ajs-dialog {
+    background-color: #a5000e;
+    color: white
+}
+
+.alertify .ajs-footer .ajs-buttons.ajs-primary .ajs-button {
+    background-color: #043d8a;
+    color: white
+}
+
+.whitetable {
+    background-color: white
+}
+
+.showErrorPlayerEmail {
+    color: #ea0b0b;
+    background-color: white;
+    padding: 7px;
+    border-radius: 31px;
+    display: none
+}
+
+.ajs-content {
+    text-align: center
+}
+
+@media screen {
+    #printSection {
+        display: none
+    }
+}
+
+@media print {
+    body {
+        visibility: hidden
+    }
+    #printSection,
+    #printSection * {
+        visibility: visible
+    }
+    #printSection {
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+}
+
+.pstyle {
+    margin: 0;
+    text-align: left;
+    font-size: 12px
+}
+
+.printModalClass {
+    height: 55%
+}
+
+@media only screen and (max-device-width:1200px) and (min-device-width:767px) {
+    .printModalClass {
+        height: 63%
+    }
+}
+
+@media(max-width:767px) {
+    .printModalClass {
+        height: 95%;
+        width: 94%
+    }
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px
+}
+
+.switch input {
+    display: none
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s
+}
+
+input:checked+.slider {
+    background-color: #2196f3
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196f3
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px)
+}
+
+.slider.round {
+    border-radius: 34px
+}
+
+.slider.round:before {
+    border-radius: 50%
+}
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em
+}
+
+.radio .cr {
+    border-radius: 50%
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%
+}
+
+.radio .cr .cr-icon {
+    margin-left: .04em
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none
+}
+
+.checkbox label input[type="checkbox"]+.cr>.cr-icon,
+.radio label input[type="radio"]+.cr>.cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in
+}
+
+.checkbox label input[type="checkbox"]:checked+.cr>.cr-icon,
+.radio label input[type="radio"]:checked+.cr>.cr-icon {
+    transform: scale(1) rotateZ(0);
+    opacity: 1
+}
+
+.checkbox label input[type="checkbox"]:disabled+.cr,
+.radio label input[type="radio"]:disabled+.cr {
+    opacity: .5
+}
+
+.line {
+    width: 100%;
+    color: black;
+    height: 1px;
+    background-color: black
+}
+
+.MainTableProfile {
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 16px;
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden
+}
+
+.bottomClass {
+    margin-bottom: 100px
+}
+
+.ButtonBottom {
+    padding-top: 10px
+}
+
+.ajs-header {
+    background-color: #a5000e
+}
+
+.breadcrumb {
+    padding: 0 15px
+}
